@@ -1,0 +1,54 @@
+{
+  "id": "town_hall_001",
+  "glb_path": "assets/town_hall_001.glb",
+  "bbox": [
+    14.4,
+    16.5,
+    10.4
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "body",
+        "w": 14,
+        "h": 7,
+        "d": 10
+      },
+      {
+        "primitive": "pyramid",
+        "name": "roof",
+        "w": 14.4,
+        "h": 3.5,
+        "d": 10.4,
+        "offset": [
+          0,
+          7,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "tower",
+        "w": 3,
+        "h": 10,
+        "d": 3,
+        "offset": [
+          0,
+          8,
+          0
+        ]
+      }
+    ],
+    "materials": {
+      "body": "stone_grey",
+      "roof": "slate_dark",
+      "tower": "stone_grey"
+    },
+    "id": "town_hall_001",
+    "tags": [
+      "town_hall",
+      "town_hall_001"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "fruit_tree_01",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/fruit_tree_01.glb",
+  "bbox": [
+    5.0,
+    7.4,
+    5.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cylinder",
+        "name": "trunk",
+        "r": 0.4,
+        "h": 4.5
+      },
+      {
+        "primitive": "sphere",
+        "name": "crown",
+        "r": 2.5,
+        "offset": [
+          0,
+          4.5,
+          0
+        ]
+      }
+    ],
+    "materials": {
+      "trunk": "bark_brown",
+      "crown": "leaf_green"
+    },
+    "id": "fruit_tree_01",
+    "tags": [
+      "fruit_tree",
+      "fruit_tree_01"
+    ]
+  }
+}

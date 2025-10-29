@@ -1,0 +1,28 @@
+{
+  "id": "water_well_01",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/water_well_01.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "water_well",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "water_well": "default_grey"
+    },
+    "id": "water_well_01",
+    "tags": [
+      "water_well",
+      "water_well_01"
+    ]
+  }
+}

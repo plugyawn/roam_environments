@@ -1,0 +1,38 @@
+{
+  "id": "flowers_001",
+  "glb_path": "assets/flowers_001.glb",
+  "bbox": [
+    2.4,
+    3.0,
+    2.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cylinder",
+        "name": "bed",
+        "r": 1.2,
+        "h": 0.4
+      },
+      {
+        "primitive": "sphere",
+        "name": "blooms",
+        "r": 1.0,
+        "offset": [
+          0,
+          0.8,
+          0
+        ]
+      }
+    ],
+    "materials": {
+      "bed": "soil_dark",
+      "blooms": "flower_mix"
+    },
+    "id": "flowers_001",
+    "tags": [
+      "flowers",
+      "flowers_001"
+    ]
+  }
+}

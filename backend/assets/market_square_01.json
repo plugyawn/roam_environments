@@ -1,0 +1,28 @@
+{
+  "id": "market_square_01",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/market_square_01.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "market_square",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "market_square": "default_grey"
+    },
+    "id": "market_square_01",
+    "tags": [
+      "market_square",
+      "market_square_01"
+    ]
+  }
+}

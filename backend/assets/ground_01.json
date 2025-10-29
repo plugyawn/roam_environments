@@ -1,0 +1,28 @@
+{
+  "id": "ground_01",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/ground_01.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "ground",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "ground": "default_grey"
+    },
+    "id": "ground_01",
+    "tags": [
+      "ground",
+      "ground_01"
+    ]
+  }
+}

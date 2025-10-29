@@ -1,0 +1,28 @@
+{
+  "id": "blacksmith_01",
+  "glb_path": "assets/blacksmith_01.glb",
+  "bbox": [
+    12.0,
+    8.0,
+    10.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "blacksmith",
+        "w": 12.0,
+        "h": 8.0,
+        "d": 10.0
+      }
+    ],
+    "materials": {
+      "blacksmith": "stone_texture"
+    },
+    "id": "blacksmith_01",
+    "tags": [
+      "commercial",
+      "blacksmith"
+    ]
+  }
+}

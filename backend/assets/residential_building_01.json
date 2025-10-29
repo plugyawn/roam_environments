@@ -1,0 +1,28 @@
+{
+  "id": "residential_building_01",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/residential_building_01.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "residential_building",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "residential_building": "default_grey"
+    },
+    "id": "residential_building_01",
+    "tags": [
+      "residential_building",
+      "residential_building_01"
+    ]
+  }
+}

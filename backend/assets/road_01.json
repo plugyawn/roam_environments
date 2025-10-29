@@ -1,0 +1,28 @@
+{
+  "id": "road_01",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/road_01.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "road",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "road": "default_grey"
+    },
+    "id": "road_01",
+    "tags": [
+      "road",
+      "road_01"
+    ]
+  }
+}

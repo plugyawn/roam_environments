@@ -1,0 +1,28 @@
+{
+  "id": "watermill_01",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/watermill_01.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "watermill",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "watermill": "default_grey"
+    },
+    "id": "watermill_01",
+    "tags": [
+      "watermill",
+      "watermill_01"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "barn_001",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/barn_001.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "barn",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "barn": "default_grey"
+    },
+    "id": "barn_001",
+    "tags": [
+      "barn",
+      "barn_001"
+    ]
+  }
+}

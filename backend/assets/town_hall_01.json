@@ -1,0 +1,28 @@
+{
+  "id": "town_hall_01",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/town_hall_01.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "town_hall",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "town_hall": "default_grey"
+    },
+    "id": "town_hall_01",
+    "tags": [
+      "town_hall",
+      "town_hall_01"
+    ]
+  }
+}

@@ -1,0 +1,3010 @@
+[
+  {
+    "id": "requirements:pastoral_riverside_village",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "['integrate market square with riverside setting', 'include pastoral architectural elements', 'ensure proper documentation of all components']"
+  },
+  {
+    "id": "requirements:riverside_village",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "{'requirements': []}"
+  },
+  {
+    "id": "requirements:riverside_village_market",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "{'requirements': []}"
+  },
+  {
+    "id": "requirements:pastoral_riverside_village_001",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "{'requirements': []}"
+  },
+  {
+    "id": "requirements:riverside_village_market",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "{'requirements': []}"
+  },
+  {
+    "id": "requirements:pastoral_riverside_village",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "{'requirements': []}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'market_square_01', 'pos': [50, 0, 50], 'rotY': 0}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'residential_building_01', 'pos': [30, 0, 30], 'rotY': 45}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'residential_building_02', 'pos': [70, 0, 30], 'rotY': 135}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'church_01', 'pos': [20, 0, 70], 'rotY': 90}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'well_01', 'pos': [55, 0, 55], 'rotY': 0}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'river_01', 'pos': [0, 0, 50], 'rotY': 0}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'bridge_01', 'pos': [45, 0, 50], 'rotY': 0}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'road_01', 'pos': [50, 0, 30], 'rotY': 0}"
+  },
+  {
+    "id": "asset:market_square_01",
+    "type": "asset",
+    "tags": [
+      "market_square_01"
+    ],
+    "content": "market_square_01"
+  },
+  {
+    "id": "asset:residential_building_01",
+    "type": "asset",
+    "tags": [
+      "residential_building_01"
+    ],
+    "content": "residential_building_01"
+  },
+  {
+    "id": "asset:residential_building_02",
+    "type": "asset",
+    "tags": [
+      "residential_building_02"
+    ],
+    "content": "residential_building_02"
+  },
+  {
+    "id": "asset:church_01",
+    "type": "asset",
+    "tags": [
+      "church_01"
+    ],
+    "content": "church_01"
+  },
+  {
+    "id": "asset:well_01",
+    "type": "asset",
+    "tags": [
+      "well_01"
+    ],
+    "content": "well_01"
+  },
+  {
+    "id": "asset:river_01",
+    "type": "asset",
+    "tags": [
+      "river_01"
+    ],
+    "content": "river_01"
+  },
+  {
+    "id": "asset:bridge_01",
+    "type": "asset",
+    "tags": [
+      "bridge_01"
+    ],
+    "content": "bridge_01"
+  },
+  {
+    "id": "asset:road_01",
+    "type": "asset",
+    "tags": [
+      "road_01"
+    ],
+    "content": "road_01"
+  },
+  {
+    "id": "requirements:pastoral_riverside_village",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "{'requirements': [{'concept': 'market_square', 'min_count': 1}, {'concept': 'residential_building', 'min_count': 1}, {'concept': 'residential_building', 'min_count': 1}, {'concept': 'church', 'min_count': 1}, {'concept': 'well', 'min_count': 1}, {'concept': 'river', 'min_count': 1}, {'concept': 'bridge', 'min_count': 1}, {'concept': 'road', 'min_count': 1}]}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'market_square_01', 'pos': [60, 0, 40], 'rotY': 0}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'residential_01', 'pos': [25, 0, 30], 'rotY': 45}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'residential_02', 'pos': [15, 0, 50], 'rotY': 90}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'church_01', 'pos': [90, 0, 60], 'rotY': 180}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'bridge_01', 'pos': [45, 0, 40], 'rotY': 0}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'water_wheel_01', 'pos': [10, 0, 45], 'rotY': 0}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'fountain_01', 'pos': [65, 0, 45], 'rotY': 0}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'river_01', 'pos': [0, 0, 40], 'rotY': 0}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'trees_01', 'pos': [70, 0, 10], 'rotY': 0}"
+  },
+  {
+    "id": "placement:None",
+    "type": "placement",
+    "tags": [
+      null
+    ],
+    "content": "{'asset_id': 'well_01', 'pos': [55, 0, 35], 'rotY': 0}"
+  },
+  {
+    "id": "asset:market_square_01",
+    "type": "asset",
+    "tags": [
+      "market_square_01"
+    ],
+    "content": "market_square_01"
+  },
+  {
+    "id": "asset:residential_01",
+    "type": "asset",
+    "tags": [
+      "residential_01"
+    ],
+    "content": "residential_01"
+  },
+  {
+    "id": "asset:residential_02",
+    "type": "asset",
+    "tags": [
+      "residential_02"
+    ],
+    "content": "residential_02"
+  },
+  {
+    "id": "asset:church_01",
+    "type": "asset",
+    "tags": [
+      "church_01"
+    ],
+    "content": "church_01"
+  },
+  {
+    "id": "asset:bridge_01",
+    "type": "asset",
+    "tags": [
+      "bridge_01"
+    ],
+    "content": "bridge_01"
+  },
+  {
+    "id": "asset:water_wheel_01",
+    "type": "asset",
+    "tags": [
+      "water_wheel_01"
+    ],
+    "content": "water_wheel_01"
+  },
+  {
+    "id": "asset:fountain_01",
+    "type": "asset",
+    "tags": [
+      "fountain_01"
+    ],
+    "content": "fountain_01"
+  },
+  {
+    "id": "asset:river_01",
+    "type": "asset",
+    "tags": [
+      "river_01"
+    ],
+    "content": "river_01"
+  },
+  {
+    "id": "asset:trees_01",
+    "type": "asset",
+    "tags": [
+      "trees_01"
+    ],
+    "content": "trees_01"
+  },
+  {
+    "id": "asset:well_01",
+    "type": "asset",
+    "tags": [
+      "well_01"
+    ],
+    "content": "well_01"
+  },
+  {
+    "id": "requirements:riverside_village_market_001",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "{'requirements': [{'concept': 'market_square', 'min_count': 1}, {'concept': 'residential', 'min_count': 1}, {'concept': 'residential', 'min_count': 1}, {'concept': 'church', 'min_count': 1}, {'concept': 'bridge', 'min_count': 1}, {'concept': 'water_wheel', 'min_count': 1}, {'concept': 'fountain', 'min_count': 1}, {'concept': 'river', 'min_count': 1}, {'concept': 'trees', 'min_count': 1}, {'concept': 'well', 'min_count': 1}]}"
+  },
+  {
+    "id": "placement:market_square_001",
+    "type": "placement",
+    "tags": [
+      "market_square_001"
+    ],
+    "content": "{'asset_id': 'market_square_001', 'pos': [400, 0, 600], 'rotY': 0, 'ref': 'market_square_001'}"
+  },
+  {
+    "id": "placement:residential_building_001",
+    "type": "placement",
+    "tags": [
+      "residential_building_001"
+    ],
+    "content": "{'asset_id': 'residential_building_001', 'pos': [350, 0, 750], 'rotY': 0, 'ref': 'residential_building_001'}"
+  },
+  {
+    "id": "placement:residential_building_002",
+    "type": "placement",
+    "tags": [
+      "residential_building_002"
+    ],
+    "content": "{'asset_id': 'residential_building_002', 'pos': [450, 0, 800], 'rotY': 1.57, 'ref': 'residential_building_002'}"
+  },
+  {
+    "id": "placement:tavern_001",
+    "type": "placement",
+    "tags": [
+      "tavern_001"
+    ],
+    "content": "{'asset_id': 'tavern_001', 'pos': [320, 0, 550], 'rotY': 0, 'ref': 'tavern_001'}"
+  },
+  {
+    "id": "placement:church_001",
+    "type": "placement",
+    "tags": [
+      "church_001"
+    ],
+    "content": "{'asset_id': 'church_001', 'pos': [400, 0, 400], 'rotY': 0, 'ref': 'church_001'}"
+  },
+  {
+    "id": "placement:river_001",
+    "type": "placement",
+    "tags": [
+      "river_001"
+    ],
+    "content": "{'asset_id': 'river_001', 'pos': [0, 0, 600], 'rotY': 0, 'ref': 'river_001'}"
+  },
+  {
+    "id": "placement:docking_pier_001",
+    "type": "placement",
+    "tags": [
+      "docking_pier_001"
+    ],
+    "content": "{'asset_id': 'docking_pier_001', 'pos': [60, 0, 600], 'rotY': 0, 'ref': 'docking_pier_001'}"
+  },
+  {
+    "id": "asset:market_square_001",
+    "type": "asset",
+    "tags": [
+      "market_square_001"
+    ],
+    "content": "market_square_001"
+  },
+  {
+    "id": "asset:residential_building_001",
+    "type": "asset",
+    "tags": [
+      "residential_building_001"
+    ],
+    "content": "residential_building_001"
+  },
+  {
+    "id": "asset:residential_building_002",
+    "type": "asset",
+    "tags": [
+      "residential_building_002"
+    ],
+    "content": "residential_building_002"
+  },
+  {
+    "id": "asset:tavern_001",
+    "type": "asset",
+    "tags": [
+      "tavern_001"
+    ],
+    "content": "tavern_001"
+  },
+  {
+    "id": "asset:church_001",
+    "type": "asset",
+    "tags": [
+      "church_001"
+    ],
+    "content": "church_001"
+  },
+  {
+    "id": "asset:river_001",
+    "type": "asset",
+    "tags": [
+      "river_001"
+    ],
+    "content": "river_001"
+  },
+  {
+    "id": "asset:docking_pier_001",
+    "type": "asset",
+    "tags": [
+      "docking_pier_001"
+    ],
+    "content": "docking_pier_001"
+  },
+  {
+    "id": "requirements:riverside_village_market",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "{'setting': 'pastoral riverside village', 'key_feature': 'market square', 'population_estimate': '500-2000 residents', 'market_river_distance': 'within 500 meters of river landing', 'building_height': '1-3 stories', 'construction_materials': 'local stone, wood, or brick', 'additional_features': ['church', 'tavern', 'residential quarters', 'docking area', 'flood zone considerations'], 'requirements': [{'concept': 'market_square', 'min_count': 1}, {'concept': 'residential_building', 'min_count': 1}, {'concept': 'residential_building', 'min_count': 1}, {'concept': 'tavern', 'min_count': 1}, {'concept': 'church', 'min_count': 1}, {'concept': 'river', 'min_count': 1}, {'concept': 'docking_pier', 'min_count': 1}]}"
+  },
+  {
+    "id": "placement:market_001",
+    "type": "placement",
+    "tags": [
+      "market_001"
+    ],
+    "content": "{'asset_id': 'market_001', 'pos': [100, 0, 70], 'rotY': 0, 'ref': 'market_001'}"
+  },
+  {
+    "id": "placement:fountain_001",
+    "type": "placement",
+    "tags": [
+      "fountain_001"
+    ],
+    "content": "{'asset_id': 'fountain_001', 'pos': [100, 0, 70], 'rotY': 0, 'ref': 'fountain_001'}"
+  },
+  {
+    "id": "placement:stall_001",
+    "type": "placement",
+    "tags": [
+      "stall_001"
+    ],
+    "content": "{'asset_id': 'stall_001', 'pos': [90, 0, 65], 'rotY': 0, 'ref': 'stall_001'}"
+  },
+  {
+    "id": "placement:stall_002",
+    "type": "placement",
+    "tags": [
+      "stall_002"
+    ],
+    "content": "{'asset_id': 'stall_002', 'pos': [110, 0, 75], 'rotY': 0, 'ref': 'stall_002'}"
+  },
+  {
+    "id": "placement:house_001",
+    "type": "placement",
+    "tags": [
+      "house_001"
+    ],
+    "content": "{'asset_id': 'house_001', 'pos': [160, 0, 60], 'rotY': 0, 'ref': 'house_001'}"
+  },
+  {
+    "id": "placement:house_002",
+    "type": "placement",
+    "tags": [
+      "house_002"
+    ],
+    "content": "{'asset_id': 'house_002', 'pos': [160, 0, 80], 'rotY': 0, 'ref': 'house_002'}"
+  },
+  {
+    "id": "placement:bridge_001",
+    "type": "placement",
+    "tags": [
+      "bridge_001"
+    ],
+    "content": "{'asset_id': 'bridge_001', 'pos': [5, 0, 100], 'rotY': 90, 'ref': 'bridge_001'}"
+  },
+  {
+    "id": "placement:dock_001",
+    "type": "placement",
+    "tags": [
+      "dock_001"
+    ],
+    "content": "{'asset_id': 'dock_001', 'pos': [0, 0, 90], 'rotY': 90, 'ref': 'dock_001'}"
+  },
+  {
+    "id": "placement:barn_001",
+    "type": "placement",
+    "tags": [
+      "barn_001"
+    ],
+    "content": "{'asset_id': 'barn_001', 'pos': [40, 0, 60], 'rotY': 0, 'ref': 'barn_001'}"
+  },
+  {
+    "id": "placement:well_001",
+    "type": "placement",
+    "tags": [
+      "well_001"
+    ],
+    "content": "{'asset_id': 'well_001', 'pos': [120, 0, 85], 'rotY': 0, 'ref': 'well_001'}"
+  },
+  {
+    "id": "asset:market_001",
+    "type": "asset",
+    "tags": [
+      "market_001"
+    ],
+    "content": "market_001"
+  },
+  {
+    "id": "asset:fountain_001",
+    "type": "asset",
+    "tags": [
+      "fountain_001"
+    ],
+    "content": "fountain_001"
+  },
+  {
+    "id": "asset:stall_001",
+    "type": "asset",
+    "tags": [
+      "stall_001"
+    ],
+    "content": "stall_001"
+  },
+  {
+    "id": "asset:stall_002",
+    "type": "asset",
+    "tags": [
+      "stall_002"
+    ],
+    "content": "stall_002"
+  },
+  {
+    "id": "asset:house_001",
+    "type": "asset",
+    "tags": [
+      "house_001"
+    ],
+    "content": "house_001"
+  },
+  {
+    "id": "asset:house_002",
+    "type": "asset",
+    "tags": [
+      "house_002"
+    ],
+    "content": "house_002"
+  },
+  {
+    "id": "asset:bridge_001",
+    "type": "asset",
+    "tags": [
+      "bridge_001"
+    ],
+    "content": "bridge_001"
+  },
+  {
+    "id": "asset:dock_001",
+    "type": "asset",
+    "tags": [
+      "dock_001"
+    ],
+    "content": "dock_001"
+  },
+  {
+    "id": "asset:barn_001",
+    "type": "asset",
+    "tags": [
+      "barn_001"
+    ],
+    "content": "barn_001"
+  },
+  {
+    "id": "asset:well_001",
+    "type": "asset",
+    "tags": [
+      "well_001"
+    ],
+    "content": "well_001"
+  },
+  {
+    "id": "requirements:pastoral_riverside_village_001",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "{'setting': 'pastoral riverside village', 'key_feature': 'market square', 'population_estimate': '500-2000 residents', 'market_location_constraint': 'within 500 meters of river access', 'orientation': 'main street parallel to river', 'economic_activities': ['agricultural goods trading', 'livestock trading', 'river-related commerce'], 'time_period': 'pre-industrial', 'seasonal_flooding_consideration': True, 'requirements': [{'concept': 'market', 'min_count': 1}, {'concept': 'fountain', 'min_count': 1}, {'concept': 'stall', 'min_count': 1}, {'concept': 'stall', 'min_count': 1}, {'concept': 'house', 'min_count': 1}, {'concept': 'house', 'min_count': 1}, {'concept': 'bridge', 'min_count': 1}, {'concept': 'dock', 'min_count': 1}, {'concept': 'barn', 'min_count': 1}, {'concept': 'well', 'min_count': 1}]}"
+  },
+  {
+    "id": "placement:church_01",
+    "type": "placement",
+    "tags": [
+      "church_01"
+    ],
+    "content": "{'asset_id': 'church_01', 'pos': [95, 65, 0], 'rotY': 0, 'ref': 'church_01'}"
+  },
+  {
+    "id": "placement:tavern_01",
+    "type": "placement",
+    "tags": [
+      "tavern_01"
+    ],
+    "content": "{'asset_id': 'tavern_01', 'pos': [90, 15, 0], 'rotY': 0, 'ref': 'tavern_01'}"
+  },
+  {
+    "id": "placement:mill_01",
+    "type": "placement",
+    "tags": [
+      "mill_01"
+    ],
+    "content": "{'asset_id': 'mill_01', 'pos': [15, 65, 0], 'rotY': 0, 'ref': 'mill_01'}"
+  },
+  {
+    "id": "placement:town_hall_01",
+    "type": "placement",
+    "tags": [
+      "town_hall_01"
+    ],
+    "content": "{'asset_id': 'town_hall_01', 'pos': [60, 40, 0], 'rotY': 0, 'ref': 'town_hall_01'}"
+  },
+  {
+    "id": "placement:residential_01",
+    "type": "placement",
+    "tags": [
+      "residential_01"
+    ],
+    "content": "{'asset_id': 'residential_01', 'pos': [25, 15, 0], 'rotY': 0, 'ref': 'residential_01'}"
+  },
+  {
+    "id": "placement:residential_02",
+    "type": "placement",
+    "tags": [
+      "residential_02"
+    ],
+    "content": "{'asset_id': 'residential_02', 'pos': [45, 65, 0], 'rotY': 0, 'ref': 'residential_02'}"
+  },
+  {
+    "id": "placement:residential_03",
+    "type": "placement",
+    "tags": [
+      "residential_03"
+    ],
+    "content": "{'asset_id': 'residential_03', 'pos': [80, 65, 0], 'rotY': 0, 'ref': 'residential_03'}"
+  },
+  {
+    "id": "placement:market_stall_01",
+    "type": "placement",
+    "tags": [
+      "market_stall_01"
+    ],
+    "content": "{'asset_id': 'market_stall_01', 'pos': [55, 35, 0], 'rotY': 0, 'ref': 'market_stall_01'}"
+  },
+  {
+    "id": "placement:market_stall_01",
+    "type": "placement",
+    "tags": [
+      "market_stall_01"
+    ],
+    "content": "{'asset_id': 'market_stall_01', 'pos': [65, 35, 0], 'rotY': 0, 'ref': 'market_stall_01'}"
+  },
+  {
+    "id": "placement:market_stall_02",
+    "type": "placement",
+    "tags": [
+      "market_stall_02"
+    ],
+    "content": "{'asset_id': 'market_stall_02', 'pos': [55, 45, 0], 'rotY': 0, 'ref': 'market_stall_02'}"
+  },
+  {
+    "id": "placement:market_stall_02",
+    "type": "placement",
+    "tags": [
+      "market_stall_02"
+    ],
+    "content": "{'asset_id': 'market_stall_02', 'pos': [65, 45, 0], 'rotY': 0, 'ref': 'market_stall_02'}"
+  },
+  {
+    "id": "placement:bridge_01",
+    "type": "placement",
+    "tags": [
+      "bridge_01"
+    ],
+    "content": "{'asset_id': 'bridge_01', 'pos': [30, 40, 0], 'rotY': 90, 'ref': 'bridge_01'}"
+  },
+  {
+    "id": "placement:dock_01",
+    "type": "placement",
+    "tags": [
+      "dock_01"
+    ],
+    "content": "{'asset_id': 'dock_01', 'pos': [15, 40, 0], 'rotY': 90, 'ref': 'dock_01'}"
+  },
+  {
+    "id": "placement:fountain_01",
+    "type": "placement",
+    "tags": [
+      "fountain_01"
+    ],
+    "content": "{'asset_id': 'fountain_01', 'pos': [60, 40, 0], 'rotY': 0, 'ref': 'fountain_01'}"
+  },
+  {
+    "id": "placement:hay_bale_01",
+    "type": "placement",
+    "tags": [
+      "hay_bale_01"
+    ],
+    "content": "{'asset_id': 'hay_bale_01', 'pos': [20, 20, 0], 'rotY': 0, 'ref': 'hay_bale_01'}"
+  },
+  {
+    "id": "placement:livestock_pen_01",
+    "type": "placement",
+    "tags": [
+      "livestock_pen_01"
+    ],
+    "content": "{'asset_id': 'livestock_pen_01', 'pos': [25, 65, 0], 'rotY': 0, 'ref': 'livestock_pen_01'}"
+  },
+  {
+    "id": "placement:fruit_tree_01",
+    "type": "placement",
+    "tags": [
+      "fruit_tree_01"
+    ],
+    "content": "{'asset_id': 'fruit_tree_01', 'pos': [10, 10, 0], 'rotY': 0, 'ref': 'fruit_tree_01'}"
+  },
+  {
+    "id": "placement:fruit_tree_01",
+    "type": "placement",
+    "tags": [
+      "fruit_tree_01"
+    ],
+    "content": "{'asset_id': 'fruit_tree_01', 'pos': [110, 10, 0], 'rotY': 0, 'ref': 'fruit_tree_01'}"
+  },
+  {
+    "id": "placement:flower_bed_01",
+    "type": "placement",
+    "tags": [
+      "flower_bed_01"
+    ],
+    "content": "{'asset_id': 'flower_bed_01', 'pos': [58, 28, 0], 'rotY': 0, 'ref': 'flower_bed_01'}"
+  },
+  {
+    "id": "placement:flower_bed_01",
+    "type": "placement",
+    "tags": [
+      "flower_bed_01"
+    ],
+    "content": "{'asset_id': 'flower_bed_01', 'pos': [62, 52, 0], 'rotY': 0, 'ref': 'flower_bed_01'}"
+  },
+  {
+    "id": "asset:church_01",
+    "type": "asset",
+    "tags": [
+      "church_01"
+    ],
+    "content": "church_01"
+  },
+  {
+    "id": "asset:tavern_01",
+    "type": "asset",
+    "tags": [
+      "tavern_01"
+    ],
+    "content": "tavern_01"
+  },
+  {
+    "id": "asset:mill_01",
+    "type": "asset",
+    "tags": [
+      "mill_01"
+    ],
+    "content": "mill_01"
+  },
+  {
+    "id": "asset:town_hall_01",
+    "type": "asset",
+    "tags": [
+      "town_hall_01"
+    ],
+    "content": "town_hall_01"
+  },
+  {
+    "id": "asset:residential_01",
+    "type": "asset",
+    "tags": [
+      "residential_01"
+    ],
+    "content": "residential_01"
+  },
+  {
+    "id": "asset:residential_02",
+    "type": "asset",
+    "tags": [
+      "residential_02"
+    ],
+    "content": "residential_02"
+  },
+  {
+    "id": "asset:residential_03",
+    "type": "asset",
+    "tags": [
+      "residential_03"
+    ],
+    "content": "residential_03"
+  },
+  {
+    "id": "asset:market_stall_01",
+    "type": "asset",
+    "tags": [
+      "market_stall_01"
+    ],
+    "content": "market_stall_01"
+  },
+  {
+    "id": "asset:market_stall_02",
+    "type": "asset",
+    "tags": [
+      "market_stall_02"
+    ],
+    "content": "market_stall_02"
+  },
+  {
+    "id": "asset:bridge_01",
+    "type": "asset",
+    "tags": [
+      "bridge_01"
+    ],
+    "content": "bridge_01"
+  },
+  {
+    "id": "asset:dock_01",
+    "type": "asset",
+    "tags": [
+      "dock_01"
+    ],
+    "content": "dock_01"
+  },
+  {
+    "id": "asset:fountain_01",
+    "type": "asset",
+    "tags": [
+      "fountain_01"
+    ],
+    "content": "fountain_01"
+  },
+  {
+    "id": "asset:hay_bale_01",
+    "type": "asset",
+    "tags": [
+      "hay_bale_01"
+    ],
+    "content": "hay_bale_01"
+  },
+  {
+    "id": "asset:livestock_pen_01",
+    "type": "asset",
+    "tags": [
+      "livestock_pen_01"
+    ],
+    "content": "livestock_pen_01"
+  },
+  {
+    "id": "asset:fruit_tree_01",
+    "type": "asset",
+    "tags": [
+      "fruit_tree_01"
+    ],
+    "content": "fruit_tree_01"
+  },
+  {
+    "id": "asset:flower_bed_01",
+    "type": "asset",
+    "tags": [
+      "flower_bed_01"
+    ],
+    "content": "flower_bed_01"
+  },
+  {
+    "id": "requirements:riverside_village_market_001",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "{'setting': 'pastoral riverside village', 'key_feature': 'market square', 'population_estimate': '200-1000 residents', 'architectural_style': 'traditional European rural', 'building_materials': ['stone', 'timber', 'thatch'], 'transportation': 'river-based trade and transport', 'development_pattern': 'organic growth', 'requirements': [{'concept': 'church', 'min_count': 1}, {'concept': 'tavern', 'min_count': 1}, {'concept': 'mill', 'min_count': 1}, {'concept': 'town_hall', 'min_count': 1}, {'concept': 'residential', 'min_count': 1}, {'concept': 'residential', 'min_count': 1}, {'concept': 'residential', 'min_count': 1}, {'concept': 'market_stall', 'min_count': 1}, {'concept': 'market_stall', 'min_count': 1}, {'concept': 'bridge', 'min_count': 1}, {'concept': 'dock', 'min_count': 1}, {'concept': 'fountain', 'min_count': 1}, {'concept': 'hay_bale', 'min_count': 1}, {'concept': 'livestock_pen', 'min_count': 1}, {'concept': 'fruit_tree', 'min_count': 1}, {'concept': 'flower_bed', 'min_count': 1}]}"
+  },
+  {
+    "id": "placement:market_square_01",
+    "type": "placement",
+    "tags": [
+      "market_square_01"
+    ],
+    "content": "{'asset_id': 'market_square_01', 'pos': [40, 0, 30], 'rotY': 0, 'ref': 'market_square_01'}"
+  },
+  {
+    "id": "placement:church_01",
+    "type": "placement",
+    "tags": [
+      "church_01"
+    ],
+    "content": "{'asset_id': 'church_01', 'pos': [20, 0, 65], 'rotY': 0, 'ref': 'church_01'}"
+  },
+  {
+    "id": "placement:inn_01",
+    "type": "placement",
+    "tags": [
+      "inn_01"
+    ],
+    "content": "{'asset_id': 'inn_01', 'pos': [80, 0, 55], 'rotY': 0, 'ref': 'inn_01'}"
+  },
+  {
+    "id": "placement:residential_01",
+    "type": "placement",
+    "tags": [
+      "residential_01"
+    ],
+    "content": "{'asset_id': 'residential_01', 'pos': [85, 0, 15], 'rotY': 0, 'ref': 'residential_01'}"
+  },
+  {
+    "id": "placement:residential_02",
+    "type": "placement",
+    "tags": [
+      "residential_02"
+    ],
+    "content": "{'asset_id': 'residential_02', 'pos': [95, 0, 20], 'rotY': 0, 'ref': 'residential_02'}"
+  },
+  {
+    "id": "placement:residential_03",
+    "type": "placement",
+    "tags": [
+      "residential_03"
+    ],
+    "content": "{'asset_id': 'residential_03', 'pos': [75, 0, 25], 'rotY': 0, 'ref': 'residential_03'}"
+  },
+  {
+    "id": "placement:bakery_01",
+    "type": "placement",
+    "tags": [
+      "bakery_01"
+    ],
+    "content": "{'asset_id': 'bakery_01', 'pos': [90, 0, 50], 'rotY': 0, 'ref': 'bakery_01'}"
+  },
+  {
+    "id": "placement:town_hall_01",
+    "type": "placement",
+    "tags": [
+      "town_hall_01"
+    ],
+    "content": "{'asset_id': 'town_hall_01', 'pos': [50, 0, 20], 'rotY': 0, 'ref': 'town_hall_01'}"
+  },
+  {
+    "id": "placement:bridge_01",
+    "type": "placement",
+    "tags": [
+      "bridge_01"
+    ],
+    "content": "{'asset_id': 'bridge_01', 'pos': [55, 0, 35], 'rotY': 90, 'ref': 'bridge_01'}"
+  },
+  {
+    "id": "placement:dock_01",
+    "type": "placement",
+    "tags": [
+      "dock_01"
+    ],
+    "content": "{'asset_id': 'dock_01', 'pos': [10, 0, 32], 'rotY': 0, 'ref': 'dock_01'}"
+  },
+  {
+    "id": "placement:well_01",
+    "type": "placement",
+    "tags": [
+      "well_01"
+    ],
+    "content": "{'asset_id': 'well_01', 'pos': [45, 0, 35], 'rotY': 0, 'ref': 'well_01'}"
+  },
+  {
+    "id": "placement:oak_tree_01",
+    "type": "placement",
+    "tags": [
+      "oak_tree_01"
+    ],
+    "content": "{'asset_id': 'oak_tree_01', 'pos': [15, 0, 15], 'rotY': 0, 'ref': 'oak_tree_01'}"
+  },
+  {
+    "id": "placement:oak_tree_02",
+    "type": "placement",
+    "tags": [
+      "oak_tree_02"
+    ],
+    "content": "{'asset_id': 'oak_tree_02', 'pos': [65, 0, 15], 'rotY': 0, 'ref': 'oak_tree_02'}"
+  },
+  {
+    "id": "placement:hedge_row_01",
+    "type": "placement",
+    "tags": [
+      "hedge_row_01"
+    ],
+    "content": "{'asset_id': 'hedge_row_01', 'pos': [75, 0, 45], 'rotY': 0, 'ref': 'hedge_row_01'}"
+  },
+  {
+    "id": "placement:flower_bed_01",
+    "type": "placement",
+    "tags": [
+      "flower_bed_01"
+    ],
+    "content": "{'asset_id': 'flower_bed_01', 'pos': [42, 0, 32], 'rotY': 0, 'ref': 'flower_bed_01'}"
+  },
+  {
+    "id": "placement:river_01",
+    "type": "placement",
+    "tags": [
+      "river_01"
+    ],
+    "content": "{'asset_id': 'river_01', 'pos': [0, 0, 35], 'rotY': 0, 'ref': 'river_01'}"
+  },
+  {
+    "id": "placement:grass_patch_01",
+    "type": "placement",
+    "tags": [
+      "grass_patch_01"
+    ],
+    "content": "{'asset_id': 'grass_patch_01', 'pos': [70, 0, 5], 'rotY': 0, 'ref': 'grass_patch_01'}"
+  },
+  {
+    "id": "asset:market_square_01",
+    "type": "asset",
+    "tags": [
+      "market_square_01"
+    ],
+    "content": "market_square_01"
+  },
+  {
+    "id": "asset:church_01",
+    "type": "asset",
+    "tags": [
+      "church_01"
+    ],
+    "content": "church_01"
+  },
+  {
+    "id": "asset:inn_01",
+    "type": "asset",
+    "tags": [
+      "inn_01"
+    ],
+    "content": "inn_01"
+  },
+  {
+    "id": "asset:residential_01",
+    "type": "asset",
+    "tags": [
+      "residential_01"
+    ],
+    "content": "residential_01"
+  },
+  {
+    "id": "asset:residential_02",
+    "type": "asset",
+    "tags": [
+      "residential_02"
+    ],
+    "content": "residential_02"
+  },
+  {
+    "id": "asset:residential_03",
+    "type": "asset",
+    "tags": [
+      "residential_03"
+    ],
+    "content": "residential_03"
+  },
+  {
+    "id": "asset:bakery_01",
+    "type": "asset",
+    "tags": [
+      "bakery_01"
+    ],
+    "content": "bakery_01"
+  },
+  {
+    "id": "asset:town_hall_01",
+    "type": "asset",
+    "tags": [
+      "town_hall_01"
+    ],
+    "content": "town_hall_01"
+  },
+  {
+    "id": "asset:bridge_01",
+    "type": "asset",
+    "tags": [
+      "bridge_01"
+    ],
+    "content": "bridge_01"
+  },
+  {
+    "id": "asset:dock_01",
+    "type": "asset",
+    "tags": [
+      "dock_01"
+    ],
+    "content": "dock_01"
+  },
+  {
+    "id": "asset:well_01",
+    "type": "asset",
+    "tags": [
+      "well_01"
+    ],
+    "content": "well_01"
+  },
+  {
+    "id": "asset:oak_tree_01",
+    "type": "asset",
+    "tags": [
+      "oak_tree_01"
+    ],
+    "content": "oak_tree_01"
+  },
+  {
+    "id": "asset:oak_tree_02",
+    "type": "asset",
+    "tags": [
+      "oak_tree_02"
+    ],
+    "content": "oak_tree_02"
+  },
+  {
+    "id": "asset:hedge_row_01",
+    "type": "asset",
+    "tags": [
+      "hedge_row_01"
+    ],
+    "content": "hedge_row_01"
+  },
+  {
+    "id": "asset:flower_bed_01",
+    "type": "asset",
+    "tags": [
+      "flower_bed_01"
+    ],
+    "content": "flower_bed_01"
+  },
+  {
+    "id": "asset:river_01",
+    "type": "asset",
+    "tags": [
+      "river_01"
+    ],
+    "content": "river_01"
+  },
+  {
+    "id": "asset:grass_patch_01",
+    "type": "asset",
+    "tags": [
+      "grass_patch_01"
+    ],
+    "content": "grass_patch_01"
+  },
+  {
+    "id": "requirements:riverside_village_market_001",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "{'setting': 'pastoral riverside village', 'core_feature': 'market square', 'population_estimate': '500-2000 residents', 'architectural_style': 'traditional European rural', 'river_size': 'medium navigable waterway', 'requirements': [{'concept': 'market_square', 'min_count': 1}, {'concept': 'church', 'min_count': 1}, {'concept': 'inn', 'min_count': 1}, {'concept': 'residential', 'min_count': 1}, {'concept': 'residential', 'min_count': 1}, {'concept': 'residential', 'min_count': 1}, {'concept': 'bakery', 'min_count': 1}, {'concept': 'town_hall', 'min_count': 1}, {'concept': 'bridge', 'min_count': 1}, {'concept': 'dock', 'min_count': 1}, {'concept': 'well', 'min_count': 1}, {'concept': 'oak_tree', 'min_count': 1}, {'concept': 'oak_tree', 'min_count': 1}, {'concept': 'hedge_row', 'min_count': 1}, {'concept': 'flower_bed', 'min_count': 1}, {'concept': 'river', 'min_count': 1}, {'concept': 'grass_patch', 'min_count': 1}]}"
+  },
+  {
+    "id": "placement:market_square_01",
+    "type": "placement",
+    "tags": [
+      "market_square_01"
+    ],
+    "content": "{'asset_id': 'market_square_01', 'pos': [60, 0, 90], 'rotY': 0, 'description': 'Central market square', 'ref': 'market_square_01'}"
+  },
+  {
+    "id": "placement:river_01",
+    "type": "placement",
+    "tags": [
+      "river_01"
+    ],
+    "content": "{'asset_id': 'river_01', 'pos': [10, 0, 90], 'rotY': 0, 'description': 'Main river flowing through village', 'ref': 'river_01'}"
+  },
+  {
+    "id": "placement:cottage_01",
+    "type": "placement",
+    "tags": [
+      "cottage_01"
+    ],
+    "content": "{'asset_id': 'cottage_01', 'pos': [25, 0, 45], 'rotY': 0, 'description': 'Residential cottage near village entrance', 'ref': 'cottage_01'}"
+  },
+  {
+    "id": "placement:cottage_02",
+    "type": "placement",
+    "tags": [
+      "cottage_02"
+    ],
+    "content": "{'asset_id': 'cottage_02', 'pos': [35, 0, 55], 'rotY': 1.57, 'description': 'Larger residential cottage with garden', 'ref': 'cottage_02'}"
+  },
+  {
+    "id": "placement:cottage_01",
+    "type": "placement",
+    "tags": [
+      "cottage_01"
+    ],
+    "content": "{'asset_id': 'cottage_01', 'pos': [15, 0, 65], 'rotY': 3.14, 'description': 'Additional residential cottage', 'ref': 'cottage_01'}"
+  },
+  {
+    "id": "placement:cottage_02",
+    "type": "placement",
+    "tags": [
+      "cottage_02"
+    ],
+    "content": "{'asset_id': 'cottage_02', 'pos': [45, 0, 35], 'rotY': 4.71, 'description': 'Corner residential cottage', 'ref': 'cottage_02'}"
+  },
+  {
+    "id": "placement:barn_01",
+    "type": "placement",
+    "tags": [
+      "barn_01"
+    ],
+    "content": "{'asset_id': 'barn_01', 'pos': [95, 0, 45], 'rotY': 0, 'description': 'Main agricultural barn', 'ref': 'barn_01'}"
+  },
+  {
+    "id": "placement:silo_01",
+    "type": "placement",
+    "tags": [
+      "silo_01"
+    ],
+    "content": "{'asset_id': 'silo_01', 'pos': [105, 0, 55], 'rotY': 0, 'description': 'Grain storage silo', 'ref': 'silo_01'}"
+  },
+  {
+    "id": "placement:church_01",
+    "type": "placement",
+    "tags": [
+      "church_01"
+    ],
+    "content": "{'asset_id': 'church_01', 'pos': [75, 0, 135], 'rotY': 0, 'description': 'Village church with bell tower', 'ref': 'church_01'}"
+  },
+  {
+    "id": "placement:bridge_01",
+    "type": "placement",
+    "tags": [
+      "bridge_01"
+    ],
+    "content": "{'asset_id': 'bridge_01', 'pos': [55, 5, 85], 'rotY': 1.57, 'description': 'Stone bridge crossing river', 'ref': 'bridge_01'}"
+  },
+  {
+    "id": "placement:market_stall_01",
+    "type": "placement",
+    "tags": [
+      "market_stall_01"
+    ],
+    "content": "{'asset_id': 'market_stall_01', 'pos': [50, 0, 85], 'rotY': 0, 'description': 'Vegetable market stall', 'ref': 'market_stall_01'}"
+  },
+  {
+    "id": "placement:market_stall_02",
+    "type": "placement",
+    "tags": [
+      "market_stall_02"
+    ],
+    "content": "{'asset_id': 'market_stall_02', 'pos': [70, 0, 85], 'rotY': 0, 'description': 'Bakery market stall', 'ref': 'market_stall_02'}"
+  },
+  {
+    "id": "placement:market_stall_01",
+    "type": "placement",
+    "tags": [
+      "market_stall_01"
+    ],
+    "content": "{'asset_id': 'market_stall_01', 'pos': [60, 0, 100], 'rotY': 1.57, 'description': 'Additional market stall', 'ref': 'market_stall_01'}"
+  },
+  {
+    "id": "placement:fountain_01",
+    "type": "placement",
+    "tags": [
+      "fountain_01"
+    ],
+    "content": "{'asset_id': 'fountain_01', 'pos': [60, 0, 90], 'rotY': 0, 'description': 'Central market square fountain', 'ref': 'fountain_01'}"
+  },
+  {
+    "id": "placement:water_well_01",
+    "type": "placement",
+    "tags": [
+      "water_well_01"
+    ],
+    "content": "{'asset_id': 'water_well_01', 'pos': [40, 0, 95], 'rotY': 0, 'description': 'Village water well near market', 'ref': 'water_well_01'}"
+  },
+  {
+    "id": "placement:tree_01",
+    "type": "placement",
+    "tags": [
+      "tree_01"
+    ],
+    "content": "{'asset_id': 'tree_01', 'pos': [20, 0, 40], 'rotY': 0, 'description': 'Mature oak tree in residential area', 'ref': 'tree_01'}"
+  },
+  {
+    "id": "placement:tree_02",
+    "type": "placement",
+    "tags": [
+      "tree_02"
+    ],
+    "content": "{'asset_id': 'tree_02', 'pos': [15, 0, 90], 'rotY': 0, 'description': 'Willow tree along riverbank', 'ref': 'tree_02'}"
+  },
+  {
+    "id": "placement:tree_01",
+    "type": "placement",
+    "tags": [
+      "tree_01"
+    ],
+    "content": "{'asset_id': 'tree_01', 'pos': [65, 0, 75], 'rotY': 0, 'description': 'Shade tree near market', 'ref': 'tree_01'}"
+  },
+  {
+    "id": "placement:fence_01",
+    "type": "placement",
+    "tags": [
+      "fence_01"
+    ],
+    "content": "{'asset_id': 'fence_01', 'pos': [30, 0, 50], 'rotY': 0, 'description': 'Garden fence around cottage', 'ref': 'fence_01'}"
+  },
+  {
+    "id": "placement:wagon_01",
+    "type": "placement",
+    "tags": [
+      "wagon_01"
+    ],
+    "content": "{'asset_id': 'wagon_01', 'pos': [52, 0, 88], 'rotY': 0.78, 'description': 'Market wagon near stalls', 'ref': 'wagon_01'}"
+  },
+  {
+    "id": "asset:market_square_01",
+    "type": "asset",
+    "tags": [
+      "market_square_01"
+    ],
+    "content": "market_square_01"
+  },
+  {
+    "id": "asset:river_01",
+    "type": "asset",
+    "tags": [
+      "river_01"
+    ],
+    "content": "river_01"
+  },
+  {
+    "id": "asset:cottage_01",
+    "type": "asset",
+    "tags": [
+      "cottage_01"
+    ],
+    "content": "cottage_01"
+  },
+  {
+    "id": "asset:cottage_02",
+    "type": "asset",
+    "tags": [
+      "cottage_02"
+    ],
+    "content": "cottage_02"
+  },
+  {
+    "id": "asset:barn_01",
+    "type": "asset",
+    "tags": [
+      "barn_01"
+    ],
+    "content": "barn_01"
+  },
+  {
+    "id": "asset:silo_01",
+    "type": "asset",
+    "tags": [
+      "silo_01"
+    ],
+    "content": "silo_01"
+  },
+  {
+    "id": "asset:church_01",
+    "type": "asset",
+    "tags": [
+      "church_01"
+    ],
+    "content": "church_01"
+  },
+  {
+    "id": "asset:bridge_01",
+    "type": "asset",
+    "tags": [
+      "bridge_01"
+    ],
+    "content": "bridge_01"
+  },
+  {
+    "id": "asset:market_stall_01",
+    "type": "asset",
+    "tags": [
+      "market_stall_01"
+    ],
+    "content": "market_stall_01"
+  },
+  {
+    "id": "asset:market_stall_02",
+    "type": "asset",
+    "tags": [
+      "market_stall_02"
+    ],
+    "content": "market_stall_02"
+  },
+  {
+    "id": "asset:fountain_01",
+    "type": "asset",
+    "tags": [
+      "fountain_01"
+    ],
+    "content": "fountain_01"
+  },
+  {
+    "id": "asset:water_well_01",
+    "type": "asset",
+    "tags": [
+      "water_well_01"
+    ],
+    "content": "water_well_01"
+  },
+  {
+    "id": "asset:tree_01",
+    "type": "asset",
+    "tags": [
+      "tree_01"
+    ],
+    "content": "tree_01"
+  },
+  {
+    "id": "asset:tree_02",
+    "type": "asset",
+    "tags": [
+      "tree_02"
+    ],
+    "content": "tree_02"
+  },
+  {
+    "id": "asset:fence_01",
+    "type": "asset",
+    "tags": [
+      "fence_01"
+    ],
+    "content": "fence_01"
+  },
+  {
+    "id": "asset:wagon_01",
+    "type": "asset",
+    "tags": [
+      "wagon_01"
+    ],
+    "content": "wagon_01"
+  },
+  {
+    "id": "requirements:pastoral_riverside_village_001",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "{'requirements': [{'concept': 'market_square', 'min_count': 1}, {'concept': 'river', 'min_count': 1}, {'concept': 'cottage', 'min_count': 1}, {'concept': 'cottage', 'min_count': 1}, {'concept': 'barn', 'min_count': 1}, {'concept': 'silo', 'min_count': 1}, {'concept': 'church', 'min_count': 1}, {'concept': 'bridge', 'min_count': 1}, {'concept': 'market_stall', 'min_count': 1}, {'concept': 'market_stall', 'min_count': 1}, {'concept': 'fountain', 'min_count': 1}, {'concept': 'water_well', 'min_count': 1}, {'concept': 'tree', 'min_count': 1}, {'concept': 'tree', 'min_count': 1}, {'concept': 'fence', 'min_count': 1}, {'concept': 'wagon', 'min_count': 1}]}"
+  },
+  {
+    "id": "placement:market_square_01",
+    "type": "placement",
+    "tags": [
+      "market_square_01"
+    ],
+    "content": "{'asset_id': 'market_square_01', 'pos': [60, 0, 40], 'rotY': 0, 'ref': 'market_square_01'}"
+  },
+  {
+    "id": "placement:village_church_01",
+    "type": "placement",
+    "tags": [
+      "village_church_01"
+    ],
+    "content": "{'asset_id': 'village_church_01', 'pos': [85, 0, 65], 'rotY': 0, 'ref': 'village_church_01'}"
+  },
+  {
+    "id": "placement:tavern_01",
+    "type": "placement",
+    "tags": [
+      "tavern_01"
+    ],
+    "content": "{'asset_id': 'tavern_01', 'pos': [35, 0, 65], 'rotY': 0, 'ref': 'tavern_01'}"
+  },
+  {
+    "id": "placement:general_store_01",
+    "type": "placement",
+    "tags": [
+      "general_store_01"
+    ],
+    "content": "{'asset_id': 'general_store_01', 'pos': [35, 0, 15], 'rotY': 0, 'ref': 'general_store_01'}"
+  },
+  {
+    "id": "placement:watermill_01",
+    "type": "placement",
+    "tags": [
+      "watermill_01"
+    ],
+    "content": "{'asset_id': 'watermill_01', 'pos': [95, 0, 15], 'rotY': 0, 'ref': 'watermill_01'}"
+  },
+  {
+    "id": "placement:residential_01",
+    "type": "placement",
+    "tags": [
+      "residential_01"
+    ],
+    "content": "{'asset_id': 'residential_01', 'pos': [15, 0, 40], 'rotY': 0, 'ref': 'residential_01'}"
+  },
+  {
+    "id": "placement:residential_01",
+    "type": "placement",
+    "tags": [
+      "residential_01"
+    ],
+    "content": "{'asset_id': 'residential_01', 'pos': [15, 0, 60], 'rotY': 0, 'ref': 'residential_01'}"
+  },
+  {
+    "id": "placement:residential_02",
+    "type": "placement",
+    "tags": [
+      "residential_02"
+    ],
+    "content": "{'asset_id': 'residential_02', 'pos': [105, 0, 40], 'rotY': 0, 'ref': 'residential_02'}"
+  },
+  {
+    "id": "placement:residential_02",
+    "type": "placement",
+    "tags": [
+      "residential_02"
+    ],
+    "content": "{'asset_id': 'residential_02', 'pos': [105, 0, 60], 'rotY': 0, 'ref': 'residential_02'}"
+  },
+  {
+    "id": "placement:bridge_01",
+    "type": "placement",
+    "tags": [
+      "bridge_01"
+    ],
+    "content": "{'asset_id': 'bridge_01', 'pos': [20, 0, 40], 'rotY': 90, 'ref': 'bridge_01'}"
+  },
+  {
+    "id": "placement:bridge_01",
+    "type": "placement",
+    "tags": [
+      "bridge_01"
+    ],
+    "content": "{'asset_id': 'bridge_01', 'pos': [100, 0, 40], 'rotY': 90, 'ref': 'bridge_01'}"
+  },
+  {
+    "id": "placement:dock_01",
+    "type": "placement",
+    "tags": [
+      "dock_01"
+    ],
+    "content": "{'asset_id': 'dock_01', 'pos': [75, 0, 5], 'rotY': 0, 'ref': 'dock_01'}"
+  },
+  {
+    "id": "placement:barn_01",
+    "type": "placement",
+    "tags": [
+      "barn_01"
+    ],
+    "content": "{'asset_id': 'barn_01', 'pos': [90, 0, 65], 'rotY': 0, 'ref': 'barn_01'}"
+  },
+  {
+    "id": "placement:fountain_01",
+    "type": "placement",
+    "tags": [
+      "fountain_01"
+    ],
+    "content": "{'asset_id': 'fountain_01', 'pos': [60, 0, 40], 'rotY': 0, 'ref': 'fountain_01'}"
+  },
+  {
+    "id": "placement:vendor_stall_01",
+    "type": "placement",
+    "tags": [
+      "vendor_stall_01"
+    ],
+    "content": "{'asset_id': 'vendor_stall_01', 'pos': [55, 0, 35], 'rotY': 0, 'ref': 'vendor_stall_01'}"
+  },
+  {
+    "id": "placement:vendor_stall_01",
+    "type": "placement",
+    "tags": [
+      "vendor_stall_01"
+    ],
+    "content": "{'asset_id': 'vendor_stall_01', 'pos': [65, 0, 35], 'rotY': 0, 'ref': 'vendor_stall_01'}"
+  },
+  {
+    "id": "placement:vendor_stall_01",
+    "type": "placement",
+    "tags": [
+      "vendor_stall_01"
+    ],
+    "content": "{'asset_id': 'vendor_stall_01', 'pos': [55, 0, 45], 'rotY': 0, 'ref': 'vendor_stall_01'}"
+  },
+  {
+    "id": "placement:vendor_stall_01",
+    "type": "placement",
+    "tags": [
+      "vendor_stall_01"
+    ],
+    "content": "{'asset_id': 'vendor_stall_01', 'pos': [65, 0, 45], 'rotY': 0, 'ref': 'vendor_stall_01'}"
+  },
+  {
+    "id": "placement:grazing_area_01",
+    "type": "placement",
+    "tags": [
+      "grazing_area_01"
+    ],
+    "content": "{'asset_id': 'grazing_area_01', 'pos': [90, 0, 25], 'rotY': 0, 'ref': 'grazing_area_01'}"
+  },
+  {
+    "id": "placement:river_segment_01",
+    "type": "placement",
+    "tags": [
+      "river_segment_01"
+    ],
+    "content": "{'asset_id': 'river_segment_01', 'pos': [60, 0, 40], 'rotY': 0, 'ref': 'river_segment_01'}"
+  },
+  {
+    "id": "asset:market_square_01",
+    "type": "asset",
+    "tags": [
+      "market_square_01"
+    ],
+    "content": "market_square_01"
+  },
+  {
+    "id": "asset:village_church_01",
+    "type": "asset",
+    "tags": [
+      "village_church_01"
+    ],
+    "content": "village_church_01"
+  },
+  {
+    "id": "asset:tavern_01",
+    "type": "asset",
+    "tags": [
+      "tavern_01"
+    ],
+    "content": "tavern_01"
+  },
+  {
+    "id": "asset:general_store_01",
+    "type": "asset",
+    "tags": [
+      "general_store_01"
+    ],
+    "content": "general_store_01"
+  },
+  {
+    "id": "asset:watermill_01",
+    "type": "asset",
+    "tags": [
+      "watermill_01"
+    ],
+    "content": "watermill_01"
+  },
+  {
+    "id": "asset:residential_01",
+    "type": "asset",
+    "tags": [
+      "residential_01"
+    ],
+    "content": "residential_01"
+  },
+  {
+    "id": "asset:residential_02",
+    "type": "asset",
+    "tags": [
+      "residential_02"
+    ],
+    "content": "residential_02"
+  },
+  {
+    "id": "asset:bridge_01",
+    "type": "asset",
+    "tags": [
+      "bridge_01"
+    ],
+    "content": "bridge_01"
+  },
+  {
+    "id": "asset:dock_01",
+    "type": "asset",
+    "tags": [
+      "dock_01"
+    ],
+    "content": "dock_01"
+  },
+  {
+    "id": "asset:barn_01",
+    "type": "asset",
+    "tags": [
+      "barn_01"
+    ],
+    "content": "barn_01"
+  },
+  {
+    "id": "asset:fountain_01",
+    "type": "asset",
+    "tags": [
+      "fountain_01"
+    ],
+    "content": "fountain_01"
+  },
+  {
+    "id": "asset:vendor_stall_01",
+    "type": "asset",
+    "tags": [
+      "vendor_stall_01"
+    ],
+    "content": "vendor_stall_01"
+  },
+  {
+    "id": "asset:grazing_area_01",
+    "type": "asset",
+    "tags": [
+      "grazing_area_01"
+    ],
+    "content": "grazing_area_01"
+  },
+  {
+    "id": "asset:river_segment_01",
+    "type": "asset",
+    "tags": [
+      "river_segment_01"
+    ],
+    "content": "river_segment_01"
+  },
+  {
+    "id": "requirements:riverside_village_market_001",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "{'setting': 'pastoral riverside village', 'key_feature': 'market square', 'population_estimate': '500-2000 residents', 'additional_features': ['church', 'tavern', 'general store', 'water mill', 'residential buildings', 'bridges', 'docking areas', 'grazing areas', 'agricultural buildings'], 'building_materials': ['local stone', 'timber', 'brick'], 'river_characteristics': {'flow_pattern': 'meandering', 'positioning': 'flows through village', 'width_estimate': '15-25 meters'}, 'requirements': [{'concept': 'market_square', 'min_count': 1}, {'concept': 'village_church', 'min_count': 1}, {'concept': 'tavern', 'min_count': 1}, {'concept': 'general_store', 'min_count': 1}, {'concept': 'watermill', 'min_count': 1}, {'concept': 'residential', 'min_count': 1}, {'concept': 'residential', 'min_count': 1}, {'concept': 'bridge', 'min_count': 1}, {'concept': 'dock', 'min_count': 1}, {'concept': 'barn', 'min_count': 1}, {'concept': 'fountain', 'min_count': 1}, {'concept': 'vendor_stall', 'min_count': 1}, {'concept': 'grazing_area', 'min_count': 1}, {'concept': 'river_segment', 'min_count': 1}]}"
+  },
+  {
+    "id": "placement:res_001",
+    "type": "placement",
+    "tags": [
+      "res_001"
+    ],
+    "content": "{'asset_id': 'res_001', 'pos': [25, 0, 35], 'rotY': 0, 'ref': 'res_001'}"
+  },
+  {
+    "id": "placement:res_002",
+    "type": "placement",
+    "tags": [
+      "res_002"
+    ],
+    "content": "{'asset_id': 'res_002', 'pos': [35, 0, 32], 'rotY': 45, 'ref': 'res_002'}"
+  },
+  {
+    "id": "placement:res_003",
+    "type": "placement",
+    "tags": [
+      "res_003"
+    ],
+    "content": "{'asset_id': 'res_003', 'pos': [42, 0, 40], 'rotY': 90, 'ref': 'res_003'}"
+  },
+  {
+    "id": "placement:res_004",
+    "type": "placement",
+    "tags": [
+      "res_004"
+    ],
+    "content": "{'asset_id': 'res_004', 'pos': [30, 0, 45], 'rotY': 180, 'ref': 'res_004'}"
+  },
+  {
+    "id": "placement:res_005",
+    "type": "placement",
+    "tags": [
+      "res_005"
+    ],
+    "content": "{'asset_id': 'res_005', 'pos': [20, 0, 42], 'rotY': 270, 'ref': 'res_005'}"
+  },
+  {
+    "id": "placement:res_006",
+    "type": "placement",
+    "tags": [
+      "res_006"
+    ],
+    "content": "{'asset_id': 'res_006', 'pos': [15, 0, 30], 'rotY': 0, 'ref': 'res_006'}"
+  },
+  {
+    "id": "placement:res_007",
+    "type": "placement",
+    "tags": [
+      "res_007"
+    ],
+    "content": "{'asset_id': 'res_007', 'pos': [18, 0, 25], 'rotY': 45, 'ref': 'res_007'}"
+  },
+  {
+    "id": "placement:res_008",
+    "type": "placement",
+    "tags": [
+      "res_008"
+    ],
+    "content": "{'asset_id': 'res_008', 'pos': [28, 0, 22], 'rotY': 90, 'ref': 'res_008'}"
+  },
+  {
+    "id": "placement:shop_001",
+    "type": "placement",
+    "tags": [
+      "shop_001"
+    ],
+    "content": "{'asset_id': 'shop_001', 'pos': [55, 0, 55], 'rotY': 0, 'ref': 'shop_001'}"
+  },
+  {
+    "id": "placement:shop_002",
+    "type": "placement",
+    "tags": [
+      "shop_002"
+    ],
+    "content": "{'asset_id': 'shop_002', 'pos': [65, 0, 55], 'rotY': 0, 'ref': 'shop_002'}"
+  },
+  {
+    "id": "placement:shop_003",
+    "type": "placement",
+    "tags": [
+      "shop_003"
+    ],
+    "content": "{'asset_id': 'shop_003', 'pos': [55, 0, 65], 'rotY': 180, 'ref': 'shop_003'}"
+  },
+  {
+    "id": "placement:shop_004",
+    "type": "placement",
+    "tags": [
+      "shop_004"
+    ],
+    "content": "{'asset_id': 'shop_004', 'pos': [65, 0, 65], 'rotY': 180, 'ref': 'shop_004'}"
+  },
+  {
+    "id": "placement:shop_005",
+    "type": "placement",
+    "tags": [
+      "shop_005"
+    ],
+    "content": "{'asset_id': 'shop_005', 'pos': [50, 0, 60], 'rotY': 270, 'ref': 'shop_005'}"
+  },
+  {
+    "id": "placement:shop_006",
+    "type": "placement",
+    "tags": [
+      "shop_006"
+    ],
+    "content": "{'asset_id': 'shop_006', 'pos': [70, 0, 60], 'rotY': 90, 'ref': 'shop_006'}"
+  },
+  {
+    "id": "placement:town_hall_001",
+    "type": "placement",
+    "tags": [
+      "town_hall_001"
+    ],
+    "content": "{'asset_id': 'town_hall_001', 'pos': [35, 0, 75], 'rotY': 0, 'ref': 'town_hall_001'}"
+  },
+  {
+    "id": "placement:church_001",
+    "type": "placement",
+    "tags": [
+      "church_001"
+    ],
+    "content": "{'asset_id': 'church_001', 'pos': [25, 0, 65], 'rotY': 0, 'ref': 'church_001'}"
+  },
+  {
+    "id": "placement:inn_001",
+    "type": "placement",
+    "tags": [
+      "inn_001"
+    ],
+    "content": "{'asset_id': 'inn_001', 'pos': [45, 0, 70], 'rotY': 90, 'ref': 'inn_001'}"
+  },
+  {
+    "id": "placement:mill_001",
+    "type": "placement",
+    "tags": [
+      "mill_001"
+    ],
+    "content": "{'asset_id': 'mill_001', 'pos': [95, 0, 25], 'rotY': 0, 'ref': 'mill_001'}"
+  },
+  {
+    "id": "placement:bridge_001",
+    "type": "placement",
+    "tags": [
+      "bridge_001"
+    ],
+    "content": "{'asset_id': 'bridge_001', 'pos': [90, 0, 20], 'rotY': 90, 'ref': 'bridge_001'}"
+  },
+  {
+    "id": "placement:dock_001",
+    "type": "placement",
+    "tags": [
+      "dock_001"
+    ],
+    "content": "{'asset_id': 'dock_001', 'pos': [85, 0, 18], 'rotY': 0, 'ref': 'dock_001'}"
+  },
+  {
+    "id": "placement:path_001",
+    "type": "placement",
+    "tags": [
+      "path_001"
+    ],
+    "content": "{'asset_id': 'path_001', 'pos': [30, 0, 30], 'rotY': 0, 'ref': 'path_001'}"
+  },
+  {
+    "id": "placement:path_002",
+    "type": "placement",
+    "tags": [
+      "path_002"
+    ],
+    "content": "{'asset_id': 'path_002', 'pos': [40, 0, 35], 'rotY': 45, 'ref': 'path_002'}"
+  },
+  {
+    "id": "placement:path_003",
+    "type": "placement",
+    "tags": [
+      "path_003"
+    ],
+    "content": "{'asset_id': 'path_003', 'pos': [50, 0, 40], 'rotY': 0, 'ref': 'path_003'}"
+  },
+  {
+    "id": "placement:path_004",
+    "type": "placement",
+    "tags": [
+      "path_004"
+    ],
+    "content": "{'asset_id': 'path_004', 'pos': [60, 0, 45], 'rotY': 0, 'ref': 'path_004'}"
+  },
+  {
+    "id": "placement:path_005",
+    "type": "placement",
+    "tags": [
+      "path_005"
+    ],
+    "content": "{'asset_id': 'path_005', 'pos': [70, 0, 50], 'rotY': 0, 'ref': 'path_005'}"
+  },
+  {
+    "id": "placement:path_006",
+    "type": "placement",
+    "tags": [
+      "path_006"
+    ],
+    "content": "{'asset_id': 'path_006', 'pos': [60, 0, 55], 'rotY': 90, 'ref': 'path_006'}"
+  },
+  {
+    "id": "placement:path_007",
+    "type": "placement",
+    "tags": [
+      "path_007"
+    ],
+    "content": "{'asset_id': 'path_007', 'pos': [60, 0, 65], 'rotY': 90, 'ref': 'path_007'}"
+  },
+  {
+    "id": "placement:path_008",
+    "type": "placement",
+    "tags": [
+      "path_008"
+    ],
+    "content": "{'asset_id': 'path_008', 'pos': [55, 0, 70], 'rotY': 0, 'ref': 'path_008'}"
+  },
+  {
+    "id": "placement:path_009",
+    "type": "placement",
+    "tags": [
+      "path_009"
+    ],
+    "content": "{'asset_id': 'path_009', 'pos': [45, 0, 70], 'rotY': 0, 'ref': 'path_009'}"
+  },
+  {
+    "id": "placement:path_010",
+    "type": "placement",
+    "tags": [
+      "path_010"
+    ],
+    "content": "{'asset_id': 'path_010', 'pos': [35, 0, 70], 'rotY': 0, 'ref': 'path_010'}"
+  },
+  {
+    "id": "placement:path_011",
+    "type": "placement",
+    "tags": [
+      "path_011"
+    ],
+    "content": "{'asset_id': 'path_011', 'pos': [25, 0, 60], 'rotY': 90, 'ref': 'path_011'}"
+  },
+  {
+    "id": "placement:path_012",
+    "type": "placement",
+    "tags": [
+      "path_012"
+    ],
+    "content": "{'asset_id': 'path_012', 'pos': [25, 0, 50], 'rotY': 90, 'ref': 'path_012'}"
+  },
+  {
+    "id": "placement:tree_001",
+    "type": "placement",
+    "tags": [
+      "tree_001"
+    ],
+    "content": "{'asset_id': 'tree_001', 'pos': [60, 0, 50], 'rotY': 0, 'ref': 'tree_001'}"
+  },
+  {
+    "id": "placement:tree_002",
+    "type": "placement",
+    "tags": [
+      "tree_002"
+    ],
+    "content": "{'asset_id': 'tree_002', 'pos': [70, 0, 45], 'rotY': 0, 'ref': 'tree_002'}"
+  },
+  {
+    "id": "placement:tree_003",
+    "type": "placement",
+    "tags": [
+      "tree_003"
+    ],
+    "content": "{'asset_id': 'tree_003', 'pos': [50, 0, 45], 'rotY': 0, 'ref': 'tree_003'}"
+  },
+  {
+    "id": "placement:tree_004",
+    "type": "placement",
+    "tags": [
+      "tree_004"
+    ],
+    "content": "{'asset_id': 'tree_004', 'pos': [60, 0, 35], 'rotY': 0, 'ref': 'tree_004'}"
+  },
+  {
+    "id": "placement:tree_005",
+    "type": "placement",
+    "tags": [
+      "tree_005"
+    ],
+    "content": "{'asset_id': 'tree_005', 'pos': [15, 0, 45], 'rotY': 0, 'ref': 'tree_005'}"
+  },
+  {
+    "id": "placement:tree_006",
+    "type": "placement",
+    "tags": [
+      "tree_006"
+    ],
+    "content": "{'asset_id': 'tree_006', 'pos': [35, 0, 15], 'rotY': 0, 'ref': 'tree_006'}"
+  },
+  {
+    "id": "placement:tree_007",
+    "type": "placement",
+    "tags": [
+      "tree_007"
+    ],
+    "content": "{'asset_id': 'tree_007', 'pos': [10, 0, 25], 'rotY': 0, 'ref': 'tree_007'}"
+  },
+  {
+    "id": "placement:tree_008",
+    "type": "placement",
+    "tags": [
+      "tree_008"
+    ],
+    "content": "{'asset_id': 'tree_008', 'pos': [15, 0, 25], 'rotY': 0, 'ref': 'tree_008'}"
+  },
+  {
+    "id": "placement:tree_009",
+    "type": "placement",
+    "tags": [
+      "tree_009"
+    ],
+    "content": "{'asset_id': 'tree_009', 'pos': [10, 0, 30], 'rotY': 0, 'ref': 'tree_009'}"
+  },
+  {
+    "id": "placement:tree_010",
+    "type": "placement",
+    "tags": [
+      "tree_010"
+    ],
+    "content": "{'asset_id': 'tree_010', 'pos': [15, 0, 30], 'rotY': 0, 'ref': 'tree_010'}"
+  },
+  {
+    "id": "placement:flowers_001",
+    "type": "placement",
+    "tags": [
+      "flowers_001"
+    ],
+    "content": "{'asset_id': 'flowers_001', 'pos': [28, 0, 32], 'rotY': 0, 'ref': 'flowers_001'}"
+  },
+  {
+    "id": "placement:flowers_002",
+    "type": "placement",
+    "tags": [
+      "flowers_002"
+    ],
+    "content": "{'asset_id': 'flowers_002', 'pos': [38, 0, 35], 'rotY': 45, 'ref': 'flowers_002'}"
+  },
+  {
+    "id": "placement:flowers_003",
+    "type": "placement",
+    "tags": [
+      "flowers_003"
+    ],
+    "content": "{'asset_id': 'flowers_003', 'pos': [45, 0, 42], 'rotY': 90, 'ref': 'flowers_003'}"
+  },
+  {
+    "id": "placement:flowers_004",
+    "type": "placement",
+    "tags": [
+      "flowers_004"
+    ],
+    "content": "{'asset_id': 'flowers_004', 'pos': [25, 0, 48], 'rotY': 180, 'ref': 'flowers_004'}"
+  },
+  {
+    "id": "placement:flowers_005",
+    "type": "placement",
+    "tags": [
+      "flowers_005"
+    ],
+    "content": "{'asset_id': 'flowers_005', 'pos': [18, 0, 45], 'rotY': 270, 'ref': 'flowers_005'}"
+  },
+  {
+    "id": "placement:flowers_006",
+    "type": "placement",
+    "tags": [
+      "flowers_006"
+    ],
+    "content": "{'asset_id': 'flowers_006', 'pos': [12, 0, 32], 'rotY': 0, 'ref': 'flowers_006'}"
+  },
+  {
+    "id": "placement:flowers_007",
+    "type": "placement",
+    "tags": [
+      "flowers_007"
+    ],
+    "content": "{'asset_id': 'flowers_007', 'pos': [20, 0, 25], 'rotY': 45, 'ref': 'flowers_007'}"
+  },
+  {
+    "id": "placement:flowers_008",
+    "type": "placement",
+    "tags": [
+      "flowers_008"
+    ],
+    "content": "{'asset_id': 'flowers_008', 'pos': [32, 0, 20], 'rotY': 90, 'ref': 'flowers_008'}"
+  },
+  {
+    "id": "placement:stall_001",
+    "type": "placement",
+    "tags": [
+      "stall_001"
+    ],
+    "content": "{'asset_id': 'stall_001', 'pos': [52, 0, 52], 'rotY': 0, 'ref': 'stall_001'}"
+  },
+  {
+    "id": "placement:stall_002",
+    "type": "placement",
+    "tags": [
+      "stall_002"
+    ],
+    "content": "{'asset_id': 'stall_002', 'pos': [58, 0, 52], 'rotY': 0, 'ref': 'stall_002'}"
+  },
+  {
+    "id": "placement:stall_003",
+    "type": "placement",
+    "tags": [
+      "stall_003"
+    ],
+    "content": "{'asset_id': 'stall_003', 'pos': [64, 0, 52], 'rotY': 0, 'ref': 'stall_003'}"
+  },
+  {
+    "id": "placement:stall_004",
+    "type": "placement",
+    "tags": [
+      "stall_004"
+    ],
+    "content": "{'asset_id': 'stall_004', 'pos': [68, 0, 58], 'rotY': 90, 'ref': 'stall_004'}"
+  },
+  {
+    "id": "placement:stall_005",
+    "type": "placement",
+    "tags": [
+      "stall_005"
+    ],
+    "content": "{'asset_id': 'stall_005', 'pos': [68, 0, 64], 'rotY': 90, 'ref': 'stall_005'}"
+  },
+  {
+    "id": "placement:stall_006",
+    "type": "placement",
+    "tags": [
+      "stall_006"
+    ],
+    "content": "{'asset_id': 'stall_006', 'pos': [64, 0, 68], 'rotY': 180, 'ref': 'stall_006'}"
+  },
+  {
+    "id": "placement:stall_007",
+    "type": "placement",
+    "tags": [
+      "stall_007"
+    ],
+    "content": "{'asset_id': 'stall_007', 'pos': [58, 0, 68], 'rotY': 180, 'ref': 'stall_007'}"
+  },
+  {
+    "id": "placement:stall_008",
+    "type": "placement",
+    "tags": [
+      "stall_008"
+    ],
+    "content": "{'asset_id': 'stall_008', 'pos': [52, 0, 68], 'rotY': 180, 'ref': 'stall_008'}"
+  },
+  {
+    "id": "placement:fountain_001",
+    "type": "placement",
+    "tags": [
+      "fountain_001"
+    ],
+    "content": "{'asset_id': 'fountain_001', 'pos': [60, 0, 60], 'rotY': 0, 'ref': 'fountain_001'}"
+  },
+  {
+    "id": "asset:res_001",
+    "type": "asset",
+    "tags": [
+      "res_001"
+    ],
+    "content": "res_001"
+  },
+  {
+    "id": "asset:res_002",
+    "type": "asset",
+    "tags": [
+      "res_002"
+    ],
+    "content": "res_002"
+  },
+  {
+    "id": "asset:res_003",
+    "type": "asset",
+    "tags": [
+      "res_003"
+    ],
+    "content": "res_003"
+  },
+  {
+    "id": "asset:res_004",
+    "type": "asset",
+    "tags": [
+      "res_004"
+    ],
+    "content": "res_004"
+  },
+  {
+    "id": "asset:res_005",
+    "type": "asset",
+    "tags": [
+      "res_005"
+    ],
+    "content": "res_005"
+  },
+  {
+    "id": "asset:res_006",
+    "type": "asset",
+    "tags": [
+      "res_006"
+    ],
+    "content": "res_006"
+  },
+  {
+    "id": "asset:res_007",
+    "type": "asset",
+    "tags": [
+      "res_007"
+    ],
+    "content": "res_007"
+  },
+  {
+    "id": "asset:res_008",
+    "type": "asset",
+    "tags": [
+      "res_008"
+    ],
+    "content": "res_008"
+  },
+  {
+    "id": "asset:shop_001",
+    "type": "asset",
+    "tags": [
+      "shop_001"
+    ],
+    "content": "shop_001"
+  },
+  {
+    "id": "asset:shop_002",
+    "type": "asset",
+    "tags": [
+      "shop_002"
+    ],
+    "content": "shop_002"
+  },
+  {
+    "id": "asset:shop_003",
+    "type": "asset",
+    "tags": [
+      "shop_003"
+    ],
+    "content": "shop_003"
+  },
+  {
+    "id": "asset:shop_004",
+    "type": "asset",
+    "tags": [
+      "shop_004"
+    ],
+    "content": "shop_004"
+  },
+  {
+    "id": "asset:shop_005",
+    "type": "asset",
+    "tags": [
+      "shop_005"
+    ],
+    "content": "shop_005"
+  },
+  {
+    "id": "asset:shop_006",
+    "type": "asset",
+    "tags": [
+      "shop_006"
+    ],
+    "content": "shop_006"
+  },
+  {
+    "id": "asset:town_hall_001",
+    "type": "asset",
+    "tags": [
+      "town_hall_001"
+    ],
+    "content": "town_hall_001"
+  },
+  {
+    "id": "asset:church_001",
+    "type": "asset",
+    "tags": [
+      "church_001"
+    ],
+    "content": "church_001"
+  },
+  {
+    "id": "asset:inn_001",
+    "type": "asset",
+    "tags": [
+      "inn_001"
+    ],
+    "content": "inn_001"
+  },
+  {
+    "id": "asset:mill_001",
+    "type": "asset",
+    "tags": [
+      "mill_001"
+    ],
+    "content": "mill_001"
+  },
+  {
+    "id": "asset:bridge_001",
+    "type": "asset",
+    "tags": [
+      "bridge_001"
+    ],
+    "content": "bridge_001"
+  },
+  {
+    "id": "asset:dock_001",
+    "type": "asset",
+    "tags": [
+      "dock_001"
+    ],
+    "content": "dock_001"
+  },
+  {
+    "id": "asset:path_001",
+    "type": "asset",
+    "tags": [
+      "path_001"
+    ],
+    "content": "path_001"
+  },
+  {
+    "id": "asset:path_002",
+    "type": "asset",
+    "tags": [
+      "path_002"
+    ],
+    "content": "path_002"
+  },
+  {
+    "id": "asset:path_003",
+    "type": "asset",
+    "tags": [
+      "path_003"
+    ],
+    "content": "path_003"
+  },
+  {
+    "id": "asset:path_004",
+    "type": "asset",
+    "tags": [
+      "path_004"
+    ],
+    "content": "path_004"
+  },
+  {
+    "id": "asset:path_005",
+    "type": "asset",
+    "tags": [
+      "path_005"
+    ],
+    "content": "path_005"
+  },
+  {
+    "id": "asset:path_006",
+    "type": "asset",
+    "tags": [
+      "path_006"
+    ],
+    "content": "path_006"
+  },
+  {
+    "id": "asset:path_007",
+    "type": "asset",
+    "tags": [
+      "path_007"
+    ],
+    "content": "path_007"
+  },
+  {
+    "id": "asset:path_008",
+    "type": "asset",
+    "tags": [
+      "path_008"
+    ],
+    "content": "path_008"
+  },
+  {
+    "id": "asset:path_009",
+    "type": "asset",
+    "tags": [
+      "path_009"
+    ],
+    "content": "path_009"
+  },
+  {
+    "id": "asset:path_010",
+    "type": "asset",
+    "tags": [
+      "path_010"
+    ],
+    "content": "path_010"
+  },
+  {
+    "id": "asset:path_011",
+    "type": "asset",
+    "tags": [
+      "path_011"
+    ],
+    "content": "path_011"
+  },
+  {
+    "id": "asset:path_012",
+    "type": "asset",
+    "tags": [
+      "path_012"
+    ],
+    "content": "path_012"
+  },
+  {
+    "id": "asset:tree_001",
+    "type": "asset",
+    "tags": [
+      "tree_001"
+    ],
+    "content": "tree_001"
+  },
+  {
+    "id": "asset:tree_002",
+    "type": "asset",
+    "tags": [
+      "tree_002"
+    ],
+    "content": "tree_002"
+  },
+  {
+    "id": "asset:tree_003",
+    "type": "asset",
+    "tags": [
+      "tree_003"
+    ],
+    "content": "tree_003"
+  },
+  {
+    "id": "asset:tree_004",
+    "type": "asset",
+    "tags": [
+      "tree_004"
+    ],
+    "content": "tree_004"
+  },
+  {
+    "id": "asset:tree_005",
+    "type": "asset",
+    "tags": [
+      "tree_005"
+    ],
+    "content": "tree_005"
+  },
+  {
+    "id": "asset:tree_006",
+    "type": "asset",
+    "tags": [
+      "tree_006"
+    ],
+    "content": "tree_006"
+  },
+  {
+    "id": "asset:tree_007",
+    "type": "asset",
+    "tags": [
+      "tree_007"
+    ],
+    "content": "tree_007"
+  },
+  {
+    "id": "asset:tree_008",
+    "type": "asset",
+    "tags": [
+      "tree_008"
+    ],
+    "content": "tree_008"
+  },
+  {
+    "id": "asset:tree_009",
+    "type": "asset",
+    "tags": [
+      "tree_009"
+    ],
+    "content": "tree_009"
+  },
+  {
+    "id": "asset:tree_010",
+    "type": "asset",
+    "tags": [
+      "tree_010"
+    ],
+    "content": "tree_010"
+  },
+  {
+    "id": "asset:flowers_001",
+    "type": "asset",
+    "tags": [
+      "flowers_001"
+    ],
+    "content": "flowers_001"
+  },
+  {
+    "id": "asset:flowers_002",
+    "type": "asset",
+    "tags": [
+      "flowers_002"
+    ],
+    "content": "flowers_002"
+  },
+  {
+    "id": "asset:flowers_003",
+    "type": "asset",
+    "tags": [
+      "flowers_003"
+    ],
+    "content": "flowers_003"
+  },
+  {
+    "id": "asset:flowers_004",
+    "type": "asset",
+    "tags": [
+      "flowers_004"
+    ],
+    "content": "flowers_004"
+  },
+  {
+    "id": "asset:flowers_005",
+    "type": "asset",
+    "tags": [
+      "flowers_005"
+    ],
+    "content": "flowers_005"
+  },
+  {
+    "id": "asset:flowers_006",
+    "type": "asset",
+    "tags": [
+      "flowers_006"
+    ],
+    "content": "flowers_006"
+  },
+  {
+    "id": "asset:flowers_007",
+    "type": "asset",
+    "tags": [
+      "flowers_007"
+    ],
+    "content": "flowers_007"
+  },
+  {
+    "id": "asset:flowers_008",
+    "type": "asset",
+    "tags": [
+      "flowers_008"
+    ],
+    "content": "flowers_008"
+  },
+  {
+    "id": "asset:stall_001",
+    "type": "asset",
+    "tags": [
+      "stall_001"
+    ],
+    "content": "stall_001"
+  },
+  {
+    "id": "asset:stall_002",
+    "type": "asset",
+    "tags": [
+      "stall_002"
+    ],
+    "content": "stall_002"
+  },
+  {
+    "id": "asset:stall_003",
+    "type": "asset",
+    "tags": [
+      "stall_003"
+    ],
+    "content": "stall_003"
+  },
+  {
+    "id": "asset:stall_004",
+    "type": "asset",
+    "tags": [
+      "stall_004"
+    ],
+    "content": "stall_004"
+  },
+  {
+    "id": "asset:stall_005",
+    "type": "asset",
+    "tags": [
+      "stall_005"
+    ],
+    "content": "stall_005"
+  },
+  {
+    "id": "asset:stall_006",
+    "type": "asset",
+    "tags": [
+      "stall_006"
+    ],
+    "content": "stall_006"
+  },
+  {
+    "id": "asset:stall_007",
+    "type": "asset",
+    "tags": [
+      "stall_007"
+    ],
+    "content": "stall_007"
+  },
+  {
+    "id": "asset:stall_008",
+    "type": "asset",
+    "tags": [
+      "stall_008"
+    ],
+    "content": "stall_008"
+  },
+  {
+    "id": "asset:fountain_001",
+    "type": "asset",
+    "tags": [
+      "fountain_001"
+    ],
+    "content": "fountain_001"
+  },
+  {
+    "id": "requirements:riverside_village_001",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "{'user_request': 'Design a pastoral riverside village with a market square', 'error_analysis': \"Previous attempt failed due to 'Orchestrator returned an incomplete payload' - caused by insufficient detail in asset specifications\", 'correction_strategy': 'Provide exact counts, dimensions, and detailed descriptions for each element rather than general categories', 'requirements': [{'concept': 'res', 'min_count': 1}, {'concept': 'res', 'min_count': 1}, {'concept': 'res', 'min_count': 1}, {'concept': 'res', 'min_count': 1}, {'concept': 'res', 'min_count': 1}, {'concept': 'res', 'min_count': 1}, {'concept': 'res', 'min_count': 1}, {'concept': 'res', 'min_count': 1}, {'concept': 'shop', 'min_count': 1}, {'concept': 'shop', 'min_count': 1}, {'concept': 'shop', 'min_count': 1}, {'concept': 'shop', 'min_count': 1}, {'concept': 'shop', 'min_count': 1}, {'concept': 'shop', 'min_count': 1}, {'concept': 'town_hall', 'min_count': 1}, {'concept': 'church', 'min_count': 1}, {'concept': 'inn', 'min_count': 1}, {'concept': 'mill', 'min_count': 1}, {'concept': 'bridge', 'min_count': 1}, {'concept': 'dock', 'min_count': 1}, {'concept': 'path', 'min_count': 1}, {'concept': 'path', 'min_count': 1}, {'concept': 'path', 'min_count': 1}, {'concept': 'path', 'min_count': 1}, {'concept': 'path', 'min_count': 1}, {'concept': 'path', 'min_count': 1}, {'concept': 'path', 'min_count': 1}, {'concept': 'path', 'min_count': 1}, {'concept': 'path', 'min_count': 1}, {'concept': 'path', 'min_count': 1}, {'concept': 'path', 'min_count': 1}, {'concept': 'path', 'min_count': 1}, {'concept': 'tree', 'min_count': 1}, {'concept': 'tree', 'min_count': 1}, {'concept': 'tree', 'min_count': 1}, {'concept': 'tree', 'min_count': 1}, {'concept': 'tree', 'min_count': 1}, {'concept': 'tree', 'min_count': 1}, {'concept': 'tree', 'min_count': 1}, {'concept': 'tree', 'min_count': 1}, {'concept': 'tree', 'min_count': 1}, {'concept': 'tree', 'min_count': 1}, {'concept': 'flowers', 'min_count': 1}, {'concept': 'flowers', 'min_count': 1}, {'concept': 'flowers', 'min_count': 1}, {'concept': 'flowers', 'min_count': 1}, {'concept': 'flowers', 'min_count': 1}, {'concept': 'flowers', 'min_count': 1}, {'concept': 'flowers', 'min_count': 1}, {'concept': 'flowers', 'min_count': 1}, {'concept': 'stall', 'min_count': 1}, {'concept': 'stall', 'min_count': 1}, {'concept': 'stall', 'min_count': 1}, {'concept': 'stall', 'min_count': 1}, {'concept': 'stall', 'min_count': 1}, {'concept': 'stall', 'min_count': 1}, {'concept': 'stall', 'min_count': 1}, {'concept': 'stall', 'min_count': 1}, {'concept': 'fountain', 'min_count': 1}]}"
+  },
+  {
+    "id": "placement:asset_001",
+    "type": "placement",
+    "tags": [
+      "asset_001"
+    ],
+    "content": "{'asset_id': 'asset_001', 'pos': [60, 0, 170], 'rotY': 0, 'ref': 'asset_001'}"
+  },
+  {
+    "id": "placement:asset_002",
+    "type": "placement",
+    "tags": [
+      "asset_002"
+    ],
+    "content": "{'asset_id': 'asset_002', 'pos': [75, 0, 150], 'rotY': 0, 'ref': 'asset_002'}"
+  },
+  {
+    "id": "placement:asset_003",
+    "type": "placement",
+    "tags": [
+      "asset_003"
+    ],
+    "content": "{'asset_id': 'asset_003', 'pos': [30, 0, 200], 'rotY': 1.57, 'ref': 'asset_003'}"
+  },
+  {
+    "id": "placement:asset_004",
+    "type": "placement",
+    "tags": [
+      "asset_004"
+    ],
+    "content": "{'asset_id': 'asset_004', 'pos': [30, 0, 230], 'rotY': 1.57, 'ref': 'asset_004'}"
+  },
+  {
+    "id": "placement:asset_005",
+    "type": "placement",
+    "tags": [
+      "asset_005"
+    ],
+    "content": "{'asset_id': 'asset_005', 'pos': [65, 0, 145], 'rotY': 0, 'ref': 'asset_005'}"
+  },
+  {
+    "id": "placement:asset_005",
+    "type": "placement",
+    "tags": [
+      "asset_005"
+    ],
+    "content": "{'asset_id': 'asset_005', 'pos': [85, 0, 145], 'rotY': 0, 'ref': 'asset_005'}"
+  },
+  {
+    "id": "placement:asset_005",
+    "type": "placement",
+    "tags": [
+      "asset_005"
+    ],
+    "content": "{'asset_id': 'asset_005', 'pos': [65, 0, 155], 'rotY': 0, 'ref': 'asset_005'}"
+  },
+  {
+    "id": "placement:asset_005",
+    "type": "placement",
+    "tags": [
+      "asset_005"
+    ],
+    "content": "{'asset_id': 'asset_005', 'pos': [85, 0, 155], 'rotY': 0, 'ref': 'asset_005'}"
+  },
+  {
+    "id": "placement:asset_006",
+    "type": "placement",
+    "tags": [
+      "asset_006"
+    ],
+    "content": "{'asset_id': 'asset_006', 'pos': [90, 0, 170], 'rotY': 0, 'ref': 'asset_006'}"
+  },
+  {
+    "id": "placement:asset_007",
+    "type": "placement",
+    "tags": [
+      "asset_007"
+    ],
+    "content": "{'asset_id': 'asset_007', 'pos': [45, 0, 120], 'rotY': -1.57, 'ref': 'asset_007'}"
+  },
+  {
+    "id": "placement:asset_008",
+    "type": "placement",
+    "tags": [
+      "asset_008"
+    ],
+    "content": "{'asset_id': 'asset_008', 'pos': [30, 0, 100], 'rotY': -1.57, 'ref': 'asset_008'}"
+  },
+  {
+    "id": "placement:asset_009",
+    "type": "placement",
+    "tags": [
+      "asset_009"
+    ],
+    "content": "{'asset_id': 'asset_009', 'pos': [75, 0, 150], 'rotY': 1.57, 'ref': 'asset_009'}"
+  },
+  {
+    "id": "placement:asset_010",
+    "type": "placement",
+    "tags": [
+      "asset_010"
+    ],
+    "content": "{'asset_id': 'asset_010', 'pos': [100, 0, 130], 'rotY': 1.57, 'ref': 'asset_010'}"
+  },
+  {
+    "id": "placement:asset_011",
+    "type": "placement",
+    "tags": [
+      "asset_011"
+    ],
+    "content": "{'asset_id': 'asset_011', 'pos': [105, 0, 135], 'rotY': 1.57, 'ref': 'asset_011'}"
+  },
+  {
+    "id": "placement:asset_012",
+    "type": "placement",
+    "tags": [
+      "asset_012"
+    ],
+    "content": "{'asset_id': 'asset_012', 'pos': [120, 0, 200], 'rotY': 3.14, 'ref': 'asset_012'}"
+  },
+  {
+    "id": "placement:asset_013",
+    "type": "placement",
+    "tags": [
+      "asset_013"
+    ],
+    "content": "{'asset_id': 'asset_013', 'pos': [5, 0, 150], 'rotY': 0, 'ref': 'asset_013'}"
+  },
+  {
+    "id": "placement:asset_014",
+    "type": "placement",
+    "tags": [
+      "asset_014"
+    ],
+    "content": "{'asset_id': 'asset_014', 'pos': [55, 0, 150], 'rotY': 0, 'ref': 'asset_014'}"
+  },
+  {
+    "id": "placement:asset_014",
+    "type": "placement",
+    "tags": [
+      "asset_014"
+    ],
+    "content": "{'asset_id': 'asset_014', 'pos': [95, 0, 150], 'rotY': 0, 'ref': 'asset_014'}"
+  },
+  {
+    "id": "asset:asset_001",
+    "type": "asset",
+    "tags": [
+      "asset_001"
+    ],
+    "content": "asset_001"
+  },
+  {
+    "id": "asset:asset_002",
+    "type": "asset",
+    "tags": [
+      "asset_002"
+    ],
+    "content": "asset_002"
+  },
+  {
+    "id": "asset:asset_003",
+    "type": "asset",
+    "tags": [
+      "asset_003"
+    ],
+    "content": "asset_003"
+  },
+  {
+    "id": "asset:asset_004",
+    "type": "asset",
+    "tags": [
+      "asset_004"
+    ],
+    "content": "asset_004"
+  },
+  {
+    "id": "asset:asset_005",
+    "type": "asset",
+    "tags": [
+      "asset_005"
+    ],
+    "content": "asset_005"
+  },
+  {
+    "id": "asset:asset_006",
+    "type": "asset",
+    "tags": [
+      "asset_006"
+    ],
+    "content": "asset_006"
+  },
+  {
+    "id": "asset:asset_007",
+    "type": "asset",
+    "tags": [
+      "asset_007"
+    ],
+    "content": "asset_007"
+  },
+  {
+    "id": "asset:asset_008",
+    "type": "asset",
+    "tags": [
+      "asset_008"
+    ],
+    "content": "asset_008"
+  },
+  {
+    "id": "asset:asset_009",
+    "type": "asset",
+    "tags": [
+      "asset_009"
+    ],
+    "content": "asset_009"
+  },
+  {
+    "id": "asset:asset_010",
+    "type": "asset",
+    "tags": [
+      "asset_010"
+    ],
+    "content": "asset_010"
+  },
+  {
+    "id": "asset:asset_011",
+    "type": "asset",
+    "tags": [
+      "asset_011"
+    ],
+    "content": "asset_011"
+  },
+  {
+    "id": "asset:asset_012",
+    "type": "asset",
+    "tags": [
+      "asset_012"
+    ],
+    "content": "asset_012"
+  },
+  {
+    "id": "asset:asset_013",
+    "type": "asset",
+    "tags": [
+      "asset_013"
+    ],
+    "content": "asset_013"
+  },
+  {
+    "id": "asset:asset_014",
+    "type": "asset",
+    "tags": [
+      "asset_014"
+    ],
+    "content": "asset_014"
+  },
+  {
+    "id": "requirements:riverside_village_market_001",
+    "type": "requirements",
+    "tags": [
+      "requirements"
+    ],
+    "content": "{'setting': 'pastoral riverside village', 'key_feature': 'market square', 'population_estimate': '500-2000 residents', 'period_aesthetic': 'medieval to early modern', 'verified_facts': ['The setting is a pastoral riverside village', 'The village must include a market square', 'No specific names, dates, or statistics are provided'], 'facts_to_lookup': ['Historical layout patterns of traditional European riverside market towns (architectural/historical sources)', 'Typical dimensions and features of pastoral village market squares (urban planning references)', 'Common river-adjacent village infrastructure elements (geography/urban design sources)', 'Traditional building materials and architectural styles for rural villages (historical architecture references)'], 'facts_to_derive': ['Logical placement of market square relative to river access for trade and transportation', \"Appropriate scale of village based on 'pastoral' descriptor and riverside setting\", 'Likely street patterns and village organization around both river and market', \"Population size estimates based on 'village' classification\", 'Economic activities that would support a riverside market (agriculture, fishing, trade routes)'], 'educated_guesses': ['The village likely has a medieval or early modern period aesthetic given the traditional market square concept', \"Population probably ranges from 500-2,000 residents based on 'village' designation\", 'Market square would be centrally located, possibly near the river landing or bridge', 'Village would feature cobblestone streets, traditional storefronts, and residential buildings', 'Likely includes a church or meeting hall as focal point', 'River would be navigable but small to medium-sized (not major commercial waterway)', 'Village probably has agricultural hinterland supporting the market activities'], 'requirements': [{'concept': 'asset', 'min_count': 1}, {'concept': 'asset', 'min_count': 1}, {'concept': 'asset', 'min_count': 1}, {'concept': 'asset', 'min_count': 1}, {'concept': 'asset', 'min_count': 1}, {'concept': 'asset', 'min_count': 1}, {'concept': 'asset', 'min_count': 1}, {'concept': 'asset', 'min_count': 1}, {'concept': 'asset', 'min_count': 1}, {'concept': 'asset', 'min_count': 1}, {'concept': 'asset', 'min_count': 1}, {'concept': 'asset', 'min_count': 1}, {'concept': 'asset', 'min_count': 1}, {'concept': 'asset', 'min_count': 1}]}"
+  }
+]

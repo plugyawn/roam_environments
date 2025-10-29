@@ -1,0 +1,28 @@
+{
+  "id": "vendor_stall_01",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/vendor_stall_01.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "vendor_stall",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "vendor_stall": "default_grey"
+    },
+    "id": "vendor_stall_01",
+    "tags": [
+      "vendor_stall",
+      "vendor_stall_01"
+    ]
+  }
+}

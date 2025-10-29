@@ -1,0 +1,27 @@
+{
+  "id": "asset:market_fountain:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:market_fountain:v1.glb",
+  "bbox": [
+    6.0,
+    6.0,
+    2.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cylinder",
+        "name": "market_fountain",
+        "r": 3,
+        "h": 2
+      }
+    ],
+    "materials": {
+      "market_fountain": "stone"
+    },
+    "id": "asset:market_fountain:v1",
+    "tags": [
+      "market_square",
+      "fountain"
+    ]
+  }
+}

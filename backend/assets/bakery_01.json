@@ -1,0 +1,28 @@
+{
+  "id": "bakery_01",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/bakery_01.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "bakery",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "bakery": "default_grey"
+    },
+    "id": "bakery_01",
+    "tags": [
+      "bakery",
+      "bakery_01"
+    ]
+  }
+}

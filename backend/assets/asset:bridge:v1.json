@@ -1,0 +1,27 @@
+{
+  "id": "asset:bridge:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:bridge:v1.glb",
+  "bbox": [
+    8.0,
+    3.0,
+    30.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "bridge",
+        "w": 8,
+        "h": 3,
+        "d": 30
+      }
+    ],
+    "materials": {
+      "bridge": "stone_grey"
+    },
+    "id": "asset:bridge:v1",
+    "tags": [
+      "bridge"
+    ]
+  }
+}

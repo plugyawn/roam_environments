@@ -1,0 +1,50 @@
+{
+  "id": "fountain_001",
+  "glb_path": "assets/fountain_001.glb",
+  "bbox": [
+    3.0,
+    4.0,
+    1.6
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cylinder",
+        "name": "base",
+        "r": 1.5,
+        "h": 0.8
+      },
+      {
+        "primitive": "cylinder",
+        "name": "column",
+        "r": 0.4,
+        "h": 1.6,
+        "offset": [
+          0,
+          0.8,
+          0
+        ]
+      },
+      {
+        "primitive": "sphere",
+        "name": "top",
+        "r": 0.5,
+        "offset": [
+          0,
+          2.0,
+          0
+        ]
+      }
+    ],
+    "materials": {
+      "base": "stone_light",
+      "column": "stone_light",
+      "top": "copper_green"
+    },
+    "id": "fountain_001",
+    "tags": [
+      "fountain",
+      "fountain_001"
+    ]
+  }
+}

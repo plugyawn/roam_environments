@@ -1,0 +1,28 @@
+{
+  "id": "river_segment_01",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/river_segment_01.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "river_segment",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "river_segment": "default_grey"
+    },
+    "id": "river_segment_01",
+    "tags": [
+      "river_segment",
+      "river_segment_01"
+    ]
+  }
+}

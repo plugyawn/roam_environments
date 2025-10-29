@@ -1,0 +1,32 @@
+{
+  "id": "river_001",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/river_001.glb",
+  "bbox": [
+    20.0,
+    0.010000000000000009,
+    200.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "plane",
+        "name": "surface",
+        "w": 20,
+        "d": 200,
+        "offset": [
+          0,
+          -0.2,
+          0
+        ]
+      }
+    ],
+    "materials": {
+      "surface": "water_blue"
+    },
+    "id": "river_001",
+    "tags": [
+      "river",
+      "river_001"
+    ]
+  }
+}

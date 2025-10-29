@@ -1,0 +1,27 @@
+{
+  "id": "asset:pastoral_riverside_village:v1",
+  "glb_path": "assets/asset:pastoral_riverside_village:v1.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "pastoral_riverside_village",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "pastoral_riverside_village": "default_grey"
+    },
+    "id": "asset:pastoral_riverside_village:v1",
+    "tags": [
+      "pastoral_riverside_village"
+    ]
+  }
+}

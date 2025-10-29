@@ -1,0 +1,27 @@
+{
+  "id": "willow_tree_01",
+  "glb_path": "assets/willow_tree_01.glb",
+  "bbox": [
+    8.0,
+    8.0,
+    15.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cylinder",
+        "name": "willow_tree",
+        "h": 15.0,
+        "r": 4.0
+      }
+    ],
+    "materials": {
+      "willow_tree": "bark_texture"
+    },
+    "id": "willow_tree_01",
+    "tags": [
+      "vegetation",
+      "tree"
+    ]
+  }
+}

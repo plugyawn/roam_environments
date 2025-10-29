@@ -1,0 +1,28 @@
+{
+  "id": "hay_bale_01",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/hay_bale_01.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "hay_bale",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "hay_bale": "default_grey"
+    },
+    "id": "hay_bale_01",
+    "tags": [
+      "hay_bale",
+      "hay_bale_01"
+    ]
+  }
+}

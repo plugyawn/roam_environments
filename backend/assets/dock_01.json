@@ -1,0 +1,28 @@
+{
+  "id": "dock_01",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/dock_01.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "dock",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "dock": "default_grey"
+    },
+    "id": "dock_01",
+    "tags": [
+      "dock",
+      "dock_01"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "grass_patch_01",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/grass_patch_01.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "grass_patch",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "grass_patch": "default_grey"
+    },
+    "id": "grass_patch_01",
+    "tags": [
+      "grass_patch",
+      "grass_patch_01"
+    ]
+  }
+}

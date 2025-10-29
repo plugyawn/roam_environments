@@ -1,0 +1,28 @@
+{
+  "id": "stone_cottage_01",
+  "glb_path": "assets/stone_cottage_01.glb",
+  "bbox": [
+    12.0,
+    6.0,
+    10.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "stone_cottage",
+        "w": 12.0,
+        "h": 6.0,
+        "d": 10.0
+      }
+    ],
+    "materials": {
+      "stone_cottage": "stone_texture"
+    },
+    "id": "stone_cottage_01",
+    "tags": [
+      "residential",
+      "cottage"
+    ]
+  }
+}

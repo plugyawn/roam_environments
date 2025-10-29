@@ -1,0 +1,41 @@
+{
+  "id": "shop_002",
+  "glb_path": "assets/shop_002.glb",
+  "bbox": [
+    3.2,
+    3.45,
+    2.2
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "counter",
+        "w": 3.0,
+        "h": 0.9,
+        "d": 2.0
+      },
+      {
+        "primitive": "pyramid",
+        "name": "canopy",
+        "w": 3.2,
+        "h": 1.2,
+        "d": 2.2,
+        "offset": [
+          0,
+          1.8,
+          0
+        ]
+      }
+    ],
+    "materials": {
+      "counter": "wood_oak",
+      "canopy": "canvas_striped"
+    },
+    "id": "shop_002",
+    "tags": [
+      "shop",
+      "shop_002"
+    ]
+  }
+}

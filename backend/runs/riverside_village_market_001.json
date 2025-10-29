@@ -1,0 +1,1090 @@
+{
+  "scene_id": "riverside_village_market_001",
+  "prompt": "Design a pastoral riverside village with a market square",
+  "requirements": {
+    "setting": "pastoral riverside village",
+    "key_feature": "market square",
+    "population_estimate": "500-2000 residents",
+    "period_aesthetic": "medieval to early modern",
+    "verified_facts": [
+      "The setting is a pastoral riverside village",
+      "The village must include a market square",
+      "No specific names, dates, or statistics are provided"
+    ],
+    "facts_to_lookup": [
+      "Historical layout patterns of traditional European riverside market towns (architectural/historical sources)",
+      "Typical dimensions and features of pastoral village market squares (urban planning references)",
+      "Common river-adjacent village infrastructure elements (geography/urban design sources)",
+      "Traditional building materials and architectural styles for rural villages (historical architecture references)"
+    ],
+    "facts_to_derive": [
+      "Logical placement of market square relative to river access for trade and transportation",
+      "Appropriate scale of village based on 'pastoral' descriptor and riverside setting",
+      "Likely street patterns and village organization around both river and market",
+      "Population size estimates based on 'village' classification",
+      "Economic activities that would support a riverside market (agriculture, fishing, trade routes)"
+    ],
+    "educated_guesses": [
+      "The village likely has a medieval or early modern period aesthetic given the traditional market square concept",
+      "Population probably ranges from 500-2,000 residents based on 'village' designation",
+      "Market square would be centrally located, possibly near the river landing or bridge",
+      "Village would feature cobblestone streets, traditional storefronts, and residential buildings",
+      "Likely includes a church or meeting hall as focal point",
+      "River would be navigable but small to medium-sized (not major commercial waterway)",
+      "Village probably has agricultural hinterland supporting the market activities"
+    ],
+    "requirements": [
+      {
+        "concept": "asset",
+        "min_count": 1
+      },
+      {
+        "concept": "asset",
+        "min_count": 1
+      },
+      {
+        "concept": "asset",
+        "min_count": 1
+      },
+      {
+        "concept": "asset",
+        "min_count": 1
+      },
+      {
+        "concept": "asset",
+        "min_count": 1
+      },
+      {
+        "concept": "asset",
+        "min_count": 1
+      },
+      {
+        "concept": "asset",
+        "min_count": 1
+      },
+      {
+        "concept": "asset",
+        "min_count": 1
+      },
+      {
+        "concept": "asset",
+        "min_count": 1
+      },
+      {
+        "concept": "asset",
+        "min_count": 1
+      },
+      {
+        "concept": "asset",
+        "min_count": 1
+      },
+      {
+        "concept": "asset",
+        "min_count": 1
+      },
+      {
+        "concept": "asset",
+        "min_count": 1
+      },
+      {
+        "concept": "asset",
+        "min_count": 1
+      }
+    ]
+  },
+  "scene_spec": {
+    "theme": "Pastoral European riverside village with central market square",
+    "setting": "Riverside village in a pastoral landscape",
+    "key_elements": [
+      "Central market square with stalls and gathering area",
+      "River running alongside the village",
+      "Traditional European medieval/early modern architecture",
+      "Stone/cobblestone streets and pathways",
+      "Mixed residential and commercial buildings",
+      "Bridge connecting village across the river",
+      "Church or meeting hall as focal point",
+      "Docks or landing area for river access"
+    ],
+    "supporting_elements": [
+      "Residential houses (2-3 story traditional European)",
+      "Market stalls and vendor structures",
+      "Tavern or inn",
+      "Blacksmith workshop",
+      "Water well",
+      "Village boundary walls or hedges",
+      "Street lamps or torches",
+      "Fountains or water pumps",
+      "Bridges (footbridge and possibly covered bridge)",
+      "Docks and small boats",
+      "Farming fields in hinterland",
+      "Windmill or watermill",
+      "Village gate or entrance arch"
+    ],
+    "foliage": [
+      "Scattered shade trees in market square",
+      "Willow trees along riverbanks",
+      "Hedgerows marking property boundaries",
+      "Small garden plots with herbs and vegetables",
+      "Orchards on village outskirts"
+    ],
+    "infrastructure": [
+      "Cobblestone streets",
+      "Stone pathways",
+      "Wooden footbridges",
+      "Stone retaining walls along river",
+      "Drainage channels",
+      "Central water well or fountain"
+    ],
+    "landmarks": [
+      "Central church or meeting hall",
+      "Market square as primary gathering space",
+      "River bridge as key connection point",
+      "Watermill as industrial landmark",
+      "Village gate as entrance marker"
+    ],
+    "dimensions": {
+      "village_length": "300 meters",
+      "village_width": "150 meters",
+      "market_square_size": "40x40 meters",
+      "river_width": "15-20 meters",
+      "street_width": "4-6 meters"
+    },
+    "entities": [
+      {
+        "concept": "asset",
+        "count": 1,
+        "attrs": {}
+      },
+      {
+        "concept": "asset",
+        "count": 1,
+        "attrs": {}
+      },
+      {
+        "concept": "asset",
+        "count": 1,
+        "attrs": {}
+      },
+      {
+        "concept": "asset",
+        "count": 1,
+        "attrs": {}
+      },
+      {
+        "concept": "asset",
+        "count": 1,
+        "attrs": {}
+      },
+      {
+        "concept": "asset",
+        "count": 1,
+        "attrs": {}
+      },
+      {
+        "concept": "asset",
+        "count": 1,
+        "attrs": {}
+      },
+      {
+        "concept": "asset",
+        "count": 1,
+        "attrs": {}
+      },
+      {
+        "concept": "asset",
+        "count": 1,
+        "attrs": {}
+      },
+      {
+        "concept": "asset",
+        "count": 1,
+        "attrs": {}
+      },
+      {
+        "concept": "asset",
+        "count": 1,
+        "attrs": {}
+      },
+      {
+        "concept": "asset",
+        "count": 1,
+        "attrs": {}
+      },
+      {
+        "concept": "asset",
+        "count": 1,
+        "attrs": {}
+      },
+      {
+        "concept": "asset",
+        "count": 1,
+        "attrs": {}
+      }
+    ],
+    "constraints": []
+  },
+  "assets": [
+    {
+      "id": "asset_001",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset_001.glb",
+      "bbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recipe": {
+        "recipe": [
+          {
+            "primitive": "cuboid",
+            "name": "asset",
+            "w": 1.0,
+            "h": 1.0,
+            "d": 1.0
+          }
+        ],
+        "materials": {
+          "asset": "default_grey"
+        },
+        "id": "asset_001",
+        "tags": [
+          "asset",
+          "asset_001"
+        ]
+      }
+    },
+    {
+      "id": "asset_002",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset_002.glb",
+      "bbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recipe": {
+        "recipe": [
+          {
+            "primitive": "cuboid",
+            "name": "asset",
+            "w": 1.0,
+            "h": 1.0,
+            "d": 1.0
+          }
+        ],
+        "materials": {
+          "asset": "default_grey"
+        },
+        "id": "asset_002",
+        "tags": [
+          "asset",
+          "asset_002"
+        ]
+      }
+    },
+    {
+      "id": "asset_003",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset_003.glb",
+      "bbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recipe": {
+        "recipe": [
+          {
+            "primitive": "cuboid",
+            "name": "asset",
+            "w": 1.0,
+            "h": 1.0,
+            "d": 1.0
+          }
+        ],
+        "materials": {
+          "asset": "default_grey"
+        },
+        "id": "asset_003",
+        "tags": [
+          "asset",
+          "asset_003"
+        ]
+      }
+    },
+    {
+      "id": "asset_004",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset_004.glb",
+      "bbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recipe": {
+        "recipe": [
+          {
+            "primitive": "cuboid",
+            "name": "asset",
+            "w": 1.0,
+            "h": 1.0,
+            "d": 1.0
+          }
+        ],
+        "materials": {
+          "asset": "default_grey"
+        },
+        "id": "asset_004",
+        "tags": [
+          "asset",
+          "asset_004"
+        ]
+      }
+    },
+    {
+      "id": "asset_005",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset_005.glb",
+      "bbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recipe": {
+        "recipe": [
+          {
+            "primitive": "cuboid",
+            "name": "asset",
+            "w": 1.0,
+            "h": 1.0,
+            "d": 1.0
+          }
+        ],
+        "materials": {
+          "asset": "default_grey"
+        },
+        "id": "asset_005",
+        "tags": [
+          "asset",
+          "asset_005"
+        ]
+      }
+    },
+    {
+      "id": "asset_006",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset_006.glb",
+      "bbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recipe": {
+        "recipe": [
+          {
+            "primitive": "cuboid",
+            "name": "asset",
+            "w": 1.0,
+            "h": 1.0,
+            "d": 1.0
+          }
+        ],
+        "materials": {
+          "asset": "default_grey"
+        },
+        "id": "asset_006",
+        "tags": [
+          "asset",
+          "asset_006"
+        ]
+      }
+    },
+    {
+      "id": "asset_007",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset_007.glb",
+      "bbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recipe": {
+        "recipe": [
+          {
+            "primitive": "cuboid",
+            "name": "asset",
+            "w": 1.0,
+            "h": 1.0,
+            "d": 1.0
+          }
+        ],
+        "materials": {
+          "asset": "default_grey"
+        },
+        "id": "asset_007",
+        "tags": [
+          "asset",
+          "asset_007"
+        ]
+      }
+    },
+    {
+      "id": "asset_008",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset_008.glb",
+      "bbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recipe": {
+        "recipe": [
+          {
+            "primitive": "cuboid",
+            "name": "asset",
+            "w": 1.0,
+            "h": 1.0,
+            "d": 1.0
+          }
+        ],
+        "materials": {
+          "asset": "default_grey"
+        },
+        "id": "asset_008",
+        "tags": [
+          "asset",
+          "asset_008"
+        ]
+      }
+    },
+    {
+      "id": "asset_009",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset_009.glb",
+      "bbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recipe": {
+        "recipe": [
+          {
+            "primitive": "cuboid",
+            "name": "asset",
+            "w": 1.0,
+            "h": 1.0,
+            "d": 1.0
+          }
+        ],
+        "materials": {
+          "asset": "default_grey"
+        },
+        "id": "asset_009",
+        "tags": [
+          "asset",
+          "asset_009"
+        ]
+      }
+    },
+    {
+      "id": "asset_010",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset_010.glb",
+      "bbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recipe": {
+        "recipe": [
+          {
+            "primitive": "cuboid",
+            "name": "asset",
+            "w": 1.0,
+            "h": 1.0,
+            "d": 1.0
+          }
+        ],
+        "materials": {
+          "asset": "default_grey"
+        },
+        "id": "asset_010",
+        "tags": [
+          "asset",
+          "asset_010"
+        ]
+      }
+    },
+    {
+      "id": "asset_011",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset_011.glb",
+      "bbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recipe": {
+        "recipe": [
+          {
+            "primitive": "cuboid",
+            "name": "asset",
+            "w": 1.0,
+            "h": 1.0,
+            "d": 1.0
+          }
+        ],
+        "materials": {
+          "asset": "default_grey"
+        },
+        "id": "asset_011",
+        "tags": [
+          "asset",
+          "asset_011"
+        ]
+      }
+    },
+    {
+      "id": "asset_012",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset_012.glb",
+      "bbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recipe": {
+        "recipe": [
+          {
+            "primitive": "cuboid",
+            "name": "asset",
+            "w": 1.0,
+            "h": 1.0,
+            "d": 1.0
+          }
+        ],
+        "materials": {
+          "asset": "default_grey"
+        },
+        "id": "asset_012",
+        "tags": [
+          "asset",
+          "asset_012"
+        ]
+      }
+    },
+    {
+      "id": "asset_013",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset_013.glb",
+      "bbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recipe": {
+        "recipe": [
+          {
+            "primitive": "cuboid",
+            "name": "asset",
+            "w": 1.0,
+            "h": 1.0,
+            "d": 1.0
+          }
+        ],
+        "materials": {
+          "asset": "default_grey"
+        },
+        "id": "asset_013",
+        "tags": [
+          "asset",
+          "asset_013"
+        ]
+      }
+    },
+    {
+      "id": "asset_014",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset_014.glb",
+      "bbox": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recipe": {
+        "recipe": [
+          {
+            "primitive": "cuboid",
+            "name": "asset",
+            "w": 1.0,
+            "h": 1.0,
+            "d": 1.0
+          }
+        ],
+        "materials": {
+          "asset": "default_grey"
+        },
+        "id": "asset_014",
+        "tags": [
+          "asset",
+          "asset_014"
+        ]
+      }
+    }
+  ],
+  "map_plan": {
+    "layout": "Linear village along river with central market square",
+    "dimensions": {
+      "width": 150,
+      "length": 300
+    },
+    "zones": [
+      {
+        "name": "Market Square Zone",
+        "position": [
+          75,
+          0,
+          150
+        ],
+        "size": [
+          40,
+          0,
+          40
+        ]
+      },
+      {
+        "name": "Residential Zone North",
+        "position": [
+          75,
+          0,
+          225
+        ],
+        "size": [
+          100,
+          0,
+          60
+        ]
+      },
+      {
+        "name": "Residential Zone South",
+        "position": [
+          75,
+          0,
+          75
+        ],
+        "size": [
+          100,
+          0,
+          60
+        ]
+      },
+      {
+        "name": "River Zone",
+        "position": [
+          150,
+          0,
+          150
+        ],
+        "size": [
+          20,
+          0,
+          300
+        ]
+      },
+      {
+        "name": "Agricultural Hinterland",
+        "position": [
+          -25,
+          0,
+          150
+        ],
+        "size": [
+          50,
+          0,
+          200
+        ]
+      }
+    ],
+    "paths": [
+      {
+        "name": "Main Street",
+        "start": [
+          0,
+          0,
+          150
+        ],
+        "end": [
+          150,
+          0,
+          150
+        ],
+        "width": 6
+      },
+      {
+        "name": "River Path",
+        "start": [
+          75,
+          0,
+          0
+        ],
+        "end": [
+          75,
+          0,
+          300
+        ],
+        "width": 4
+      }
+    ],
+    "landmarks": [
+      {
+        "name": "Central Church",
+        "position": [
+          75,
+          0,
+          170
+        ]
+      },
+      {
+        "name": "River Bridge",
+        "position": [
+          75,
+          0,
+          150
+        ]
+      },
+      {
+        "name": "Village Gate",
+        "position": [
+          5,
+          0,
+          150
+        ]
+      }
+    ]
+  },
+  "scene_graph": {
+    "map": {
+      "layout": "Linear village along river with central market square",
+      "dimensions": {
+        "width": 150,
+        "length": 300
+      },
+      "zones": [
+        {
+          "name": "Market Square Zone",
+          "position": [
+            75,
+            0,
+            150
+          ],
+          "size": [
+            40,
+            0,
+            40
+          ]
+        },
+        {
+          "name": "Residential Zone North",
+          "position": [
+            75,
+            0,
+            225
+          ],
+          "size": [
+            100,
+            0,
+            60
+          ]
+        },
+        {
+          "name": "Residential Zone South",
+          "position": [
+            75,
+            0,
+            75
+          ],
+          "size": [
+            100,
+            0,
+            60
+          ]
+        },
+        {
+          "name": "River Zone",
+          "position": [
+            150,
+            0,
+            150
+          ],
+          "size": [
+            20,
+            0,
+            300
+          ]
+        },
+        {
+          "name": "Agricultural Hinterland",
+          "position": [
+            -25,
+            0,
+            150
+          ],
+          "size": [
+            50,
+            0,
+            200
+          ]
+        }
+      ],
+      "paths": [
+        {
+          "name": "Main Street",
+          "start": [
+            0,
+            0,
+            150
+          ],
+          "end": [
+            150,
+            0,
+            150
+          ],
+          "width": 6
+        },
+        {
+          "name": "River Path",
+          "start": [
+            75,
+            0,
+            0
+          ],
+          "end": [
+            75,
+            0,
+            300
+          ],
+          "width": 4
+        }
+      ],
+      "landmarks": [
+        {
+          "name": "Central Church",
+          "position": [
+            75,
+            0,
+            170
+          ]
+        },
+        {
+          "name": "River Bridge",
+          "position": [
+            75,
+            0,
+            150
+          ]
+        },
+        {
+          "name": "Village Gate",
+          "position": [
+            5,
+            0,
+            150
+          ]
+        }
+      ]
+    },
+    "placements": [
+      {
+        "asset_id": "asset_001",
+        "pos": [
+          60,
+          0,
+          170
+        ],
+        "rotY": 0,
+        "ref": "asset_001"
+      },
+      {
+        "asset_id": "asset_002",
+        "pos": [
+          75,
+          0,
+          150
+        ],
+        "rotY": 0,
+        "ref": "asset_002"
+      },
+      {
+        "asset_id": "asset_003",
+        "pos": [
+          30,
+          0,
+          200
+        ],
+        "rotY": 1.57,
+        "ref": "asset_003"
+      },
+      {
+        "asset_id": "asset_004",
+        "pos": [
+          30,
+          0,
+          230
+        ],
+        "rotY": 1.57,
+        "ref": "asset_004"
+      },
+      {
+        "asset_id": "asset_005",
+        "pos": [
+          65,
+          0,
+          145
+        ],
+        "rotY": 0,
+        "ref": "asset_005"
+      },
+      {
+        "asset_id": "asset_005",
+        "pos": [
+          85,
+          0,
+          145
+        ],
+        "rotY": 0,
+        "ref": "asset_005"
+      },
+      {
+        "asset_id": "asset_005",
+        "pos": [
+          65,
+          0,
+          155
+        ],
+        "rotY": 0,
+        "ref": "asset_005"
+      },
+      {
+        "asset_id": "asset_005",
+        "pos": [
+          85,
+          0,
+          155
+        ],
+        "rotY": 0,
+        "ref": "asset_005"
+      },
+      {
+        "asset_id": "asset_006",
+        "pos": [
+          90,
+          0,
+          170
+        ],
+        "rotY": 0,
+        "ref": "asset_006"
+      },
+      {
+        "asset_id": "asset_007",
+        "pos": [
+          45,
+          0,
+          120
+        ],
+        "rotY": -1.57,
+        "ref": "asset_007"
+      },
+      {
+        "asset_id": "asset_008",
+        "pos": [
+          30,
+          0,
+          100
+        ],
+        "rotY": -1.57,
+        "ref": "asset_008"
+      },
+      {
+        "asset_id": "asset_009",
+        "pos": [
+          75,
+          0,
+          150
+        ],
+        "rotY": 1.57,
+        "ref": "asset_009"
+      },
+      {
+        "asset_id": "asset_010",
+        "pos": [
+          100,
+          0,
+          130
+        ],
+        "rotY": 1.57,
+        "ref": "asset_010"
+      },
+      {
+        "asset_id": "asset_011",
+        "pos": [
+          105,
+          0,
+          135
+        ],
+        "rotY": 1.57,
+        "ref": "asset_011"
+      },
+      {
+        "asset_id": "asset_012",
+        "pos": [
+          120,
+          0,
+          200
+        ],
+        "rotY": 3.14,
+        "ref": "asset_012"
+      },
+      {
+        "asset_id": "asset_013",
+        "pos": [
+          5,
+          0,
+          150
+        ],
+        "rotY": 0,
+        "ref": "asset_013"
+      },
+      {
+        "asset_id": "asset_014",
+        "pos": [
+          55,
+          0,
+          150
+        ],
+        "rotY": 0,
+        "ref": "asset_014"
+      },
+      {
+        "asset_id": "asset_014",
+        "pos": [
+          95,
+          0,
+          150
+        ],
+        "rotY": 0,
+        "ref": "asset_014"
+      }
+    ],
+    "scene_id": "riverside_village_market_001",
+    "assets": [
+      "asset_001",
+      "asset_002",
+      "asset_003",
+      "asset_004",
+      "asset_005",
+      "asset_006",
+      "asset_007",
+      "asset_008",
+      "asset_009",
+      "asset_010",
+      "asset_011",
+      "asset_012",
+      "asset_013",
+      "asset_014"
+    ]
+  },
+  "validation": {
+    "status": "pass",
+    "issues": [],
+    "metrics": {
+      "concept_counts": {
+        "asset": 18
+      }
+    }
+  }
+}

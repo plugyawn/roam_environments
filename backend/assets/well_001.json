@@ -1,0 +1,28 @@
+{
+  "id": "well_001",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/well_001.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "well",
+        "w": 1.0,
+        "h": 1.0,
+        "d": 1.0
+      }
+    ],
+    "materials": {
+      "well": "default_grey"
+    },
+    "id": "well_001",
+    "tags": [
+      "well",
+      "well_001"
+    ]
+  }
+}

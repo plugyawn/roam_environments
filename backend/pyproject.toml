@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-loop-backend"
+version = "0.1.0"
+description = "Agentic loop orchestrator integrating Magentic-One with Cerebras Inference (Qwen3-Coder-480B)."
+authors = [{name = "Roam Environments"}]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+keywords = ["autogen", "magentic-one", "cerebras", "qwen", "faiss", "trimesh", "glTF"]
+dependencies = [
+  "trimesh>=4.0",
+  "shapely>=2.0",
+  "pillow>=10.0",
+  "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = [
+  "black>=24.3",
+  "ruff>=0.5",
+  "mypy>=1.8",
+  "pytest>=8.1",
+  "python-dotenv>=1.0"
+]
+
+[project.urls]
+homepage = "https://example.com/roam-environments"

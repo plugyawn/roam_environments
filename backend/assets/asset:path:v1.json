@@ -1,0 +1,27 @@
+{
+  "id": "asset:path:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:path:v1.glb",
+  "bbox": [
+    2.0,
+    0.1,
+    10.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "path",
+        "w": 2,
+        "h": 0.1,
+        "d": 10
+      }
+    ],
+    "materials": {
+      "path": "dirt_brown"
+    },
+    "id": "asset:path:v1",
+    "tags": [
+      "path"
+    ]
+  }
+}
