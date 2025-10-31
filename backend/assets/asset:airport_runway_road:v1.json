@@ -1,0 +1,29 @@
+{
+  "id": "asset:airport_runway_road:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_runway_road:v1.glb",
+  "bbox": [
+    3.0,
+    0.2,
+    12.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "path",
+        "w": 3.0,
+        "h": 0.2,
+        "d": 12.0,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ]
+      }
+    ],
+    "materials": {
+      "path": "packed_earth"
+    },
+    "id": "asset:airport_runway_road:v1"
+  }
+}

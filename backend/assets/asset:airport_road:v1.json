@@ -1,0 +1,22 @@
+{
+  "id": "asset:airport_road:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_road:v1.glb",
+  "bbox": [
+    10.0,
+    0.1,
+    5.0
+  ],
+  "recipe": {
+    "id": "asset:airport_road:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "road_segment",
+        "w": 10,
+        "h": 0.1,
+        "d": 5
+      }
+    ],
+    "materials": {}
+  }
+}

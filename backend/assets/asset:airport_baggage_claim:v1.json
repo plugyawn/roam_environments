@@ -1,0 +1,65 @@
+{
+  "id": "asset:airport_baggage_claim:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_baggage_claim:v1.glb",
+  "bbox": [
+    8.0,
+    1.4500000000000002,
+    3.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "base",
+        "w": 8,
+        "h": 0.8,
+        "d": 3
+      },
+      {
+        "primitive": "cuboid",
+        "name": "belt_support",
+        "w": 0.3,
+        "h": 0.1,
+        "d": 2.5,
+        "offset": [
+          0,
+          0.9,
+          0
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "roller1",
+        "r": 0.1,
+        "h": 0.1,
+        "offset": [
+          -3.5,
+          0.95,
+          0
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "roller2",
+        "r": 0.1,
+        "h": 0.1,
+        "offset": [
+          3.5,
+          0.95,
+          0
+        ]
+      }
+    ],
+    "materials": {
+      "base": "metal",
+      "belt_support": "rubber",
+      "roller1": "metal",
+      "roller2": "metal"
+    },
+    "id": "asset:airport_baggage_claim:v1",
+    "tags": [
+      "airport_baggage_claim",
+      "asset:airport_baggage_claim:v1"
+    ]
+  }
+}

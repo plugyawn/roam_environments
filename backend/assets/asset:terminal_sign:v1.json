@@ -1,0 +1,56 @@
+{
+  "id": "asset:terminal_sign:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:terminal_sign:v1.glb",
+  "bbox": [
+    0.6,
+    3.05,
+    1.0
+  ],
+  "recipe": {
+    "id": "asset:terminal_sign:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "base",
+        "w": 0.1,
+        "h": 2.0,
+        "d": 0.05
+      },
+      {
+        "primitive": "cuboid",
+        "name": "sign_body",
+        "w": 0.6,
+        "h": 0.4,
+        "d": 0.02,
+        "offset": [
+          0,
+          1.8,
+          0
+        ]
+      },
+      {
+        "primitive": "plane",
+        "name": "sign_face",
+        "w": 0.55,
+        "h": 0.35,
+        "offset": [
+          0,
+          1.8,
+          0.011
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "pole_cap",
+        "r": 0.05,
+        "h": 0.02,
+        "offset": [
+          0,
+          2.0,
+          0
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

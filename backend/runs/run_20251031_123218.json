@@ -1,0 +1,439 @@
+{
+  "assets": [
+    {
+      "id": "asset:background:v1"
+    },
+    {
+      "id": "asset:airport_terminal:v1"
+    },
+    {
+      "id": "asset:subway_track:v1"
+    },
+    {
+      "id": "asset:security_checkpoint:v1"
+    },
+    {
+      "id": "asset:moving_walkway:v1"
+    },
+    {
+      "id": "asset:baggage_claim:v1"
+    },
+    {
+      "id": "asset:terminal_gate:v1"
+    },
+    {
+      "id": "asset:airport_signage:v1"
+    },
+    {
+      "id": "asset:subway_train:v1"
+    },
+    {
+      "id": "asset:passenger_cart:v1"
+    },
+    {
+      "id": "asset:coin_collectible:v1"
+    },
+    {
+      "id": "asset:powerup_item:v1"
+    },
+    {
+      "id": "asset:road_primitive:v1"
+    }
+  ],
+  "placements": [
+    {
+      "asset_id": "asset:background:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:subway_track:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          -10
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:subway_track:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          5
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:subway_track:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          20
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:subway_track:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          35
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:subway_track:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          50
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:security_checkpoint:v1",
+      "transform": {
+        "pos": [
+          5,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:moving_walkway:v1",
+      "transform": {
+        "pos": [
+          -5,
+          0,
+          10
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:baggage_claim:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          25
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:terminal_gate:v1",
+      "transform": {
+        "pos": [
+          8,
+          0,
+          -20
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:airport_signage:v1",
+      "transform": {
+        "pos": [
+          -8,
+          0,
+          -15
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:subway_train:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          -5
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:passenger_cart:v1",
+      "transform": {
+        "pos": [
+          3,
+          0,
+          15
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:coin_collectible:v1",
+      "transform": {
+        "pos": [
+          0,
+          1,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:coin_collectible:v1",
+      "transform": {
+        "pos": [
+          0,
+          1,
+          10
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:coin_collectible:v1",
+      "transform": {
+        "pos": [
+          0,
+          1,
+          20
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:powerup_item:v1",
+      "transform": {
+        "pos": [
+          0,
+          1,
+          30
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:airport_terminal:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:coin_collectible:v1",
+      "transform": {
+        "pos": [
+          2,
+          1,
+          -5
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:coin_collectible:v1",
+      "transform": {
+        "pos": [
+          -2,
+          1,
+          15
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:powerup_item:v1",
+      "transform": {
+        "pos": [
+          0,
+          1,
+          40
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:road_primitive:v1",
+      "transform": {
+        "pos": [
+          0,
+          -0.1,
+          -15
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:road_primitive:v1",
+      "transform": {
+        "pos": [
+          0,
+          -0.1,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:road_primitive:v1",
+      "transform": {
+        "pos": [
+          0,
+          -0.1,
+          15
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:road_primitive:v1",
+      "transform": {
+        "pos": [
+          0,
+          -0.1,
+          30
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "asset_id": "asset:road_primitive:v1",
+      "transform": {
+        "pos": [
+          0,
+          -0.1,
+          45
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "run_id": "run_20251031_123218",
+    "manifest_path": "/Users/plugyawn/bounties/roam_environments/backend/runs/run_20251031_123218.json"
+  }
+}

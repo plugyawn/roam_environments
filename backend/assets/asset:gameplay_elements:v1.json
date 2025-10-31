@@ -1,0 +1,59 @@
+{
+  "id": "asset:gameplay_elements:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:gameplay_elements:v1.glb",
+  "bbox": [
+    10.0,
+    2.205,
+    3.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "plane",
+        "name": "ground",
+        "w": 10,
+        "h": 10,
+        "d": 0.1
+      },
+      {
+        "primitive": "cuboid",
+        "name": "platform",
+        "w": 3,
+        "h": 0.5,
+        "d": 3,
+        "offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "pillar",
+        "r": 0.3,
+        "h": 1,
+        "offset": [
+          0,
+          0.5,
+          0
+        ]
+      },
+      {
+        "primitive": "sphere",
+        "name": "collectible",
+        "r": 0.2,
+        "offset": [
+          0,
+          2,
+          0
+        ]
+      }
+    ],
+    "materials": {},
+    "id": "asset:gameplay_elements:v1",
+    "tags": [
+      "gameplay_elements",
+      "asset:gameplay_elements:v1"
+    ]
+  }
+}

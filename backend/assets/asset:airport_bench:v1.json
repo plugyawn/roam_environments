@@ -1,0 +1,56 @@
+{
+  "id": "asset:airport_bench:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_bench:v1.glb",
+  "bbox": [
+    1.5,
+    0.545,
+    0.6749999999999999
+  ],
+  "recipe": {
+    "id": "asset:airport_bench:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "seat",
+        "w": 1.5,
+        "h": 0.05,
+        "d": 0.4
+      },
+      {
+        "primitive": "cuboid",
+        "name": "backrest",
+        "w": 1.5,
+        "h": 0.05,
+        "d": 0.3,
+        "offset": [
+          0,
+          0.3,
+          -0.175
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "leg1",
+        "r": 0.02,
+        "h": 0.4,
+        "offset": [
+          -0.7,
+          -0.2,
+          0.15
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "leg2",
+        "r": 0.02,
+        "h": 0.4,
+        "offset": [
+          0.7,
+          -0.2,
+          0.15
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

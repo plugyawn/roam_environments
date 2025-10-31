@@ -1,0 +1,60 @@
+{
+  "id": "asset:background:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:background:v1.glb",
+  "bbox": [
+    50.0,
+    25.11,
+    34.5
+  ],
+  "recipe": {
+    "id": "asset:background:v1",
+    "recipe": [
+      {
+        "primitive": "plane",
+        "name": "sky",
+        "w": 50,
+        "h": 50,
+        "offset": [
+          0,
+          25,
+          -25
+        ]
+      },
+      {
+        "primitive": "plane",
+        "name": "ground",
+        "w": 50,
+        "h": 50,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "mountain",
+        "w": 20,
+        "h": 15,
+        "d": 8,
+        "offset": [
+          -15,
+          7.5,
+          -30
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "tree",
+        "r": 0.3,
+        "h": 8,
+        "offset": [
+          10,
+          4,
+          -10
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

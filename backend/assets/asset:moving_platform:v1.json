@@ -1,0 +1,29 @@
+{
+  "id": "asset:moving_platform:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:moving_platform:v1.glb",
+  "bbox": [
+    4.0,
+    0.5,
+    2.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "moving_platform",
+        "w": 4,
+        "h": 0.5,
+        "d": 2
+      }
+    ],
+    "materials": {
+      "moving_platform": "metal_gray"
+    },
+    "id": "asset:moving_platform:v1",
+    "tags": [
+      "gameplay",
+      "obstacle",
+      "moving_platform"
+    ]
+  }
+}

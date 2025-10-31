@@ -1,0 +1,54 @@
+{
+  "id": "asset:plant:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:plant:v1.glb",
+  "bbox": [
+    0.6,
+    1.2,
+    1.0
+  ],
+  "recipe": {
+    "id": "asset:plant:v1",
+    "recipe": [
+      {
+        "primitive": "cylinder",
+        "name": "stem",
+        "r": 0.05,
+        "h": 0.8
+      },
+      {
+        "primitive": "sphere",
+        "name": "leaves",
+        "r": 0.3,
+        "offset": [
+          0,
+          0.7,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "pot",
+        "w": 0.3,
+        "h": 0.2,
+        "d": 0.3,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ]
+      },
+      {
+        "primitive": "plane",
+        "name": "soil",
+        "w": 0.25,
+        "h": 0.25,
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "asset:departure_board:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:departure_board:v1.glb",
+  "bbox": [
+    3.0,
+    3.525,
+    0.2
+  ],
+  "recipe": {
+    "id": "asset:departure_board:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "board",
+        "w": 3.0,
+        "h": 2.0,
+        "d": 0.1
+      },
+      {
+        "primitive": "cuboid",
+        "name": "stand",
+        "w": 0.1,
+        "h": 1.5,
+        "d": 0.05,
+        "offset": [
+          0,
+          -1.75,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "base",
+        "w": 0.3,
+        "h": 0.05,
+        "d": 0.2,
+        "offset": [
+          0,
+          -2.5,
+          0
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

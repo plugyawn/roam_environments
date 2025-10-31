@@ -1,0 +1,62 @@
+{
+  "id": "asset:subway_train:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:subway_train:v1.glb",
+  "bbox": [
+    3.0,
+    3.9,
+    20.0
+  ],
+  "recipe": {
+    "id": "asset:subway_train:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "car_body",
+        "w": 2.8,
+        "h": 3.5,
+        "d": 20
+      },
+      {
+        "primitive": "cylinder",
+        "name": "wheel",
+        "r": 0.4,
+        "h": 0.2,
+        "offset": [
+          1.2,
+          -1.75,
+          -8
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "door",
+        "w": 1.2,
+        "h": 2.2,
+        "d": 0.1,
+        "offset": [
+          0.8,
+          0.65,
+          -9.9
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "window",
+        "w": 1.5,
+        "h": 1.2,
+        "d": 0.1,
+        "offset": [
+          0,
+          1.15,
+          9.9
+        ]
+      }
+    ],
+    "materials": {
+      "car_body": "metal",
+      "wheel": "rubber",
+      "door": "metal",
+      "window": "glass"
+    }
+  }
+}

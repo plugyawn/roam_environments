@@ -1,0 +1,60 @@
+{
+  "id": "asset:background_sky:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:background_sky:v1.glb",
+  "bbox": [
+    1000.0,
+    160.005,
+    310.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "plane",
+        "name": "sky",
+        "w": 1000,
+        "h": 1000,
+        "d": 0
+      },
+      {
+        "primitive": "sphere",
+        "name": "sun",
+        "r": 10,
+        "offset": [
+          200,
+          150,
+          -300
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "cloud1",
+        "w": 50,
+        "h": 10,
+        "d": 20,
+        "offset": [
+          -100,
+          100,
+          -250
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "cloud2",
+        "w": 30,
+        "h": 8,
+        "d": 15,
+        "offset": [
+          50,
+          80,
+          -200
+        ]
+      }
+    ],
+    "materials": {},
+    "id": "asset:background_sky:v1",
+    "tags": [
+      "background_sky",
+      "asset:background_sky:v1"
+    ]
+  }
+}

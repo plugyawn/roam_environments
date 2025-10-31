@@ -1,0 +1,55 @@
+{
+  "id": "asset:subway_surfers_statue:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:subway_surfers_statue:v1.glb",
+  "bbox": [
+    2.0,
+    3.3,
+    2.4
+  ],
+  "recipe": {
+    "id": "asset:subway_surfers_statue:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "base",
+        "w": 2.0,
+        "h": 0.3,
+        "d": 2.0
+      },
+      {
+        "primitive": "cylinder",
+        "name": "body",
+        "r": 0.4,
+        "h": 1.8,
+        "offset": [
+          0,
+          1.05,
+          0
+        ]
+      },
+      {
+        "primitive": "sphere",
+        "name": "head",
+        "r": 0.3,
+        "offset": [
+          0,
+          2.85,
+          0
+        ]
+      },
+      {
+        "primitive": "pyramid",
+        "name": "board",
+        "w": 0.8,
+        "h": 0.05,
+        "d": 1.2,
+        "offset": [
+          0,
+          0.1,
+          0.8
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

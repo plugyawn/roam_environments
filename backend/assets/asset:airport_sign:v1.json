@@ -1,0 +1,60 @@
+{
+  "id": "asset:airport_sign:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_sign:v1.glb",
+  "bbox": [
+    1.2,
+    2.9,
+    1.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "base",
+        "w": 0.3,
+        "h": 2.5,
+        "d": 0.1
+      },
+      {
+        "primitive": "cuboid",
+        "name": "sign_back",
+        "w": 1.2,
+        "h": 0.8,
+        "d": 0.05,
+        "offset": [
+          0,
+          1.25,
+          0.05
+        ]
+      },
+      {
+        "primitive": "plane",
+        "name": "sign_face",
+        "w": 1.2,
+        "h": 0.8,
+        "offset": [
+          0,
+          1.25,
+          0.075
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "pole_connector",
+        "r": 0.05,
+        "h": 0.1,
+        "offset": [
+          0,
+          1.25,
+          0
+        ]
+      }
+    ],
+    "materials": {},
+    "id": "asset:airport_sign:v1",
+    "tags": [
+      "airport_sign",
+      "asset:airport_sign:v1"
+    ]
+  }
+}

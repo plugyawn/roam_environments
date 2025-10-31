@@ -1,0 +1,56 @@
+{
+  "id": "asset:airport_cargo_container:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_cargo_container:v1.glb",
+  "bbox": [
+    2.4,
+    2.15,
+    6.0
+  ],
+  "recipe": {
+    "id": "asset:airport_cargo_container:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "main_body",
+        "w": 2.4,
+        "h": 2.0,
+        "d": 6.0
+      },
+      {
+        "primitive": "cuboid",
+        "name": "door",
+        "w": 2.2,
+        "h": 1.8,
+        "d": 0.1,
+        "offset": [
+          0,
+          -0.1,
+          2.9
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "wheel",
+        "r": 0.15,
+        "h": 0.05,
+        "offset": [
+          1.0,
+          -1.0,
+          2.5
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "wheel",
+        "r": 0.15,
+        "h": 0.05,
+        "offset": [
+          -1.0,
+          -1.0,
+          2.5
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

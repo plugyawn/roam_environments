@@ -1,0 +1,58 @@
+{
+  "id": "asset:airport_fence:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_fence:v1.glb",
+  "bbox": [
+    50.0,
+    3.9,
+    0.2
+  ],
+  "recipe": {
+    "id": "asset:airport_fence:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "fence_base",
+        "w": 50,
+        "h": 0.3,
+        "d": 0.2
+      },
+      {
+        "primitive": "cuboid",
+        "name": "fence_top",
+        "w": 50,
+        "h": 0.3,
+        "d": 0.2,
+        "offset": [
+          0,
+          2.5,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "vertical_slats",
+        "w": 0.05,
+        "h": 2.5,
+        "d": 0.05
+      },
+      {
+        "primitive": "cuboid",
+        "name": "horizontal_rail",
+        "w": 50,
+        "h": 0.1,
+        "d": 0.05,
+        "offset": [
+          0,
+          1.25,
+          0
+        ]
+      }
+    ],
+    "materials": {
+      "fence_base": "metal",
+      "fence_top": "metal",
+      "vertical_slats": "metal",
+      "horizontal_rail": "metal"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "asset:airport_charging_station:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_charging_station:v1.glb",
+  "bbox": [
+    3.0,
+    2.155,
+    2.0
+  ],
+  "recipe": {
+    "id": "asset:airport_charging_station:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "base",
+        "w": 3,
+        "h": 0.3,
+        "d": 2
+      },
+      {
+        "primitive": "cuboid",
+        "name": "housing",
+        "w": 2.5,
+        "h": 1.8,
+        "d": 1.5,
+        "offset": [
+          0,
+          1.05,
+          0
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "charger_port",
+        "r": 0.05,
+        "h": 0.15,
+        "offset": [
+          0.8,
+          1.95,
+          0.6
+        ]
+      },
+      {
+        "primitive": "plane",
+        "name": "solar_panel",
+        "w": 2.8,
+        "h": 0.1,
+        "d": 1.8,
+        "offset": [
+          0,
+          2.0,
+          0
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

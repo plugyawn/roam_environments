@@ -1,0 +1,56 @@
+{
+  "id": "asset:bench:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:bench:v1.glb",
+  "bbox": [
+    1.5,
+    0.62,
+    0.45000000000000007
+  ],
+  "recipe": {
+    "id": "asset:bench:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "seat",
+        "w": 1.5,
+        "h": 0.05,
+        "d": 0.3
+      },
+      {
+        "primitive": "cuboid",
+        "name": "back",
+        "w": 1.5,
+        "h": 0.4,
+        "d": 0.05,
+        "offset": [
+          0,
+          0.2,
+          -0.125
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "leg1",
+        "r": 0.02,
+        "h": 0.4,
+        "offset": [
+          0.65,
+          -0.2,
+          0.1
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "leg2",
+        "r": 0.02,
+        "h": 0.4,
+        "offset": [
+          -0.65,
+          -0.2,
+          0.1
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

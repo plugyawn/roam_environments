@@ -1,0 +1,61 @@
+{
+  "id": "asset:airport_gate:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_gate:v1.glb",
+  "bbox": [
+    25.0,
+    8.004999999999999,
+    20.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "terminal_wall",
+        "w": 20,
+        "h": 8,
+        "d": 0.5
+      },
+      {
+        "primitive": "cuboid",
+        "name": "jetbridge",
+        "w": 3,
+        "h": 4,
+        "d": 15,
+        "offset": [
+          8,
+          2,
+          0
+        ]
+      },
+      {
+        "primitive": "plane",
+        "name": "ground",
+        "w": 25,
+        "d": 20,
+        "offset": [
+          0,
+          -4,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "gate_sign",
+        "w": 0.3,
+        "h": 2,
+        "d": 1,
+        "offset": [
+          -9,
+          3,
+          0
+        ]
+      }
+    ],
+    "materials": {},
+    "id": "asset:airport_gate:v1",
+    "tags": [
+      "airport_gate",
+      "asset:airport_gate:v1"
+    ]
+  }
+}

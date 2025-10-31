@@ -43,7 +43,7 @@ async def _amain(prompt: str, use_faiss: bool | None) -> None:
         config.vector_store.use_faiss = use_faiss
     result = await run_prompt(prompt, config)
     print(json.dumps({
-        "scene_id": result.get("scene_id"),
+        "run_id": result.get("run_id"),
         "manifest_path": result.get("manifest_path"),
         "snapshot_path": result.get("snapshot_path"),
         "assets": len(result.get("assets", [])),

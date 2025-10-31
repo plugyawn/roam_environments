@@ -1,0 +1,48 @@
+{
+  "id": "asset:trash_can:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:trash_can:v1.glb",
+  "bbox": [
+    0.7,
+    1.5,
+    0.8
+  ],
+  "recipe": {
+    "id": "asset:trash_can:v1",
+    "recipe": [
+      {
+        "primitive": "cylinder",
+        "name": "body",
+        "r": 0.3,
+        "h": 0.8
+      },
+      {
+        "primitive": "cylinder",
+        "name": "lid",
+        "r": 0.35,
+        "h": 0.05,
+        "offset": [
+          0,
+          0.85,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "handle",
+        "w": 0.02,
+        "h": 0.15,
+        "d": 0.02,
+        "offset": [
+          0,
+          0.9,
+          0.35
+        ]
+      }
+    ],
+    "materials": {
+      "body": "metal",
+      "lid": "metal",
+      "handle": "plastic"
+    }
+  }
+}

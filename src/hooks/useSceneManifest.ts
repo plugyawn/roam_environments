@@ -54,8 +54,9 @@ export function useSceneManifest() {
 
   const payload = useMemo<ScenePayload | null>(() => {
     if (!data) return null
-    const snapshotUrl = data.scene_id ? `/api/snapshots/${data.scene_id}` : undefined
-    return { ...data, snapshotUrl }
+    const runId = data.run_id ?? (typeof data.metadata?.run_id === 'string' ? data.metadata.run_id : undefined)
+    const snapshotUrl = runId ? `/api/snapshots/${runId}` : undefined
+    return { ...data, run_id: runId, snapshotUrl }
   }, [data])
 
   const reload = useCallback(() => {

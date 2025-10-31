@@ -1,0 +1,54 @@
+{
+  "id": "asset:power_up_speed:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:power_up_speed:v1.glb",
+  "bbox": [
+    0.6,
+    2.0999999999999996,
+    0.8
+  ],
+  "recipe": {
+    "id": "asset:power_up_speed:v1",
+    "recipe": [
+      {
+        "primitive": "cylinder",
+        "name": "base",
+        "r": 0.3,
+        "h": 0.1
+      },
+      {
+        "primitive": "cylinder",
+        "name": "core",
+        "r": 0.2,
+        "h": 0.8,
+        "offset": [
+          0,
+          0.4,
+          0
+        ]
+      },
+      {
+        "primitive": "sphere",
+        "name": "top",
+        "r": 0.25,
+        "offset": [
+          0,
+          0.8,
+          0
+        ]
+      },
+      {
+        "primitive": "pyramid",
+        "name": "arrow",
+        "w": 0.4,
+        "h": 0.6,
+        "d": 0.4,
+        "offset": [
+          0,
+          1.2,
+          0
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

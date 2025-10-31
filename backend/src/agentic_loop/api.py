@@ -35,8 +35,8 @@ def _latest_manifest() -> Optional[Path]:
     return manifests[0] if manifests else None
 
 
-def _manifest_by_scene(scene_id: str) -> Optional[Path]:
-    candidate = CONFIG.paths.run_root / f"{scene_id}.json"
+def _manifest_by_run(run_id: str) -> Optional[Path]:
+    candidate = CONFIG.paths.run_root / f"{run_id}.json"
     if candidate.exists():
         return candidate
     return None
@@ -52,21 +52,20 @@ def get_latest_run() -> dict:
     return json.loads(manifest_path.read_text())
 
 
-@app.get("/runs/{scene_id}")
-def get_run(scene_id: str) -> dict:
-    """Return a persisted scene manifest by scene identifier."""
+@app.get("/runs/{run_id}")
+def get_run(run_id: str) -> dict:
+    """Return a persisted scene manifest by run identifier."""
 
-    manifest_path = _manifest_by_scene(scene_id)
+    manifest_path = _manifest_by_run(run_id)
     if manifest_path is None:
-        raise HTTPException(status_code=404, detail="Scene manifest not found")
+        raise HTTPException(status_code=404, detail="Run manifest not found")
     return json.loads(manifest_path.read_text())
 
+@app.get("/snapshots/{run_id}")
+def get_snapshot(run_id: str) -> FileResponse:
+    """Serve a rendered snapshot image for a run."""
 
-@app.get("/snapshots/{scene_id}")
-def get_snapshot(scene_id: str) -> FileResponse:
-    """Serve a rendered snapshot image for a scene."""
-
-    path = CONFIG.paths.snapshot_root / f"{scene_id}.png"
+    path = CONFIG.paths.snapshot_root / f"{run_id}.png"
     if not path.exists():
         raise HTTPException(status_code=404, detail="Snapshot not found")
     return FileResponse(path)

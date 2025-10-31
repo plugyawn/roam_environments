@@ -1,16 +1,15 @@
-"""Map generation tool using shapely for spline and region construction."""
+"""Map generation tool using shapely for basic region construction."""
 
 from __future__ import annotations
 
-import math
-from typing import Dict, List, Tuple
+from typing import Dict, List
 
 from shapely.affinity import translate
-from shapely.geometry import LineString, Polygon
+from shapely.geometry import Polygon
 
 
 def generate_map(scene_spec: Dict) -> Dict:
-    """Produce a terrain plan with labelled regions and a river spline."""
+    """Produce a terrain plan with labelled regions."""
 
     width = 240
     height = 240
@@ -33,20 +32,10 @@ def generate_map(scene_spec: Dict) -> Dict:
         }
     )
 
-    spline = _river_spline(base_polygon)
-    splines: List[Dict] = [
-        {
-            "id": "spl:river1",
-            "type": "river",
-            "points": [[x, 0.0, y] for x, y in spline.coords],
-        }
-    ]
-
     return {
         "size": {"w": width, "h": height, "units": "m"},
         "terrain": {"type": "flat", "elevation": 0},
         "regions": regions,
-        "splines": splines,
     }
 
 
@@ -54,15 +43,6 @@ def _central_square(area: Polygon, size: float) -> Polygon:
     half = size / 2
     square = Polygon([(-half, -half), (half, -half), (half, half), (-half, half)])
     return square.intersection(area)
-
-
-def _river_spline(area: Polygon) -> LineString:
-    minx, miny, maxx, maxy = area.bounds
-    start = (minx + 20, miny)
-    mid1 = ((minx + maxx) / 2 - 30, (miny + maxy) / 2 - 10)
-    mid2 = ((minx + maxx) / 2 + 40, (miny + maxy) / 2 + 30)
-    end = (maxx - 20, maxy)
-    return LineString([start, mid1, mid2, end])
 
 
 def _serialize_regions(regions: Dict[str, Polygon]) -> List[Dict]:

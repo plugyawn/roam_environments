@@ -37,7 +37,7 @@ export function Gallery({ manifest }: GalleryProps) {
           <>
             <Card className="h-56 flex items-center justify-center overflow-hidden">
               {scene.snapshotUrl ? (
-                <img src={scene.snapshotUrl} alt={scene.scene_id} className="max-h-full w-full object-contain" />
+                <img src={scene.snapshotUrl} alt={scene.run_id ?? 'latest-run'} className="max-h-full w-full object-contain" />
               ) : (
                 <p className="text-sm text-slate-600">Snapshot not available for this scene.</p>
               )}

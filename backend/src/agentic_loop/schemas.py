@@ -110,34 +110,13 @@ MapPlan = {
                 },
             },
         },
-        "splines": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "required": ["id", "points"],
-                "properties": {
-                    "id": {"type": "string"},
-                    "type": {"type": "string"},
-                    "points": {
-                        "type": "array",
-                        "items": {
-                            "type": "array",
-                            "items": {"type": "number"},
-                            "minItems": 3,
-                            "maxItems": 3,
-                        },
-                        "minItems": 2,
-                    },
-                },
-            },
-        },
     },
 }
 
 SceneGraph = {
     "type": "object",
     "additionalProperties": False,
-    "required": ["scene_id", "assets", "placements"],
+    "required": ["assets", "placements"],
     "properties": {
         "scene_id": {"type": "string"},
         "assets": {"type": "array", "items": {"type": "string"}},

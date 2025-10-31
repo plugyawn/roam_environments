@@ -18,10 +18,10 @@ export type AssetManifest = {
 }
 
 export type SceneGraph = {
-  scene_id: string
   assets: string[]
   placements: ScenePlacement[]
   map?: unknown
+  metadata?: Record<string, unknown>
 }
 
 export type ValidationIssue = {
@@ -49,7 +49,7 @@ export type RequirementsLedger = {
 }
 
 export type SceneManifest = {
-  scene_id: string
+  run_id?: string
   prompt?: string
   manifest_path?: string
   snapshot_path?: string
@@ -59,4 +59,5 @@ export type SceneManifest = {
   requirements?: RequirementsLedger
   scene_spec?: Record<string, unknown>
   validation?: ValidationReport
+  metadata?: Record<string, unknown>
 }

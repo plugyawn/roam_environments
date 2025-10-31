@@ -1,0 +1,57 @@
+{
+  "id": "asset:security_checkpoint:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:security_checkpoint:v1.glb",
+  "bbox": [
+    3.0,
+    1.6,
+    2.0
+  ],
+  "recipe": {
+    "id": "asset:security_checkpoint:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "base",
+        "w": 3,
+        "h": 0.8,
+        "d": 2
+      },
+      {
+        "primitive": "cuboid",
+        "name": "scanner",
+        "w": 0.6,
+        "h": 1.2,
+        "d": 0.4,
+        "offset": [
+          0,
+          0.6,
+          0
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "pole",
+        "r": 0.05,
+        "h": 1.5,
+        "offset": [
+          1.2,
+          0.75,
+          0
+        ]
+      },
+      {
+        "primitive": "plane",
+        "name": "conveyor",
+        "w": 2.5,
+        "h": 0.1,
+        "d": 0.6,
+        "offset": [
+          0,
+          0.8,
+          0.7
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

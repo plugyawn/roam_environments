@@ -1,0 +1,56 @@
+{
+  "id": "asset:train:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:train:v1.glb",
+  "bbox": [
+    3.5999999999999996,
+    2.2,
+    14.0
+  ],
+  "recipe": {
+    "id": "asset:train:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "engine",
+        "w": 3,
+        "h": 2,
+        "d": 8
+      },
+      {
+        "primitive": "cylinder",
+        "name": "wheel_front",
+        "r": 0.6,
+        "h": 0.3,
+        "offset": [
+          1.2,
+          -0.6,
+          2.5
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "wheel_back",
+        "r": 0.6,
+        "h": 0.3,
+        "offset": [
+          -1.2,
+          -0.6,
+          -2.5
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "cargo",
+        "w": 2.5,
+        "h": 1.5,
+        "d": 6,
+        "offset": [
+          0,
+          0,
+          -7
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "asset:airport_background:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_background:v1.glb",
+  "bbox": [
+    100.0,
+    0.01,
+    0.1
+  ],
+  "recipe": {
+    "id": "asset:airport_background:v1",
+    "recipe": [
+      {
+        "primitive": "plane",
+        "name": "background",
+        "w": 100,
+        "h": 100,
+        "d": 0.1
+      }
+    ],
+    "materials": {}
+  }
+}

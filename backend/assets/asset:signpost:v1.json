@@ -1,0 +1,44 @@
+{
+  "id": "asset:signpost:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:signpost:v1.glb",
+  "bbox": [
+    1.0,
+    2.2,
+    2.5
+  ],
+  "recipe": {
+    "id": "asset:signpost:v1",
+    "recipe": [
+      {
+        "primitive": "cylinder",
+        "name": "post",
+        "r": 0.1,
+        "h": 2.5
+      },
+      {
+        "primitive": "cuboid",
+        "name": "sign",
+        "w": 0.8,
+        "h": 0.6,
+        "d": 0.05,
+        "offset": [
+          0.5,
+          1.8,
+          0
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "arm",
+        "r": 0.05,
+        "h": 1.2,
+        "offset": [
+          0.4,
+          1.8,
+          0
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

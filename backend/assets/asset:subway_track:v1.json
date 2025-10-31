@@ -1,0 +1,62 @@
+{
+  "id": "asset:subway_track:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:subway_track:v1.glb",
+  "bbox": [
+    2.0,
+    0.355,
+    20.0
+  ],
+  "recipe": {
+    "id": "asset:subway_track:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "rail1",
+        "w": 0.1,
+        "h": 0.15,
+        "d": 20,
+        "offset": [
+          -0.75,
+          0.075,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "rail2",
+        "w": 0.1,
+        "h": 0.15,
+        "d": 20,
+        "offset": [
+          0.75,
+          0.075,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "ties",
+        "w": 1.5,
+        "h": 0.2,
+        "d": 20,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ]
+      },
+      {
+        "primitive": "plane",
+        "name": "bed",
+        "w": 2,
+        "h": 20,
+        "offset": [
+          0,
+          -0.2,
+          0
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

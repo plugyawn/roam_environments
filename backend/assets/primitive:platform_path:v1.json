@@ -1,0 +1,22 @@
+{
+  "id": "primitive:platform_path:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/primitive:platform_path:v1.glb",
+  "bbox": [
+    1.0,
+    0.1,
+    1.0
+  ],
+  "recipe": {
+    "id": "primitive:platform_path:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "path",
+        "w": 1,
+        "h": 0.1,
+        "d": 1
+      }
+    ],
+    "materials": {}
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "asset:coin_v1:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:coin_v1:v1.glb",
+  "bbox": [
+    0.024,
+    0.024,
+    0.002
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cylinder",
+        "name": "coin_body",
+        "r": 0.012,
+        "h": 0.002
+      },
+      {
+        "primitive": "plane",
+        "name": "face",
+        "w": 0.024,
+        "h": 0.024,
+        "d": 0.0001,
+        "offset": [
+          0,
+          0.00105,
+          0
+        ]
+      }
+    ],
+    "materials": {},
+    "id": "asset:coin_v1:v1",
+    "tags": [
+      "coin_v1",
+      "asset:coin_v1:v1"
+    ]
+  }
+}

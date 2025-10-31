@@ -1,0 +1,62 @@
+{
+  "id": "asset:power_up_magnet_v1:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:power_up_magnet_v1:v1.glb",
+  "bbox": [
+    0.8,
+    0.8,
+    0.5
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cylinder",
+        "name": "magnet_body",
+        "r": 0.3,
+        "h": 0.1
+      },
+      {
+        "primitive": "cylinder",
+        "name": "magnet_ring",
+        "r": 0.4,
+        "h": 0.05,
+        "offset": [
+          0,
+          0.05,
+          0
+        ]
+      },
+      {
+        "primitive": "sphere",
+        "name": "power_core",
+        "r": 0.15,
+        "offset": [
+          0,
+          0.15,
+          0
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "energy_beam",
+        "r": 0.05,
+        "h": 0.5,
+        "offset": [
+          0,
+          0.4,
+          0
+        ]
+      }
+    ],
+    "materials": {
+      "magnet_body": "metallic",
+      "magnet_ring": "metallic",
+      "power_core": "glowing",
+      "energy_beam": "transparent"
+    },
+    "id": "asset:power_up_magnet_v1:v1",
+    "tags": [
+      "power_up_magnet_v1",
+      "asset:power_up_magnet_v1:v1"
+    ]
+  }
+}

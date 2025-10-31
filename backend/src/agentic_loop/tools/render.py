@@ -138,8 +138,31 @@ class _Transform:
 def render_snapshot(scene_graph: Dict) -> Dict:
     root = _snapshot_root()
     root.mkdir(parents=True, exist_ok=True)
-    run_id = scene_graph.get("scene_id", datetime.utcnow().strftime("run_%Y%m%d_%H%M%S"))
-    path = root / f"{run_id}.png"
+
+    metadata = scene_graph.get("metadata")
+    if not isinstance(metadata, dict):
+        metadata = {}
+        scene_graph["metadata"] = metadata
+
+    run_label = (
+        metadata.get("run_id")
+        or scene_graph.get("run_id")
+        or scene_graph.get("scene_id")
+        or metadata.get("scene_id")
+        or datetime.utcnow().strftime("run_%Y%m%d_%H%M%S")
+    )
+    if not isinstance(run_label, str) or not run_label.strip():
+        run_label = datetime.utcnow().strftime("run_%Y%m%d_%H%M%S")
+    run_label = run_label.strip()
+
+    scene_graph["run_id"] = run_label
+    metadata["run_id"] = run_label
+
+    filename = run_label.replace(os.sep, "_")
+    if os.altsep:
+        filename = filename.replace(os.altsep, "_")
+
+    path = root / f"{filename}.png"
     _draw_top_down(path, scene_graph)
     return {"snapshot_path": str(path)}
 
@@ -149,19 +172,38 @@ def render_web_view(manifest: Dict, manifest_path: str) -> Dict:
         return {}
 
     manifest_file = Path(manifest_path)
-    scene_id = (
-        manifest.get("scene_id")
+    metadata = manifest.get("metadata")
+    if not isinstance(metadata, dict):
+        metadata = {}
+        manifest["metadata"] = metadata
+
+    run_label = (
+        manifest.get("run_id")
+        or metadata.get("run_id")
+        or manifest.get("scene_id")
+        or metadata.get("scene_id")
         or manifest_file.stem
         or datetime.utcnow().strftime("run_%Y%m%d_%H%M%S")
     )
+    if not isinstance(run_label, str) or not run_label.strip():
+        run_label = datetime.utcnow().strftime("run_%Y%m%d_%H%M%S")
+    run_label = run_label.strip()
+
+    manifest["run_id"] = run_label
+    metadata["run_id"] = run_label
+
     run_dir = manifest_file.parent
     run_dir.mkdir(parents=True, exist_ok=True)
 
-    html_path = run_dir / f"{scene_id}.html"
-    tsx_path = run_dir / f"{scene_id}.Canvas.tsx"
+    filename = run_label.replace(os.sep, "_")
+    if os.altsep:
+        filename = filename.replace(os.altsep, "_")
 
-    html_path.write_text(_build_html_view(manifest, scene_id), encoding="utf-8")
-    tsx_path.write_text(_build_tsx_view(manifest, scene_id), encoding="utf-8")
+    html_path = run_dir / f"{filename}.html"
+    tsx_path = run_dir / f"{filename}.Canvas.tsx"
+
+    html_path.write_text(_build_html_view(manifest, run_label), encoding="utf-8")
+    tsx_path.write_text(_build_tsx_view(manifest, run_label), encoding="utf-8")
 
     return {
         "viewer_html_path": str(html_path),
@@ -169,8 +211,8 @@ def render_web_view(manifest: Dict, manifest_path: str) -> Dict:
     }
 
 
-def _build_html_view(manifest: Dict, scene_id: str) -> str:
-        view_model = _build_view_model(manifest, scene_id)
+def _build_html_view(manifest: Dict, run_label: str) -> str:
+        view_model = _build_view_model(manifest, run_label)
         view_model_json = json.dumps(view_model, indent=2)
         fallback_json = json.dumps(_FALLBACK_COLORS)
 
@@ -649,7 +691,7 @@ def _build_html_view(manifest: Dict, scene_id: str) -> str:
         <head>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>__SCENE_ID__ · Scene Viewer</title>
+            <title>__RUN_LABEL__ · Scene Viewer</title>
             <style>
                 :root {
                     color-scheme: dark;
@@ -719,7 +761,7 @@ def _build_html_view(manifest: Dict, scene_id: str) -> str:
             <div id="app">
                 <div id="viewer"></div>
                 <div id="overlay">
-                    <h1>__SCENE_ID__</h1>
+                    <h1>__RUN_LABEL__</h1>
                     <p class="meta">Generated __GENERATED_AT__</p>
                     <div class="stats">
                         <div><strong>Placements:</strong> __PLACEMENT_COUNT__</div>
@@ -738,7 +780,7 @@ def _build_html_view(manifest: Dict, scene_id: str) -> str:
         """
 
         html_content = textwrap.dedent(template).strip()
-        html_content = html_content.replace("__SCENE_ID__", html.escape(scene_id))
+        html_content = html_content.replace("__RUN_LABEL__", html.escape(run_label))
         html_content = html_content.replace("__GENERATED_AT__", html.escape(generated_at or ""))
         html_content = html_content.replace("__PLACEMENT_COUNT__", str(placement_count))
         html_content = html_content.replace("__ASSET_COUNT__", str(asset_count))
@@ -747,8 +789,8 @@ def _build_html_view(manifest: Dict, scene_id: str) -> str:
         return html_content
 
 
-def _build_tsx_view(manifest: Dict, scene_id: str) -> str:
-        view_model = _build_view_model(manifest, scene_id)
+def _build_tsx_view(manifest: Dict, run_label: str) -> str:
+        view_model = _build_view_model(manifest, run_label)
         view_model_json = json.dumps(view_model, indent=2)
         fallback_json = json.dumps(_FALLBACK_COLORS, indent=2)
 
@@ -1211,7 +1253,7 @@ def _build_tsx_view(manifest: Dict, scene_id: str) -> str:
                 <div
                     ref={containerRef}
                     style={{ width: "100%", height: "100%", position: "relative", background: "#0f172a" }}
-                    aria-label={`scene-viewer-__SCENE_ID__`}
+                    aria-label={`scene-viewer-__RUN_LABEL__`}
                 />
             );
         };
@@ -1222,7 +1264,7 @@ def _build_tsx_view(manifest: Dict, scene_id: str) -> str:
         code = textwrap.dedent(template).strip()
         code = code.replace("__VIEW_MODEL__", view_model_json)
         code = code.replace("__FALLBACK__", fallback_json)
-        code = code.replace("__SCENE_ID__", scene_id)
+        code = code.replace("__RUN_LABEL__", run_label)
         return code
 
 
@@ -1270,6 +1312,9 @@ def _extract_placements(scene_graph: Dict) -> List[Placement2D]:
             continue
         pos = entry.get("pos") or entry.get("position") or _nested(entry, "transform", "pos")
         if not isinstance(pos, Iterable):
+            if all(key in entry for key in ("x", "y", "z")):
+                pos = [entry.get("x"), entry.get("y"), entry.get("z")]
+        if not isinstance(pos, Iterable):
             continue
         pos_list = list(pos)
         if len(pos_list) < 3:
@@ -1278,7 +1323,11 @@ def _extract_placements(scene_graph: Dict) -> List[Placement2D]:
         y = float(pos_list[1] or 0)
         z = float(pos_list[2] or 0)
 
-        scale_value = entry.get("scale") or _nested(entry, "transform", "scale") or [1, 1, 1]
+        scale_value = entry.get("scale") or _nested(entry, "transform", "scale")
+        if not isinstance(scale_value, Iterable) and all(key in entry for key in ("sx", "sy", "sz")):
+            scale_value = [entry.get("sx"), entry.get("sy"), entry.get("sz")]
+        if scale_value is None:
+            scale_value = [1, 1, 1]
         if isinstance(scale_value, (int, float)):
             scale_list = [float(scale_value)] * 3
         elif isinstance(scale_value, Iterable):
@@ -1290,6 +1339,7 @@ def _extract_placements(scene_graph: Dict) -> List[Placement2D]:
 
         rot_value = (
             entry.get("rotY")
+            or entry.get("ry")
             or _nested(entry, "rotation", "y")
             or _nested(entry, "transform", "rot", 1)
             or 0
@@ -1508,7 +1558,14 @@ def _draw_header(
     font_title = _load_font(44)
     font_meta = _load_font(26)
 
-    title = str(scene_graph.get("scene_id") or scene_graph.get("name") or "Scene")
+    metadata = scene_graph.get("metadata") if isinstance(scene_graph.get("metadata"), dict) else {}
+    title = str(
+        (metadata or {}).get("run_id")
+        or scene_graph.get("run_id")
+        or scene_graph.get("scene_id")
+        or scene_graph.get("name")
+        or "Scene"
+    )
     draw.text((margin, 32), title, font=font_title, fill=SNAPSHOT_HEADER_COLOR)
     draw.text((margin, margin - 60), f"Placements: {len(placements)}", font=font_meta, fill=SNAPSHOT_SUBTEXT_COLOR)
 
@@ -1656,7 +1713,7 @@ def _measure_text(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.ImageFon
     return approximate_width, font.size
 
 
-def _build_view_model(manifest: Dict, scene_id: str) -> Dict:
+def _build_view_model(manifest: Dict, run_label: str) -> Dict:
     placements: List[Dict] = []
     for placement in _extract_placements(manifest):
         placements.append(
@@ -1696,7 +1753,8 @@ def _build_view_model(manifest: Dict, scene_id: str) -> Dict:
             material_palette.setdefault(lowered, _material_color(lowered))
 
     return {
-        "sceneId": scene_id,
+        "runId": run_label,
+        "sceneId": run_label,
         "prompt": manifest.get("prompt") or "",
         "placements": placements,
         "assets": asset_index,

@@ -1,0 +1,67 @@
+{
+  "id": "asset:train_tracks:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:train_tracks:v1.glb",
+  "bbox": [
+    10.0,
+    0.2,
+    10.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "plane",
+        "name": "ground",
+        "w": 10,
+        "h": 10,
+        "d": 0.1
+      },
+      {
+        "primitive": "cuboid",
+        "name": "rail1",
+        "w": 0.1,
+        "h": 0.2,
+        "d": 10,
+        "offset": [
+          -0.8,
+          0,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "rail2",
+        "w": 0.1,
+        "h": 0.2,
+        "d": 10,
+        "offset": [
+          0.8,
+          0,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "sleeper",
+        "w": 2,
+        "h": 0.1,
+        "d": 0.2,
+        "offset": [
+          0,
+          -0.05,
+          0
+        ]
+      }
+    ],
+    "materials": {
+      "rail1": "steel",
+      "rail2": "steel",
+      "sleeper": "wood",
+      "ground": "gravel"
+    },
+    "id": "asset:train_tracks:v1",
+    "tags": [
+      "train_tracks",
+      "asset:train_tracks:v1"
+    ]
+  }
+}

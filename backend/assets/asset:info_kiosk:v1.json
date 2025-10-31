@@ -1,0 +1,56 @@
+{
+  "id": "asset:info_kiosk:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:info_kiosk:v1.glb",
+  "bbox": [
+    2.2,
+    1.955,
+    1.5
+  ],
+  "recipe": {
+    "id": "asset:info_kiosk:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "base",
+        "w": 2.0,
+        "h": 0.8,
+        "d": 0.5
+      },
+      {
+        "primitive": "cuboid",
+        "name": "screen",
+        "w": 1.2,
+        "h": 0.6,
+        "d": 0.05,
+        "offset": [
+          0,
+          0.7,
+          0.25
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "pole",
+        "r": 0.05,
+        "h": 1.5,
+        "offset": [
+          0,
+          0.75,
+          0
+        ]
+      },
+      {
+        "primitive": "plane",
+        "name": "roof",
+        "w": 2.2,
+        "h": 0.6,
+        "offset": [
+          0,
+          1.55,
+          0
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

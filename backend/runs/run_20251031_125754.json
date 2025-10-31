@@ -1,0 +1,497 @@
+{
+  "assets": [
+    {
+      "id": "asset:airport_terminal_v1:v1",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_terminal_v1:v1.glb",
+      "bbox": [
+        32.0,
+        19.0,
+        20.0
+      ]
+    },
+    {
+      "id": "asset:subway_platform_v1:v1",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:subway_platform_v1:v1.glb",
+      "bbox": [
+        12.0,
+        3.25,
+        4.0
+      ]
+    },
+    {
+      "id": "asset:subway_train_v1:v1",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:subway_train_v1:v1.glb",
+      "bbox": [
+        3.6,
+        3.65,
+        20.0
+      ]
+    },
+    {
+      "id": "asset:security_checkpoint_v1:v1",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:security_checkpoint_v1:v1.glb",
+      "bbox": [
+        3.2,
+        2.6,
+        2.0
+      ]
+    },
+    {
+      "id": "asset:baggage_cart_v1:v1",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:baggage_cart_v1:v1.glb",
+      "bbox": [
+        1.2,
+        0.9,
+        0.8
+      ]
+    },
+    {
+      "id": "asset:trash_can_v1:v1",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:trash_can_v1:v1.glb",
+      "bbox": [
+        0.7,
+        1.5,
+        0.8
+      ]
+    },
+    {
+      "id": "asset:coin_v1:v1",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:coin_v1:v1.glb",
+      "bbox": [
+        0.024,
+        0.024,
+        0.002
+      ]
+    },
+    {
+      "id": "asset:barrier_v1:v1",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:barrier_v1:v1.glb",
+      "bbox": [
+        0.3,
+        1.05,
+        2.0
+      ]
+    },
+    {
+      "id": "asset:escalator_v1:v1",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:escalator_v1:v1.glb",
+      "bbox": [
+        1.4,
+        3.05,
+        8.0
+      ]
+    },
+    {
+      "id": "asset:power_up_speed_v1:v1",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:power_up_speed_v1:v1.glb",
+      "bbox": [
+        0.6,
+        1.1,
+        0.3
+      ]
+    },
+    {
+      "id": "asset:power_up_magnet_v1:v1",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:power_up_magnet_v1:v1.glb",
+      "bbox": [
+        0.8,
+        0.8,
+        0.5
+      ]
+    },
+    {
+      "id": "asset:power_up_shield_v1:v1",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:power_up_shield_v1:v1.glb",
+      "bbox": [
+        3.0,
+        3.0,
+        3.0
+      ]
+    },
+    {
+      "id": "asset:background_sky:v1",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:background_sky:v1.glb",
+      "bbox": [
+        1000.0,
+        160.005,
+        310.0
+      ]
+    },
+    {
+      "id": "asset:road_primitive:v1",
+      "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:road_primitive:v1.glb",
+      "bbox": [
+        3.0,
+        0.2,
+        12.0
+      ]
+    }
+  ],
+  "placements": [
+    {
+      "ref": "asset:background_sky:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "ref": "asset:airport_terminal_v1:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "ref": "asset:subway_platform_v1:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "ref": "asset:escalator_v1:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          15
+        ]
+      }
+    },
+    {
+      "ref": "asset:subway_train_v1:v1",
+      "transform": {
+        "pos": [
+          0,
+          0.3,
+          -30
+        ]
+      }
+    },
+    {
+      "ref": "asset:security_checkpoint_v1:v1",
+      "transform": {
+        "pos": [
+          -8,
+          0.3,
+          -10
+        ]
+      }
+    },
+    {
+      "ref": "asset:baggage_cart_v1:v1",
+      "transform": {
+        "pos": [
+          4,
+          0.3,
+          5
+        ]
+      }
+    },
+    {
+      "ref": "asset:trash_can_v1:v1",
+      "transform": {
+        "pos": [
+          -5,
+          0.3,
+          20
+        ]
+      }
+    },
+    {
+      "ref": "asset:barrier_v1:v1",
+      "transform": {
+        "pos": [
+          0,
+          0.3,
+          26
+        ]
+      }
+    },
+    {
+      "ref": "asset:barrier_v1:v1",
+      "transform": {
+        "pos": [
+          0,
+          0.3,
+          27
+        ]
+      }
+    },
+    {
+      "ref": "asset:barrier_v1:v1",
+      "transform": {
+        "pos": [
+          0,
+          0.3,
+          35
+        ]
+      }
+    },
+    {
+      "ref": "asset:barrier_v1:v1",
+      "transform": {
+        "pos": [
+          0,
+          0.3,
+          -12
+        ]
+      }
+    },
+    {
+      "ref": "asset:coin_v1:v1",
+      "transform": {
+        "pos": [
+          2,
+          1.0,
+          2
+        ]
+      }
+    },
+    {
+      "ref": "asset:coin_v1:v1",
+      "transform": {
+        "pos": [
+          -2,
+          1.0,
+          8
+        ]
+      }
+    },
+    {
+      "ref": "asset:coin_v1:v1",
+      "transform": {
+        "pos": [
+          3,
+          1.0,
+          15
+        ]
+      }
+    },
+    {
+      "ref": "asset:coin_v1:v1",
+      "transform": {
+        "pos": [
+          -3,
+          1.0,
+          25
+        ]
+      }
+    },
+    {
+      "ref": "asset:coin_v1:v1",
+      "transform": {
+        "pos": [
+          1,
+          1.0,
+          30
+        ]
+      }
+    },
+    {
+      "ref": "asset:coin_v1:v1",
+      "transform": {
+        "pos": [
+          -1,
+          1.0,
+          38
+        ]
+      }
+    },
+    {
+      "ref": "asset:power_up_speed_v1:v1",
+      "transform": {
+        "pos": [
+          4,
+          1.0,
+          10
+        ]
+      }
+    },
+    {
+      "ref": "asset:power_up_magnet_v1:v1",
+      "transform": {
+        "pos": [
+          -4,
+          1.0,
+          20
+        ]
+      }
+    },
+    {
+      "ref": "asset:power_up_shield_v1:v1",
+      "transform": {
+        "pos": [
+          0,
+          1.5,
+          40
+        ]
+      }
+    },
+    {
+      "ref": "asset:road_primitive:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          -10
+        ]
+      }
+    },
+    {
+      "ref": "asset:road_primitive:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "ref": "asset:road_primitive:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "ref": "asset:road_primitive:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          35
+        ]
+      }
+    },
+    {
+      "ref": "asset:road_primitive:v1",
+      "transform": {
+        "pos": [
+          0,
+          0,
+          50
+        ]
+      }
+    }
+  ],
+  "map": {
+    "size": {
+      "w": 240,
+      "h": 240,
+      "units": "m"
+    },
+    "terrain": {
+      "type": "flat",
+      "elevation": 0
+    },
+    "regions": [
+      {
+        "id": "region:market:1",
+        "label": "market",
+        "polygon": [
+          [
+            -20.0,
+            20.0
+          ],
+          [
+            20.0,
+            20.0
+          ],
+          [
+            20.0,
+            -20.0
+          ],
+          [
+            -20.0,
+            -20.0
+          ]
+        ]
+      },
+      {
+        "id": "region:residential:2",
+        "label": "residential",
+        "polygon": [
+          [
+            80.0,
+            40.0
+          ],
+          [
+            80.0,
+            -120.0
+          ],
+          [
+            -80.0,
+            -120.0
+          ],
+          [
+            -80.0,
+            40.0
+          ]
+        ]
+      },
+      {
+        "id": "region:farmland:3",
+        "label": "farmland",
+        "polygon": [
+          [
+            100.0,
+            -30.0
+          ],
+          [
+            -100.0,
+            -30.0
+          ],
+          [
+            -100.0,
+            120.0
+          ],
+          [
+            100.0,
+            120.0
+          ]
+        ]
+      },
+      {
+        "id": "region:pasture:4",
+        "label": "pasture",
+        "polygon": [
+          [
+            60.0,
+            120.0
+          ],
+          [
+            60.0,
+            -120.0
+          ],
+          [
+            -120.0,
+            -120.0
+          ],
+          [
+            -120.0,
+            120.0
+          ]
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "run_id": "run_20251031_125754",
+    "manifest_path": "/Users/plugyawn/bounties/roam_environments/backend/runs/run_20251031_125754.json"
+  }
+}

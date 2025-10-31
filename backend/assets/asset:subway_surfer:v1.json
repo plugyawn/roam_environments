@@ -1,0 +1,91 @@
+{
+  "id": "asset:subway_surfer:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:subway_surfer:v1.glb",
+  "bbox": [
+    1.4,
+    3.3,
+    1.5
+  ],
+  "recipe": {
+    "id": "asset:subway_surfer:v1",
+    "recipe": [
+      {
+        "primitive": "cylinder",
+        "name": "body",
+        "r": 0.5,
+        "h": 1.5,
+        "offset": [
+          0,
+          0.75,
+          0
+        ]
+      },
+      {
+        "primitive": "sphere",
+        "name": "head",
+        "r": 0.4,
+        "offset": [
+          0,
+          1.9,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "arm",
+        "w": 0.2,
+        "h": 0.8,
+        "d": 0.2,
+        "offset": [
+          0.6,
+          0.9,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "arm2",
+        "w": 0.2,
+        "h": 0.8,
+        "d": 0.2,
+        "offset": [
+          -0.6,
+          0.9,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "leg",
+        "w": 0.3,
+        "h": 1.0,
+        "d": 0.3,
+        "offset": [
+          0.3,
+          -0.5,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "leg2",
+        "w": 0.3,
+        "h": 1.0,
+        "d": 0.3,
+        "offset": [
+          -0.3,
+          -0.5,
+          0
+        ]
+      }
+    ],
+    "materials": {
+      "body": "blue_clothing",
+      "head": "skin_tone",
+      "arm": "skin_tone",
+      "arm2": "skin_tone",
+      "leg": "jeans",
+      "leg2": "jeans"
+    }
+  }
+}

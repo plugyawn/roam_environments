@@ -1,0 +1,760 @@
+{
+  "scene_graph": {
+    "placements": [
+      {
+        "id": "placement:background:1",
+        "asset_id": "asset:background:v1",
+        "transform": {
+          "pos": [
+            0,
+            0,
+            0
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:road:1",
+        "asset_id": "asset:road_primitive:v1",
+        "transform": {
+          "pos": [
+            0,
+            0,
+            -10
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:road:2",
+        "asset_id": "asset:road_primitive:v1",
+        "transform": {
+          "pos": [
+            0,
+            0,
+            0
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:road:3",
+        "asset_id": "asset:road_primitive:v1",
+        "transform": {
+          "pos": [
+            0,
+            0,
+            10
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:road:4",
+        "asset_id": "asset:road_primitive:v1",
+        "transform": {
+          "pos": [
+            0,
+            0,
+            20
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:road:5",
+        "asset_id": "asset:road_primitive:v1",
+        "transform": {
+          "pos": [
+            0,
+            0,
+            30
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:terminal_gate:1",
+        "asset_id": "asset:terminal_gate:v1",
+        "transform": {
+          "pos": [
+            5,
+            0,
+            -5
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:terminal_gate:2",
+        "asset_id": "asset:terminal_gate:v1",
+        "transform": {
+          "pos": [
+            -5,
+            0,
+            -5
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:terminal_gate:3",
+        "asset_id": "asset:terminal_gate:v1",
+        "transform": {
+          "pos": [
+            5,
+            0,
+            15
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:terminal_gate:4",
+        "asset_id": "asset:terminal_gate:v1",
+        "transform": {
+          "pos": [
+            -5,
+            0,
+            15
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:coin:1",
+        "asset_id": "asset:coin_collectible:v1",
+        "transform": {
+          "pos": [
+            0,
+            1,
+            -8
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:coin:2",
+        "asset_id": "asset:coin_collectible:v1",
+        "transform": {
+          "pos": [
+            1,
+            1,
+            -3
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:coin:3",
+        "asset_id": "asset:coin_collectible:v1",
+        "transform": {
+          "pos": [
+            -1,
+            1,
+            2
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:coin:4",
+        "asset_id": "asset:coin_collectible:v1",
+        "transform": {
+          "pos": [
+            0,
+            1,
+            7
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:coin:5",
+        "asset_id": "asset:coin_collectible:v1",
+        "transform": {
+          "pos": [
+            1,
+            1,
+            12
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:coin:6",
+        "asset_id": "asset:coin_collectible:v1",
+        "transform": {
+          "pos": [
+            -1,
+            1,
+            17
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:coin:7",
+        "asset_id": "asset:coin_collectible:v1",
+        "transform": {
+          "pos": [
+            0,
+            1,
+            22
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:airport_terminal:1",
+        "asset_id": "asset:airport_terminal:v1",
+        "transform": {
+          "pos": [
+            0,
+            0,
+            0
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:security_checkpoint:1",
+        "asset_id": "asset:airport_security_checkpoint:v1",
+        "transform": {
+          "pos": [
+            8,
+            0,
+            -15
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "id": "placement:moving_walkway:1",
+        "asset_id": "asset:airport_moving_walkway:v1",
+        "transform": {
+          "pos": [
+            -8,
+            0,
+            -15
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    ],
+    "manifests": [
+      {
+        "id": "asset:background:v1",
+        "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:background:v1.glb",
+        "bbox": [
+          100,
+          0.1,
+          100
+        ],
+        "recipe": {
+          "id": "asset:background:v1",
+          "recipe": [
+            {
+              "primitive": "cuboid",
+              "name": "ground",
+              "w": 100,
+              "h": 0.1,
+              "d": 100,
+              "offset": [
+                0,
+                -0.05,
+                0
+              ]
+            }
+          ],
+          "materials": {
+            "ground": "concrete"
+          }
+        }
+      },
+      {
+        "id": "asset:road_primitive:v1",
+        "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:road_primitive:v1.glb",
+        "bbox": [
+          3.0,
+          0.1,
+          10.0
+        ],
+        "recipe": {
+          "id": "asset:road_primitive:v1",
+          "recipe": [
+            {
+              "primitive": "cuboid",
+              "name": "road_surface",
+              "w": 3,
+              "h": 0.1,
+              "d": 10,
+              "offset": [
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "materials": {
+            "road_surface": "asphalt"
+          }
+        }
+      },
+      {
+        "id": "asset:terminal_gate:v1",
+        "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:terminal_gate:v1.glb",
+        "bbox": [
+          5.5,
+          3.0,
+          9.0
+        ],
+        "recipe": {
+          "id": "asset:terminal_gate:v1",
+          "recipe": [
+            {
+              "primitive": "cuboid",
+              "name": "gate_counter",
+              "w": 4,
+              "h": 1.2,
+              "d": 0.8,
+              "offset": [
+                0,
+                0.6,
+                0
+              ]
+            },
+            {
+              "primitive": "cuboid",
+              "name": "seating_area",
+              "w": 3,
+              "h": 0.5,
+              "d": 2,
+              "offset": [
+                -1,
+                0.25,
+                -1
+              ]
+            },
+            {
+              "primitive": "cuboid",
+              "name": "jet_bridge",
+              "w": 2,
+              "h": 3,
+              "d": 8,
+              "offset": [
+                2,
+                1.5,
+                3
+              ]
+            },
+            {
+              "primitive": "plane",
+              "name": "flight_info_display",
+              "w": 2,
+              "h": 1.5,
+              "offset": [
+                0,
+                1.5,
+                0.4
+              ]
+            }
+          ],
+          "materials": {
+            "gate_counter": "airport_equipment",
+            "seating_area": "fabric",
+            "jet_bridge": "metal",
+            "flight_info_display": "digital_screen"
+          }
+        }
+      },
+      {
+        "id": "asset:coin_collectible:v1",
+        "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:coin_collectible:v1.glb",
+        "bbox": [
+          0.6,
+          0.6,
+          0.06
+        ],
+        "recipe": {
+          "id": "asset:coin_collectible:v1",
+          "recipe": [
+            {
+              "primitive": "cylinder",
+              "name": "coin",
+              "r": 0.3,
+              "h": 0.05,
+              "offset": [
+                0,
+                0.025,
+                0
+              ]
+            },
+            {
+              "primitive": "cylinder",
+              "name": "coin_inner",
+              "r": 0.2,
+              "h": 0.06,
+              "offset": [
+                0,
+                0.03,
+                0
+              ]
+            }
+          ],
+          "materials": {
+            "coin": "gold_metal",
+            "coin_inner": "silver_metal"
+          }
+        }
+      },
+      {
+        "id": "asset:airport_terminal:v1",
+        "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_terminal:v1.glb",
+        "bbox": [
+          30,
+          10,
+          50
+        ],
+        "recipe": {
+          "id": "asset:airport_terminal:v1",
+          "recipe": [
+            {
+              "primitive": "cuboid",
+              "name": "terminal_building",
+              "w": 30,
+              "h": 10,
+              "d": 50,
+              "offset": [
+                0,
+                5,
+                0
+              ]
+            },
+            {
+              "primitive": "cuboid",
+              "name": "terminal_windows",
+              "w": 28,
+              "h": 8,
+              "d": 0.2,
+              "offset": [
+                0,
+                5,
+                24.9
+              ]
+            },
+            {
+              "primitive": "cuboid",
+              "name": "terminal_door",
+              "w": 4,
+              "h": 3,
+              "d": 0.5,
+              "offset": [
+                0,
+                1.5,
+                -24.75
+              ]
+            }
+          ],
+          "materials": {
+            "terminal_building": "airport_concrete",
+            "terminal_windows": "glass",
+            "terminal_door": "metal"
+          }
+        }
+      },
+      {
+        "id": "asset:airport_security_checkpoint:v1",
+        "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_security_checkpoint:v1.glb",
+        "bbox": [
+          3.0,
+          3.0,
+          5.0
+        ],
+        "recipe": {
+          "id": "asset:airport_security_checkpoint:v1",
+          "recipe": [
+            {
+              "primitive": "cuboid",
+              "name": "checkpoint_body",
+              "w": 3,
+              "h": 3,
+              "d": 5,
+              "offset": [
+                0,
+                1.5,
+                0
+              ]
+            },
+            {
+              "primitive": "plane",
+              "name": "xray_machine",
+              "w": 1.5,
+              "h": 2,
+              "offset": [
+                0,
+                1.5,
+                2.4
+              ]
+            }
+          ],
+          "materials": {
+            "checkpoint_body": "airport_equipment",
+            "xray_machine": "digital_screen"
+          }
+        }
+      },
+      {
+        "id": "asset:airport_moving_walkway:v1",
+        "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_moving_walkway:v1.glb",
+        "bbox": [
+          2.55,
+          1.0,
+          6.0
+        ],
+        "recipe": {
+          "id": "asset:airport_moving_walkway:v1",
+          "recipe": [
+            {
+              "primitive": "cuboid",
+              "name": "walkway_base",
+              "w": 2.5,
+              "h": 0.3,
+              "d": 6,
+              "offset": [
+                0,
+                0.15,
+                0
+              ]
+            },
+            {
+              "primitive": "plane",
+              "name": "moving_surface",
+              "w": 2.3,
+              "h": 2.3,
+              "offset": [
+                0,
+                0.3,
+                0
+              ]
+            },
+            {
+              "primitive": "cuboid",
+              "name": "handrail_left",
+              "w": 0.15,
+              "h": 1,
+              "d": 6,
+              "offset": [
+                1.2,
+                0.5,
+                0
+              ]
+            },
+            {
+              "primitive": "cuboid",
+              "name": "handrail_right",
+              "w": 0.15,
+              "h": 1,
+              "d": 6,
+              "offset": [
+                -1.2,
+                0.5,
+                0
+              ]
+            }
+          ],
+          "materials": {
+            "walkway_base": "metal",
+            "moving_surface": "conveyor_belt",
+            "handrail_left": "metal",
+            "handrail_right": "metal"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "run_id": "run_20251031_123304",
+    "manifest_path": "/Users/plugyawn/bounties/roam_environments/backend/runs/run_20251031_123304.json"
+  }
+}

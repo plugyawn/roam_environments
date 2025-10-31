@@ -1,0 +1,60 @@
+{
+  "id": "asset:airport_security_checkpoint:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_security_checkpoint:v1.glb",
+  "bbox": [
+    0.8,
+    1.6,
+    0.75
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "scanner",
+        "w": 0.8,
+        "h": 1.2,
+        "d": 0.6,
+        "offset": [
+          0,
+          0.6,
+          0
+        ]
+      },
+      {
+        "primitive": "plane",
+        "name": "conveyor",
+        "w": 0.8,
+        "d": 0.5
+      },
+      {
+        "primitive": "cuboid",
+        "name": "monitor",
+        "w": 0.4,
+        "h": 0.3,
+        "d": 0.05,
+        "offset": [
+          0,
+          1.35,
+          0.25
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "bin",
+        "r": 0.15,
+        "h": 0.1,
+        "offset": [
+          0,
+          0.05,
+          0.4
+        ]
+      }
+    ],
+    "materials": {},
+    "id": "asset:airport_security_checkpoint:v1",
+    "tags": [
+      "airport_security_checkpoint",
+      "asset:airport_security_checkpoint:v1"
+    ]
+  }
+}

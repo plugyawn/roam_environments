@@ -1,0 +1,29 @@
+{
+  "id": "asset:runway:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:runway:v1.glb",
+  "bbox": [
+    50.0,
+    0.2,
+    8.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "runway",
+        "w": 50,
+        "h": 0.2,
+        "d": 8
+      }
+    ],
+    "materials": {
+      "runway": "concrete"
+    },
+    "id": "asset:runway:v1",
+    "tags": [
+      "airport",
+      "runway",
+      "structure"
+    ]
+  }
+}

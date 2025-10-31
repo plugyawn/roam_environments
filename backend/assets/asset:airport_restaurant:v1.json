@@ -1,0 +1,50 @@
+{
+  "id": "asset:airport_restaurant:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_restaurant:v1.glb",
+  "bbox": [
+    8.4,
+    10.5,
+    6.4
+  ],
+  "recipe": {
+    "id": "asset:airport_restaurant:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "body",
+        "w": 8.0,
+        "h": 5.0,
+        "d": 6.0
+      },
+      {
+        "primitive": "pyramid",
+        "name": "roof",
+        "w": 8.4,
+        "h": 3.0,
+        "d": 6.4,
+        "offset": [
+          0,
+          5.0,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "chimney",
+        "w": 1.0,
+        "h": 2.0,
+        "d": 1.0,
+        "offset": [
+          -2.5,
+          5.5,
+          1.5
+        ]
+      }
+    ],
+    "materials": {
+      "body": "plaster_white",
+      "roof": "terracotta_red",
+      "chimney": "brick_red"
+    }
+  }
+}

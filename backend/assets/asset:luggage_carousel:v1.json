@@ -1,0 +1,55 @@
+{
+  "id": "asset:luggage_carousel:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:luggage_carousel:v1.glb",
+  "bbox": [
+    6.0,
+    6.1,
+    2.0
+  ],
+  "recipe": {
+    "id": "asset:luggage_carousel:v1",
+    "recipe": [
+      {
+        "primitive": "cylinder",
+        "name": "base",
+        "r": 3,
+        "h": 0.3
+      },
+      {
+        "primitive": "cylinder",
+        "name": "carousel",
+        "r": 2.8,
+        "h": 0.5,
+        "offset": [
+          0,
+          0.3,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "belt",
+        "w": 0.4,
+        "h": 0.1,
+        "d": 2
+      },
+      {
+        "primitive": "cylinder",
+        "name": "support",
+        "r": 0.05,
+        "h": 0.3,
+        "offset": [
+          0,
+          0.15,
+          0
+        ]
+      }
+    ],
+    "materials": {
+      "base": "metal",
+      "carousel": "metal",
+      "belt": "rubber",
+      "support": "metal"
+    }
+  }
+}

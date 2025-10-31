@@ -1,0 +1,37 @@
+{
+  "id": "asset:airport_shop:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_shop:v1.glb",
+  "bbox": [
+    3.2,
+    3.45,
+    2.2
+  ],
+  "recipe": {
+    "id": "asset:airport_shop:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "counter",
+        "w": 3.0,
+        "h": 0.9,
+        "d": 2.0
+      },
+      {
+        "primitive": "pyramid",
+        "name": "canopy",
+        "w": 3.2,
+        "h": 1.2,
+        "d": 2.2,
+        "offset": [
+          0,
+          1.8,
+          0
+        ]
+      }
+    ],
+    "materials": {
+      "counter": "wood_oak",
+      "canopy": "canvas_striped"
+    }
+  }
+}

@@ -14,9 +14,31 @@ def persist_run(state: Dict) -> Dict:
 
     root = _run_root()
     root.mkdir(parents=True, exist_ok=True)
-    run_id = state.get("scene_id") or datetime.utcnow().strftime("run_%Y%m%d_%H%M%S")
-    path = root / f"{run_id}.json"
-    path.write_text(json.dumps(state, indent=2))
+
+    prepared: Dict = dict(state or {})
+
+    prepared.pop("scene_id", None)
+
+    metadata = prepared.get("metadata")
+    if not isinstance(metadata, dict):
+        metadata = {}
+
+    run_id = metadata.get("run_id")
+    if not isinstance(run_id, str) or not run_id.strip():
+        run_id = datetime.utcnow().strftime("run_%Y%m%d_%H%M%S")
+    else:
+        run_id = run_id.strip()
+
+    metadata["run_id"] = run_id
+    prepared["metadata"] = metadata
+
+    run_filename = run_id.replace(os.sep, "_")
+    if os.altsep:
+        run_filename = run_filename.replace(os.altsep, "_")
+    path = root / f"{run_filename}.json"
+    metadata["manifest_path"] = str(path)
+
+    path.write_text(json.dumps(prepared, indent=2))
     return {"run_id": run_id, "manifest_path": str(path)}
 
 

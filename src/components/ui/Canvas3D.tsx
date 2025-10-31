@@ -101,23 +101,24 @@ export function Canvas3D({ className = '', manifest }: Canvas3DProps) {
       return
     }
 
-    const disposeChild = (child: THREE.Object3D) => {
-      const mesh = child as THREE.Mesh
-      if (mesh.geometry) {
-        mesh.geometry.dispose()
-      }
-      const material = mesh.material
-      if (Array.isArray(material)) {
-        material.forEach((mat) => mat?.dispose())
-      } else {
-        material?.dispose()
-      }
+    const disposeObject = (object: THREE.Object3D) => {
+      object.traverse((child) => {
+        if (child instanceof THREE.Mesh || child instanceof THREE.LineSegments) {
+          child.geometry.dispose()
+          const material = child.material
+          if (Array.isArray(material)) {
+            material.forEach((mat) => mat.dispose())
+          } else if (material) {
+            material.dispose()
+          }
+        }
+      })
     }
 
     while (group.children.length) {
       const child = group.children[group.children.length - 1]
       group.remove(child)
-      disposeChild(child)
+      disposeObject(child)
     }
 
     const placements = manifest.scene?.scene_graph?.placements ?? []
@@ -140,6 +141,11 @@ export function Canvas3D({ className = '', manifest }: Canvas3DProps) {
       if (placement.transform.rotY) {
         mesh.rotation.y = placement.transform.rotY
       }
+      const wireframeGeometry = new THREE.EdgesGeometry(geometry)
+      const wireframeMaterial = new THREE.LineBasicMaterial({ color: 0x1e293b, transparent: true, opacity: 0.4 })
+      const wireframe = new THREE.LineSegments(wireframeGeometry, wireframeMaterial)
+      wireframe.name = 'placement-wireframe'
+      mesh.add(wireframe)
       mesh.userData.assetRef = placement.ref
       group.add(mesh)
       box.expandByObject(mesh)

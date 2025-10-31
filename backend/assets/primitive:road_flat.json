@@ -1,0 +1,28 @@
+{
+  "id": "primitive:road_flat",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/primitive:road_flat.glb",
+  "bbox": [
+    10.0,
+    0.1,
+    100.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "road_surface",
+        "w": 10,
+        "h": 0.1,
+        "d": 100
+      }
+    ],
+    "materials": {
+      "road_surface": "asphalt"
+    },
+    "id": "primitive:road_flat",
+    "tags": [
+      "road",
+      "primitive"
+    ]
+  }
+}

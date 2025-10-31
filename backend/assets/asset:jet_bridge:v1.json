@@ -1,0 +1,55 @@
+{
+  "id": "asset:jet_bridge:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:jet_bridge:v1.glb",
+  "bbox": [
+    14.0,
+    1.7000000000000002,
+    4.05
+  ],
+  "recipe": {
+    "id": "asset:jet_bridge:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "deck",
+        "w": 14,
+        "h": 0.6,
+        "d": 4,
+        "offset": [
+          0,
+          -0.3,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "rail_left",
+        "w": 14,
+        "h": 1.1,
+        "d": 0.25,
+        "offset": [
+          0,
+          0.55,
+          -1.9
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "rail_right",
+        "w": 14,
+        "h": 1.1,
+        "d": 0.25,
+        "offset": [
+          0,
+          0.55,
+          1.9
+        ]
+      }
+    ],
+    "materials": {
+      "deck": "wood_oak",
+      "rail_left": "wood_oak",
+      "rail_right": "wood_oak"
+    }
+  }
+}

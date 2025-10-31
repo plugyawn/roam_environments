@@ -1,0 +1,65 @@
+{
+  "id": "asset:baggage_cart_v1:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:baggage_cart_v1:v1.glb",
+  "bbox": [
+    1.2,
+    0.9,
+    0.8
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "base",
+        "w": 1.2,
+        "h": 0.1,
+        "d": 0.8
+      },
+      {
+        "primitive": "cuboid",
+        "name": "frame",
+        "w": 1.0,
+        "h": 0.8,
+        "d": 0.6,
+        "offset": [
+          0,
+          0.4,
+          0
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "wheel_front",
+        "r": 0.1,
+        "h": 0.05,
+        "offset": [
+          0.5,
+          0,
+          0.3
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "wheel_back",
+        "r": 0.1,
+        "h": 0.05,
+        "offset": [
+          -0.5,
+          0,
+          0.3
+        ]
+      }
+    ],
+    "materials": {
+      "base": "metal",
+      "frame": "metal",
+      "wheel_front": "rubber",
+      "wheel_back": "rubber"
+    },
+    "id": "asset:baggage_cart_v1:v1",
+    "tags": [
+      "baggage_cart_v1",
+      "asset:baggage_cart_v1:v1"
+    ]
+  }
+}

@@ -16,12 +16,16 @@ src/agentic_loop/orchestrator/__init__.py
 src/agentic_loop/orchestrator/client.py
 src/agentic_loop/orchestrator/pipeline.py
 src/agentic_loop/orchestrator/team.py
+src/agentic_loop/orchestrator/templates.py
 src/agentic_loop/orchestrator/workflow.py
 src/agentic_loop/tools/__init__.py
 src/agentic_loop/tools/assets.py
+src/agentic_loop/tools/audit.py
+src/agentic_loop/tools/checklist.py
 src/agentic_loop/tools/map_gen.py
 src/agentic_loop/tools/persistence.py
 src/agentic_loop/tools/placement.py
+src/agentic_loop/tools/render.py
 src/agentic_loop/tools/scene_spec.py
 src/agentic_loop/tools/validation.py
 src/agentic_loop_backend.egg-info/PKG-INFO

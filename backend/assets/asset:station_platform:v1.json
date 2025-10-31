@@ -1,0 +1,56 @@
+{
+  "id": "asset:station_platform:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:station_platform:v1.glb",
+  "bbox": [
+    22.0,
+    3.75,
+    4.7
+  ],
+  "recipe": {
+    "id": "asset:station_platform:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "platform",
+        "w": 20,
+        "h": 0.3,
+        "d": 3
+      },
+      {
+        "primitive": "cuboid",
+        "name": "roof",
+        "w": 22,
+        "h": 0.2,
+        "d": 3.5,
+        "offset": [
+          0,
+          3.5,
+          0
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "support_pole",
+        "r": 0.15,
+        "h": 3.5,
+        "offset": [
+          -9,
+          1.75,
+          1.2
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "support_pole2",
+        "r": 0.15,
+        "h": 3.5,
+        "offset": [
+          9,
+          1.75,
+          1.2
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "asset:trash_bin:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:trash_bin:v1.glb",
+  "bbox": [
+    0.7,
+    1.05,
+    0.8
+  ],
+  "recipe": {
+    "id": "asset:trash_bin:v1",
+    "recipe": [
+      {
+        "primitive": "cylinder",
+        "name": "bin_body",
+        "r": 0.3,
+        "h": 0.8
+      },
+      {
+        "primitive": "cylinder",
+        "name": "bin_lid",
+        "r": 0.35,
+        "h": 0.05,
+        "offset": [
+          0,
+          0.4,
+          0
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

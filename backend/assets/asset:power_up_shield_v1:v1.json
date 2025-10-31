@@ -1,0 +1,52 @@
+{
+  "id": "asset:power_up_shield_v1:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:power_up_shield_v1:v1.glb",
+  "bbox": [
+    3.0,
+    3.0,
+    3.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "sphere",
+        "name": "outer_shell",
+        "r": 1.5
+      },
+      {
+        "primitive": "sphere",
+        "name": "inner_shell",
+        "r": 1.3
+      },
+      {
+        "primitive": "cylinder",
+        "name": "energy_core",
+        "r": 0.8,
+        "h": 0.3,
+        "offset": [
+          0,
+          0.1,
+          0
+        ]
+      },
+      {
+        "primitive": "plane",
+        "name": "base_ring",
+        "w": 2.8,
+        "h": 2.8,
+        "d": 0.1
+      }
+    ],
+    "materials": {
+      "outer_shell": "blue_transparent",
+      "inner_shell": "blue_transparent",
+      "energy_core": "bright_blue_glow",
+      "base_ring": "metallic_silver"
+    },
+    "id": "asset:power_up_shield_v1:v1",
+    "tags": [
+      "power_up_shield_v1",
+      "asset:power_up_shield_v1:v1"
+    ]
+  }
+}

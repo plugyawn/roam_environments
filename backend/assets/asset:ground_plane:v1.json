@@ -1,0 +1,21 @@
+{
+  "id": "asset:ground_plane:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:ground_plane:v1.glb",
+  "bbox": [
+    20.0,
+    0.01,
+    1.0
+  ],
+  "recipe": {
+    "id": "asset:ground_plane:v1",
+    "recipe": [
+      {
+        "primitive": "plane",
+        "name": "ground",
+        "w": 20,
+        "h": 20
+      }
+    ],
+    "materials": {}
+  }
+}

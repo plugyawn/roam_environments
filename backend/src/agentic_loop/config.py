@@ -22,10 +22,10 @@ class ModelConfig:
 class ContextBudgets:
     """Token budgets for various prompt tiers to protect the context window."""
 
-    system_tokens: int = 1500
-    run_summary_tokens: int = 800
-    worklist_tokens: int = 600
-    per_turn_tokens: int = 6000
+    system_tokens: int = 12000
+    run_summary_tokens: int = 12000
+    worklist_tokens: int = 12000
+    per_turn_tokens: int = 12000
     shard_limit: int = 20
     shard_tokens: int = 150
 

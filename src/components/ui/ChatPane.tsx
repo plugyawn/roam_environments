@@ -38,8 +38,8 @@ export function ChatPane({ manifest }: ChatPaneProps) {
         </Card>
 
         <Card className="bg-sky-600 text-white">
-          Latest scene ID:{' '}
-          <span className="font-semibold">{scene?.scene_id ?? 'not yet available'}</span>
+          Latest run ID:{' '}
+          <span className="font-semibold">{scene?.run_id ?? 'not yet available'}</span>
         </Card>
 
         <Card>

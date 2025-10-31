@@ -1,0 +1,57 @@
+{
+  "id": "asset:airport_parking_stand:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_parking_stand:v1.glb",
+  "bbox": [
+    20.0,
+    3.005,
+    15.0
+  ],
+  "recipe": {
+    "id": "asset:airport_parking_stand:v1",
+    "recipe": [
+      {
+        "primitive": "plane",
+        "name": "ground",
+        "w": 20,
+        "h": 0.1,
+        "d": 15
+      },
+      {
+        "primitive": "cuboid",
+        "name": "terminal_base",
+        "w": 18,
+        "h": 3,
+        "d": 0.5,
+        "offset": [
+          0,
+          1.5,
+          -7
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "jet_bridge",
+        "w": 3,
+        "h": 0.8,
+        "d": 8,
+        "offset": [
+          0,
+          2.5,
+          -2
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "light_pole",
+        "r": 0.1,
+        "h": 4,
+        "offset": [
+          8,
+          2,
+          5
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

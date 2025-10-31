@@ -1,0 +1,45 @@
+{
+  "id": "asset:obstacle:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:obstacle:v1.glb",
+  "bbox": [
+    2.2,
+    1.45,
+    1.2
+  ],
+  "recipe": {
+    "id": "asset:obstacle:v1",
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "base",
+        "w": 2,
+        "h": 0.3,
+        "d": 1
+      },
+      {
+        "primitive": "cylinder",
+        "name": "barrier",
+        "r": 0.15,
+        "h": 1.2,
+        "offset": [
+          0,
+          0.6,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "top",
+        "w": 2.2,
+        "h": 0.2,
+        "d": 1.2,
+        "offset": [
+          0,
+          1.2,
+          0
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}

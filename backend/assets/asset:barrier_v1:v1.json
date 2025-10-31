@@ -1,0 +1,62 @@
+{
+  "id": "asset:barrier_v1:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:barrier_v1:v1.glb",
+  "bbox": [
+    0.30000000000000004,
+    1.05,
+    2.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "base",
+        "w": 0.3,
+        "h": 0.1,
+        "d": 2.0
+      },
+      {
+        "primitive": "cuboid",
+        "name": "post1",
+        "w": 0.1,
+        "h": 1.0,
+        "d": 0.1,
+        "offset": [
+          -0.1,
+          0.5,
+          -0.95
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "post2",
+        "w": 0.1,
+        "h": 1.0,
+        "d": 0.1,
+        "offset": [
+          0.1,
+          0.5,
+          -0.95
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "rail",
+        "w": 0.3,
+        "h": 0.05,
+        "d": 2.0,
+        "offset": [
+          0,
+          0.9,
+          0
+        ]
+      }
+    ],
+    "materials": {},
+    "id": "asset:barrier_v1:v1",
+    "tags": [
+      "barrier_v1",
+      "asset:barrier_v1:v1"
+    ]
+  }
+}

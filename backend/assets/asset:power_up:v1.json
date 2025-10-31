@@ -1,0 +1,57 @@
+{
+  "id": "asset:power_up:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:power_up:v1.glb",
+  "bbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recipe": {
+    "id": "asset:power_up:v1",
+    "recipe": [
+      {
+        "primitive": "sphere",
+        "name": "core",
+        "r": 0.3
+      },
+      {
+        "primitive": "cylinder",
+        "name": "ring1",
+        "r": 0.4,
+        "h": 0.1,
+        "offset": [
+          0,
+          0.1,
+          0
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "ring2",
+        "r": 0.4,
+        "h": 0.1,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ]
+      },
+      {
+        "primitive": "sphere",
+        "name": "aura",
+        "r": 0.5,
+        "offset": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "materials": {
+      "core": "glowing_orb",
+      "ring1": "metallic_band",
+      "ring2": "metallic_band",
+      "aura": "energy_field"
+    }
+  }
+}

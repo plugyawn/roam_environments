@@ -1,0 +1,340 @@
+{
+  "scene_graph": {
+    "placements": [
+      {
+        "ref": "asset:airport_terminal_background:v1",
+        "transform": {
+          "pos": [
+            0,
+            0,
+            0
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:airport_runway_road:v1",
+        "transform": {
+          "pos": [
+            0,
+            0,
+            -30
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:airport_runway_road:v1",
+        "transform": {
+          "pos": [
+            0,
+            0,
+            10
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:airport_runway_road:v1",
+        "transform": {
+          "pos": [
+            0,
+            0,
+            50
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:airport_runway_road:v1",
+        "transform": {
+          "pos": [
+            0,
+            0,
+            90
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:airport_runway_road:v1",
+        "transform": {
+          "pos": [
+            0,
+            0,
+            130
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:jet_bridge:v1",
+        "transform": {
+          "pos": [
+            -15,
+            0,
+            -20
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:jet_bridge:v1",
+        "transform": {
+          "pos": [
+            15,
+            0,
+            -20
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:departure_board:v1",
+        "transform": {
+          "pos": [
+            -30,
+            0,
+            0
+          ],
+          "rot": [
+            0,
+            1.57,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:departure_board:v1",
+        "transform": {
+          "pos": [
+            30,
+            0,
+            0
+          ],
+          "rot": [
+            0,
+            -1.57,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:escalator:v1",
+        "transform": {
+          "pos": [
+            -25,
+            0,
+            20
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:escalator:v1",
+        "transform": {
+          "pos": [
+            25,
+            0,
+            20
+          ],
+          "rot": [
+            0,
+            3.14,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:airport_shop:v1",
+        "transform": {
+          "pos": [
+            -35,
+            0,
+            -10
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:airport_shop:v1",
+        "transform": {
+          "pos": [
+            35,
+            0,
+            -10
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:subway_surfers_statue:v1",
+        "transform": {
+          "pos": [
+            0,
+            0,
+            40
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:subway_surfers_statue:v1",
+        "transform": {
+          "pos": [
+            0,
+            0,
+            80
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:airport_parking_stand:v1",
+        "transform": {
+          "pos": [
+            -50,
+            0,
+            60
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:airport_parking_stand:v1",
+        "transform": {
+          "pos": [
+            50,
+            0,
+            60
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:airport_luggage_cart:v1",
+        "transform": {
+          "pos": [
+            -40,
+            0,
+            30
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:airport_luggage_cart:v1",
+        "transform": {
+          "pos": [
+            40,
+            0,
+            30
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:airport_security_checkpoint:v1",
+        "transform": {
+          "pos": [
+            -20,
+            0,
+            70
+          ],
+          "rot": [
+            0,
+            1.57,
+            0
+          ]
+        }
+      },
+      {
+        "ref": "asset:airport_security_checkpoint:v1",
+        "transform": {
+          "pos": [
+            20,
+            0,
+            70
+          ],
+          "rot": [
+            0,
+            -1.57,
+            0
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "run_id": "run_20251031_125954",
+    "manifest_path": "/Users/plugyawn/bounties/roam_environments/backend/runs/run_20251031_125954.json"
+  }
+}

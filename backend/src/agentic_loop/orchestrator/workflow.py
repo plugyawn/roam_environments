@@ -6,6 +6,8 @@ import ast
 import json
 import logging
 import os
+from collections import Counter
+from copy import deepcopy
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Sequence, Tuple
@@ -19,6 +21,7 @@ from ..config import RuntimeConfig
 from ..memory import Embedder, RunRegistry, VectorStore
 from ..memory.doc_sharder import shard_scene_graph
 from ..tools.assets import compile_asset, expand_assets, infer_concept_from_id
+from ..tools.audit import audit_asset_requirements
 from ..tools.map_gen import generate_map
 from ..tools.persistence import persist_run
 from ..tools.render import render_snapshot, render_web_view
@@ -67,16 +70,16 @@ async def run_prompt(prompt: str, config: RuntimeConfig) -> Dict:
     finally:
         _detach_agent_logger(agent_handler)
 
-    log_path = _finalize_agent_log(raw_log_path, run_data.get("scene_id"))
-    if log_path:
-        run_data.setdefault("metadata", {})
-        run_data["metadata"]["agent_log_path"] = str(log_path)
-
-    if "scene_graph" not in run_data or "scene_id" not in run_data:
+    if "scene_graph" not in run_data:
         raise RuntimeError(f"Magentic-One failed after {MAX_AGENT_ATTEMPTS} attempts: {last_error}")
 
     run_data.setdefault("prompt", prompt)
     _materialize_scene_outputs(run_data, prompt, config)
+
+    log_path = _finalize_agent_log(raw_log_path, _resolve_run_label(run_data))
+    if log_path:
+        metadata = run_data.setdefault("metadata", {})
+        metadata["agent_log_path"] = str(log_path)
     _ingest_run_data(run_data, config)
     return run_data
 
@@ -151,11 +154,11 @@ def _detach_agent_logger(handler: logging.Handler) -> None:
     handler.close()
 
 
-def _finalize_agent_log(log_path: Path, scene_id: Optional[str]) -> Optional[Path]:
+def _finalize_agent_log(log_path: Path, run_label: Optional[str]) -> Optional[Path]:
     if not log_path.exists():
         return None
-    if scene_id:
-        safe_id = scene_id.replace(os.sep, "_")
+    if run_label:
+        safe_id = run_label.replace(os.sep, "_")
         target = log_path.with_name(f"{safe_id}.log")
         if target != log_path:
             try:
@@ -167,6 +170,37 @@ def _finalize_agent_log(log_path: Path, scene_id: Optional[str]) -> Optional[Pat
                 LOGGER.warning("Failed to rename agent log %s -> %s: %s", log_path, target, exc)
                 return log_path
     return log_path
+
+
+def _resolve_run_label(run_data: Dict) -> Optional[str]:
+    metadata = run_data.get("metadata")
+    if isinstance(metadata, dict):
+        run_id = metadata.get("run_id")
+        if isinstance(run_id, str) and run_id.strip():
+            return run_id.strip()
+
+    run_id = run_data.get("run_id")
+    if isinstance(run_id, str) and run_id.strip():
+        return run_id.strip()
+
+    manifest_path = run_data.get("manifest_path")
+    if isinstance(manifest_path, str) and manifest_path:
+        return Path(manifest_path).stem
+
+    scene_graph = run_data.get("scene_graph")
+    if isinstance(scene_graph, dict):
+        metadata = scene_graph.get("metadata")
+        if isinstance(metadata, dict):
+            candidate = metadata.get("run_id") or metadata.get("scene_id")
+            if isinstance(candidate, str) and candidate.strip():
+                return candidate.strip()
+
+        for key in ("run_id", "scene_id", "name"):
+            candidate = scene_graph.get(key)
+            if isinstance(candidate, str) and candidate.strip():
+                return candidate.strip()
+
+    return None
 
 
 def _write_log_entry(log_file, message) -> None:  # type: ignore[no-untyped-def]
@@ -183,7 +217,8 @@ def _write_log_entry(log_file, message) -> None:  # type: ignore[no-untyped-def]
     else:
         payload = repr(message)
     record["payload"] = payload
-    log_file.write(json.dumps(record, default=str) + "\n")
+    formatted = json.dumps(record, default=str, indent=2)
+    log_file.write(formatted + "\n\n")
 
 
 def _extract_from_task_result(result: TaskResult) -> Dict:
@@ -192,8 +227,8 @@ def _extract_from_task_result(result: TaskResult) -> Dict:
         run_data = _load_manifest(manifest_info)
         if run_data:
             run_data.setdefault("manifest_path", manifest_info.get("manifest_path"))
-            if "run_id" in manifest_info and "scene_id" not in run_data:
-                run_data["scene_id"] = manifest_info["run_id"]
+            if "run_id" in manifest_info and "run_id" not in run_data:
+                run_data["run_id"] = manifest_info["run_id"]
             return run_data
 
     extracted = _extract_scene_payload(getattr(result, "output", None))
@@ -264,17 +299,16 @@ def _parse_json_payload(payload: object) -> Optional[object]:
 
 
 def _extract_scene_payload(candidate: object) -> Optional[Dict]:
-    required_keys = {"scene_graph", "scene_id"}
-
     if isinstance(candidate, dict):
-        if required_keys.issubset(candidate.keys()):
+        scene_graph = candidate.get("scene_graph")
+        if isinstance(scene_graph, dict):
             return candidate
 
         for key in ("payload", "data", "result", "output", "content"):
-            nested_value = candidate.get(key)
-            extracted = _extract_scene_payload(nested_value)
-            if extracted:
-                return extracted
+            if key in candidate:
+                extracted = _extract_scene_payload(candidate.get(key))
+                if extracted:
+                    return extracted
 
     if isinstance(candidate, Sequence) and not isinstance(candidate, (str, bytes, bytearray)):
         for item in candidate:
@@ -289,10 +323,6 @@ def _validate_scene_payload(run_data: Dict) -> Optional[str]:
     if not isinstance(run_data, dict):
         return "Scene payload is not a dictionary"
 
-    scene_id = run_data.get("scene_id") or (run_data.get("scene_graph") or {}).get("scene_id")
-    if not isinstance(scene_id, str) or not scene_id.strip():
-        return "Scene payload missing scene_id"
-
     scene_graph = run_data.get("scene_graph")
     if not isinstance(scene_graph, dict):
         return "Scene graph missing or malformed"
@@ -304,6 +334,13 @@ def _validate_scene_payload(run_data: Dict) -> Optional[str]:
     asset_ids = _collect_candidate_asset_ids(scene_graph, run_data)
     if not asset_ids:
         return "Scene placements are missing asset references"
+
+    audit = audit_asset_requirements(run_data)
+    if audit.get("status") != "pass":
+        messages = audit.get("messages") or []
+        if messages:
+            return " ".join(messages)
+        return "Scene does not satisfy asset and placement quotas"
 
     return None
 
@@ -349,6 +386,70 @@ def _collect_candidate_asset_ids(scene_graph: Dict, run_data: Dict) -> List[str]
     return [asset_id for asset_id in dict.fromkeys(candidate) if asset_id]
 
 
+def _collect_existing_recipes(run_data: Dict, scene_graph: Dict) -> Dict[str, Dict]:
+    existing: Dict[str, Dict] = {}
+
+    def _ingest(candidate: object) -> None:
+        if not isinstance(candidate, dict):
+            return
+        asset_id = candidate.get("id")
+        recipe = candidate.get("recipe")
+        if not isinstance(asset_id, str) or not asset_id.strip() or not isinstance(recipe, dict):
+            return
+        prepared = _normalize_recipe(asset_id.strip(), recipe)
+        if prepared:
+            existing[asset_id.strip()] = prepared
+
+    raw_assets = run_data.get("assets")
+    if isinstance(raw_assets, Sequence) and not isinstance(raw_assets, (str, bytes, bytearray)):
+        for item in raw_assets:
+            _ingest(item)
+
+    scene_assets = scene_graph.get("assets")
+    if isinstance(scene_assets, Sequence) and not isinstance(scene_assets, (str, bytes, bytearray)):
+        for item in scene_assets:
+            _ingest(item)
+
+    asset_manifests = scene_graph.get("asset_manifests")
+    if isinstance(asset_manifests, dict):
+        for value in asset_manifests.values():
+            if isinstance(value, Sequence) and not isinstance(value, (str, bytes, bytearray)):
+                for item in value:
+                    _ingest(item)
+            else:
+                _ingest(value)
+
+    return existing
+
+
+def _normalize_recipe(asset_id: str, recipe_data: Dict) -> Optional[Dict]:
+    steps = recipe_data.get("recipe")
+    if not isinstance(steps, list) or not steps:
+        return None
+
+    prepared = deepcopy(recipe_data)
+    prepared["id"] = asset_id
+
+    tags = prepared.get("tags")
+    if isinstance(tags, Sequence) and not isinstance(tags, (str, bytes, bytearray)):
+        cleaned_tags = [str(tag).strip() for tag in tags if isinstance(tag, str) and tag.strip()]
+    else:
+        cleaned_tags = []
+
+    concept = infer_concept_from_id(asset_id)
+    if concept and concept not in cleaned_tags:
+        cleaned_tags.append(concept)
+    if asset_id not in cleaned_tags:
+        cleaned_tags.append(asset_id)
+    prepared["tags"] = cleaned_tags
+
+    materials = prepared.get("materials")
+    if not isinstance(materials, dict):
+        prepared["materials"] = {}
+
+    return prepared
+
+
 def _load_manifest(info: Dict) -> Optional[Dict]:
     manifest_path_value = info.get("manifest_path")
     if not manifest_path_value:
@@ -371,12 +472,17 @@ def _ingest_run_data(run_data: Dict, config: RuntimeConfig) -> None:
     scene_graph = run_data.get("scene_graph")
     if not scene_graph:
         return
-    scene_id = run_data.get("scene_id", scene_graph.get("scene_id", "unknown"))
+    metadata = run_data.get("metadata")
+    run_id = run_data.get("run_id") or (metadata.get("run_id") if isinstance(metadata, dict) else None) or "unknown"
+    if not isinstance(run_id, str) or not run_id.strip():
+        run_id = "unknown"
+    else:
+        run_id = run_id.strip()
     shards = shard_scene_graph(scene_graph)
     if run_data.get("requirements"):
         shards.append(
             {
-                "id": f"requirements:{scene_id}",
+                "id": f"requirements:{run_id}",
                 "type": "requirements",
                 "tags": ["requirements"],
                 "content": str(run_data["requirements"]),
@@ -394,8 +500,8 @@ def _ingest_run_data(run_data: Dict, config: RuntimeConfig) -> None:
     vector_store.add(embeddings, shards)
 
     registry = RunRegistry(config.vector_store.sqlite_path)
-    registry.upsert_run(scene_id, run_data.get("manifest_path", ""), run_data.get("snapshot_path"))
-    registry.add_docs(scene_id, shards)
+    registry.upsert_run(run_id, run_data.get("manifest_path", ""), run_data.get("snapshot_path"))
+    registry.add_docs(run_id, shards)
 
 
 def _materialize_scene_outputs(run_data: Dict, prompt: str, config: RuntimeConfig) -> None:
@@ -403,8 +509,26 @@ def _materialize_scene_outputs(run_data: Dict, prompt: str, config: RuntimeConfi
     if not scene_graph:
         return
 
-    scene_id = run_data.setdefault("scene_id", scene_graph.get("scene_id") or datetime.utcnow().strftime("scene_%Y%m%d_%H%M%S"))
-    scene_graph.setdefault("scene_id", scene_id)
+    metadata = run_data.get("metadata")
+    if not isinstance(metadata, dict):
+        metadata = {}
+        run_data["metadata"] = metadata
+
+    run_id = run_data.get("run_id") or metadata.get("run_id")
+    if not isinstance(run_id, str) or not run_id.strip():
+        run_id = datetime.utcnow().strftime("run_%Y%m%d_%H%M%S")
+    else:
+        run_id = run_id.strip()
+
+    run_data["run_id"] = run_id
+    metadata["run_id"] = run_id
+
+    scene_graph_metadata = scene_graph.get("metadata")
+    if not isinstance(scene_graph_metadata, dict):
+        scene_graph_metadata = {}
+        scene_graph["metadata"] = scene_graph_metadata
+    scene_graph_metadata.setdefault("run_id", run_id)
+    scene_graph.pop("scene_id", None)
 
     manifest_path = run_data.get("manifest_path")
     snapshot_path = run_data.get("snapshot_path")
@@ -437,6 +561,23 @@ def _materialize_scene_outputs(run_data: Dict, prompt: str, config: RuntimeConfi
     scene_spec = run_data.get("scene_spec")
     if not isinstance(scene_spec, dict):
         scene_spec = design_scene_spec(requirements)
+    raw_entities = scene_spec.get("entities") or []
+    normalized_entities: List[Dict] = []
+    for entity in raw_entities:
+        if isinstance(entity, dict):
+            normalized_entities.append(entity)
+            continue
+        if isinstance(entity, str) and entity.strip():
+            concept = infer_concept_from_id(entity) or entity.strip().lower()
+            normalized_entities.append({
+                "concept": concept,
+                "count": 1,
+                "attrs": {},
+            })
+    if normalized_entities:
+        scene_spec["entities"] = normalized_entities
+    else:
+        scene_spec["entities"] = []
     if not scene_spec.get("entities") and asset_ids:
         scene_spec["entities"] = [
             {
@@ -450,18 +591,40 @@ def _materialize_scene_outputs(run_data: Dict, prompt: str, config: RuntimeConfi
     run_data["scene_spec"] = scene_spec
 
     if not requirements.get("requirements") and scene_spec.get("entities"):
-        requirements["requirements"] = [
-            {
-                "concept": entity.get("concept", "asset"),
-                "min_count": entity.get("count", 1),
-            }
-            for entity in scene_spec.get("entities", [])
-        ]
+        reqs: List[Dict] = []
+        for entity in scene_spec.get("entities", []):
+            if not isinstance(entity, dict):
+                continue
+            concept = entity.get("concept") or infer_concept_from_id(entity.get("id", "")) or "asset"
+            reqs.append(
+                {
+                    "concept": concept,
+                    "min_count": entity.get("count", 1),
+                }
+            )
+        requirements["requirements"] = reqs
 
     manifests: List[Dict] = []
     if asset_ids:
-        recipes = expand_assets(scene_spec, asset_ids=asset_ids)
-        for recipe in recipes:
+        existing_recipes = _collect_existing_recipes(run_data, scene_graph)
+        missing_asset_ids = [asset_id for asset_id in asset_ids if asset_id not in existing_recipes]
+
+        fallback_recipes: Dict[str, Dict] = {}
+        if missing_asset_ids:
+            for recipe in expand_assets(scene_spec, asset_ids=missing_asset_ids):
+                recipe_id = recipe.get("id")
+                if isinstance(recipe_id, str) and recipe_id:
+                    fallback_recipes[recipe_id] = recipe
+
+        ordered_recipes: List[Dict] = []
+        for asset_id in asset_ids:
+            recipe = existing_recipes.get(asset_id) or fallback_recipes.get(asset_id)
+            if not recipe:
+                LOGGER.warning("No recipe available for asset %s; skipping compilation", asset_id)
+                continue
+            ordered_recipes.append(recipe)
+
+        for recipe in ordered_recipes:
             try:
                 manifests.append(compile_asset(recipe))
             except Exception as exc:  # pragma: no cover - defensive logging
@@ -480,12 +643,18 @@ def _materialize_scene_outputs(run_data: Dict, prompt: str, config: RuntimeConfi
     scene_graph["map"] = map_plan
 
     validation = validate_scene(scene_graph, requirements)
+    if isinstance(validation, dict):
+        metrics = validation.get("metrics")
+        if isinstance(metrics, dict):
+            concept_counts = metrics.get("concept_counts")
+            if isinstance(concept_counts, Counter):
+                metrics["concept_counts"] = dict(concept_counts)
     run_data["validation"] = validation
 
     manifest_payload: Dict | None = None
     if not manifest_exists:
         manifest_payload = {
-            "scene_id": scene_id,
+            "run_id": run_id,
             "prompt": run_data.get("prompt", prompt),
             "requirements": requirements,
             "scene_spec": scene_spec,
@@ -493,9 +662,13 @@ def _materialize_scene_outputs(run_data: Dict, prompt: str, config: RuntimeConfi
             "map_plan": map_plan,
             "scene_graph": scene_graph,
             "validation": validation,
+            "metadata": metadata,
         }
         manifest_info = persist_run(manifest_payload)
         run_data["manifest_path"] = manifest_info.get("manifest_path")
+        if manifest_info.get("run_id"):
+            run_data["run_id"] = manifest_info["run_id"]
+            metadata["run_id"] = manifest_info["run_id"]
     else:
         # ensure we keep reference for ingestion
         run_data["manifest_path"] = manifest_path
@@ -514,7 +687,7 @@ def _materialize_scene_outputs(run_data: Dict, prompt: str, config: RuntimeConfi
         try:
             viewer_info = render_web_view(manifest_for_view, run_data["manifest_path"])
         except Exception as exc:  # pragma: no cover - defensive logging
-            LOGGER.warning("Failed to render interactive view for %s: %s", scene_id, exc)
+            LOGGER.warning("Failed to render interactive view for %s: %s", run_id, exc)
 
     if viewer_info:
         run_data.update(viewer_info)

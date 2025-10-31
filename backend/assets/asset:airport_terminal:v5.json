@@ -1,0 +1,60 @@
+{
+  "id": "asset:airport_terminal:v5",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_terminal:v5.glb",
+  "bbox": [
+    55.0,
+    23.0,
+    42.5
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "main_building",
+        "w": 50,
+        "h": 15,
+        "d": 30
+      },
+      {
+        "primitive": "cuboid",
+        "name": "entrance",
+        "w": 20,
+        "h": 10,
+        "d": 5,
+        "offset": [
+          0,
+          0,
+          -17.5
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "control_tower",
+        "r": 3,
+        "h": 25,
+        "offset": [
+          20,
+          12.5,
+          10
+        ]
+      },
+      {
+        "primitive": "plane",
+        "name": "roof",
+        "w": 55,
+        "h": 35,
+        "offset": [
+          0,
+          15,
+          0
+        ]
+      }
+    ],
+    "materials": {},
+    "id": "asset:airport_terminal:v5",
+    "tags": [
+      "airport_terminal",
+      "asset:airport_terminal:v5"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "asset:airport_terminal_background:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_terminal_background:v1.glb",
+  "bbox": [
+    200.0,
+    45.0,
+    72.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "main_building",
+        "w": 60,
+        "h": 20,
+        "d": 30
+      },
+      {
+        "primitive": "cuboid",
+        "name": "control_tower",
+        "w": 8,
+        "h": 35,
+        "d": 8,
+        "offset": [
+          25,
+          17.5,
+          18
+        ]
+      },
+      {
+        "primitive": "plane",
+        "name": "runway",
+        "w": 200,
+        "h": 1,
+        "d": 40,
+        "offset": [
+          0,
+          -0.5,
+          -30
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "terminal_extension",
+        "w": 25,
+        "h": 12,
+        "d": 15,
+        "offset": [
+          -35,
+          -4,
+          5
+        ]
+      }
+    ],
+    "materials": {},
+    "id": "asset:airport_terminal_background:v1",
+    "tags": [
+      "airport_terminal_background",
+      "asset:airport_terminal_background:v1"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "asset:airport_lounge:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_lounge:v1.glb",
+  "bbox": [
+    20.0,
+    4.0,
+    15.05
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "main_room",
+        "w": 20,
+        "h": 4,
+        "d": 15
+      },
+      {
+        "primitive": "cuboid",
+        "name": "seating_area",
+        "w": 18,
+        "h": 0.5,
+        "d": 12,
+        "offset": [
+          0,
+          -1.5,
+          0
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "pillar",
+        "r": 0.3,
+        "h": 4
+      },
+      {
+        "primitive": "plane",
+        "name": "window",
+        "w": 18,
+        "h": 3,
+        "d": 0.1,
+        "offset": [
+          0,
+          0,
+          7.5
+        ]
+      }
+    ],
+    "materials": {
+      "main_room": "wall_material",
+      "seating_area": "fabric_material",
+      "pillar": "metal_material",
+      "window": "glass_material"
+    },
+    "id": "asset:airport_lounge:v1",
+    "tags": [
+      "airport_lounge",
+      "asset:airport_lounge:v1"
+    ]
+  }
+}

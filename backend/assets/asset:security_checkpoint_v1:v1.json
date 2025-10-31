@@ -1,0 +1,61 @@
+{
+  "id": "asset:security_checkpoint_v1:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:security_checkpoint_v1:v1.glb",
+  "bbox": [
+    3.2,
+    2.6,
+    2.0
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "base",
+        "w": 3,
+        "h": 0.8,
+        "d": 2
+      },
+      {
+        "primitive": "cuboid",
+        "name": "scanner",
+        "w": 0.6,
+        "h": 1.2,
+        "d": 0.3,
+        "offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "primitive": "plane",
+        "name": "belt",
+        "w": 2.8,
+        "d": 1.8,
+        "offset": [
+          0,
+          0.8,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "frame",
+        "w": 3.2,
+        "h": 2.2,
+        "d": 0.1,
+        "offset": [
+          0,
+          1.1,
+          0.9
+        ]
+      }
+    ],
+    "materials": {},
+    "id": "asset:security_checkpoint_v1:v1",
+    "tags": [
+      "security_checkpoint_v1",
+      "asset:security_checkpoint_v1:v1"
+    ]
+  }
+}

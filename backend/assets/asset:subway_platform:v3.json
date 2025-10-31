@@ -1,0 +1,60 @@
+{
+  "id": "asset:subway_platform:v3",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:subway_platform:v3.glb",
+  "bbox": [
+    22.0,
+    4.25,
+    5.25
+  ],
+  "recipe": {
+    "recipe": [
+      {
+        "primitive": "cuboid",
+        "name": "platform",
+        "w": 20,
+        "h": 0.3,
+        "d": 3
+      },
+      {
+        "primitive": "cuboid",
+        "name": "roof",
+        "w": 22,
+        "h": 0.2,
+        "d": 3.5,
+        "offset": [
+          0,
+          4,
+          0
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "pillar",
+        "r": 0.3,
+        "h": 4,
+        "offset": [
+          -8,
+          2,
+          1.5
+        ]
+      },
+      {
+        "primitive": "cylinder",
+        "name": "pillar2",
+        "r": 0.3,
+        "h": 4,
+        "offset": [
+          8,
+          2,
+          1.5
+        ]
+      }
+    ],
+    "materials": {},
+    "id": "asset:subway_platform:v3",
+    "tags": [
+      "subway_platform",
+      "asset:subway_platform:v3"
+    ]
+  }
+}

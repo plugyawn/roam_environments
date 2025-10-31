@@ -1,0 +1,44 @@
+{
+  "id": "asset:airport_trash_can:v1",
+  "glb_path": "/Users/plugyawn/bounties/roam_environments/backend/assets/asset:airport_trash_can:v1.glb",
+  "bbox": [
+    0.7,
+    1.5,
+    0.8
+  ],
+  "recipe": {
+    "id": "asset:airport_trash_can:v1",
+    "recipe": [
+      {
+        "primitive": "cylinder",
+        "name": "body",
+        "r": 0.3,
+        "h": 0.8
+      },
+      {
+        "primitive": "cylinder",
+        "name": "lid",
+        "r": 0.35,
+        "h": 0.05,
+        "offset": [
+          0,
+          0.85,
+          0
+        ]
+      },
+      {
+        "primitive": "cuboid",
+        "name": "base",
+        "w": 0.6,
+        "h": 0.1,
+        "d": 0.6,
+        "offset": [
+          0,
+          -0.05,
+          0
+        ]
+      }
+    ],
+    "materials": {}
+  }
+}
